@@ -1,0 +1,2233 @@
+[
+    {
+        "id_tarefa": "LOC-001",
+        "cliente": {
+            "nome": "Esplanada Resort",
+            "endereco_completo": "R. Laurent Martins, 479 - apto 11A - Jardim Esplanada II",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-04",
+            "proximo_vencimento": "2026-03-06",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-002",
+        "cliente": {
+            "nome": "Santa Rita",
+            "endereco_completo": "Tv. Lineu de Moura, S/N - Urbanova",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-09",
+            "proximo_vencimento": "2026-03-11",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-003",
+        "cliente": {
+            "nome": "Portal da Vila",
+            "endereco_completo": "R. Yukiko Ishida, 201 - Jardim Alvorada",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-26",
+            "proximo_vencimento": "2026-02-25",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-004",
+        "cliente": {
+            "nome": "Condominio Vale Verde",
+            "endereco_completo": "Rua João Artoni Testae, 3, Jardim Testae",
+            "zona_roteirizacao": "Grande SP"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-12",
+            "proximo_vencimento": "2026-03-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-005",
+        "cliente": {
+            "nome": "Condominio EDIFICIO DALLAS",
+            "endereco_completo": "R. Armando D'Oliveira Cobra, 35 - Parque Res. Aquarius",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-28",
+            "proximo_vencimento": "2026-02-27",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-006",
+        "cliente": {
+            "nome": "Condominio Ponta Negra",
+            "endereco_completo": "Av. Cassiano Ricardo, 71 - Parque Res. Aquarius",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-05",
+            "proximo_vencimento": "2026-03-06",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-007",
+        "cliente": {
+            "nome": "Splendor Garden",
+            "endereco_completo": "R. Emílio Marelo, 100 - Jardim das Industrias",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-26",
+            "proximo_vencimento": "2026-02-25",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-008",
+        "cliente": {
+            "nome": "Movere Studio Pilates",
+            "endereco_completo": "R. Shigemasa Ota, 645 - Res. Sol Nascente",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-14",
+            "proximo_vencimento": "2026-02-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-009",
+        "cliente": {
+            "nome": "Vila Serena",
+            "endereco_completo": "Av. Rio Grande do Norte, 400 - Indaiá",
+            "zona_roteirizacao": "Litoral"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Trimestral",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2025-12-08",
+            "proximo_vencimento": "2026-03-09",
+            "dia_da_semana_vencimento": "Segunda-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-010",
+        "cliente": {
+            "nome": "Azaleias",
+            "endereco_completo": "R. Álvaro Gonçalves Júnior, 330 - Parque Industrial",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-05",
+            "proximo_vencimento": "2026-03-06",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-011",
+        "cliente": {
+            "nome": "Sunville",
+            "endereco_completo": "Estr. dos Índios, 2645 - Bairro do Limoeiro",
+            "zona_roteirizacao": "Grande SP"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-12",
+            "proximo_vencimento": "2026-03-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-012",
+        "cliente": {
+            "nome": "Jardim Coleginho",
+            "endereco_completo": "Rod. Nilo Máximo, 1 - Bairro da Colonia",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-11",
+            "proximo_vencimento": "2026-03-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-013",
+        "cliente": {
+            "nome": "Citta Di Roma",
+            "endereco_completo": "R. Roma, 673 - Jardim Augusta",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-09",
+            "proximo_vencimento": "2026-03-11",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-014",
+        "cliente": {
+            "nome": "Condominio Canada",
+            "endereco_completo": "R. Dona Tecla, 816",
+            "zona_roteirizacao": "Grande SP"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-12",
+            "proximo_vencimento": "2026-03-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-015",
+        "cliente": {
+            "nome": "Condominio Casa Alta",
+            "endereco_completo": "Av. Sen. Joaquim Miguel Martins de Siqueira, 238",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2025-08-18",
+            "proximo_vencimento": "2025-09-17",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-016",
+        "cliente": {
+            "nome": "Condominio Boulevard Park Aquarius",
+            "endereco_completo": "Av. Tubarão, 181 - Parque Res. Aquarius",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-20",
+            "proximo_vencimento": "2026-03-23",
+            "dia_da_semana_vencimento": "Segunda-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-017",
+        "cliente": {
+            "nome": "Condominio Beira Rio",
+            "endereco_completo": "Alameda das Tipuanas, 33 - Jardim Beira Rio",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2025-08-21",
+            "proximo_vencimento": "2025-09-19",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-018",
+        "cliente": {
+            "nome": "Condominio Angelus Residence",
+            "endereco_completo": "R. dos Piquiroes, 160 - Parque Res. Aquarius",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-18",
+            "proximo_vencimento": "2026-03-20",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-019",
+        "cliente": {
+            "nome": "Condominio Palmares",
+            "endereco_completo": "R. Palmares, 6 - Parque Industrial",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-05",
+            "proximo_vencimento": "2026-03-06",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-020",
+        "cliente": {
+            "nome": "Condominio Piaget",
+            "endereco_completo": "R. Benedito Pinoti, 950 - Urbanova",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-04",
+            "proximo_vencimento": "2026-03-06",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-021",
+        "cliente": {
+            "nome": "Condominio Nova Guarulhos",
+            "endereco_completo": "Av. Estilac Leal, 160 - Vila das Palmeiras",
+            "zona_roteirizacao": "Grande SP"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-12",
+            "proximo_vencimento": "2026-03-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-022",
+        "cliente": {
+            "nome": "Condominio Monte Negro",
+            "endereco_completo": "R. Palmares, 155 - Parque Industrial",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-05",
+            "proximo_vencimento": "2026-03-06",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-023",
+        "cliente": {
+            "nome": "Condominio Villa Di Vita",
+            "endereco_completo": "Estr. Mun. Itapecirica, 2701 - Jardim Marlene Miranda",
+            "zona_roteirizacao": "Vale do Paraíba"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-04",
+            "proximo_vencimento": "2026-03-06",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-024",
+        "cliente": {
+            "nome": "IL Terrazzo",
+            "endereco_completo": "R. Benedito Alvarenga Carvalho, 90 - Parque Res. Aquarius",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-11",
+            "proximo_vencimento": "2026-03-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-025",
+        "cliente": {
+            "nome": "Chacara Serimbura",
+            "endereco_completo": "Avenida Jarbas Vaz de Lima,100",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-09",
+            "proximo_vencimento": "2026-03-11",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-026",
+        "cliente": {
+            "nome": "Residencial Casa da Mata",
+            "endereco_completo": "Rua Carime Buissa,205 - Vila Pilar",
+            "zona_roteirizacao": "Grande SP"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-12",
+            "proximo_vencimento": "2026-03-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-027",
+        "cliente": {
+            "nome": "Mansão de Verona",
+            "endereco_completo": "Alameda Subtenente-Aviador Francisco Hierro,360",
+            "zona_roteirizacao": "Grande SP"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-12",
+            "proximo_vencimento": "2026-03-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-028",
+        "cliente": {
+            "nome": "Home & Club Villa Branca",
+            "endereco_completo": "Av. das Letras, 1099",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-11",
+            "proximo_vencimento": "2026-03-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-029",
+        "cliente": {
+            "nome": "Jardim America",
+            "endereco_completo": "Av: Gardalupe n11",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-10",
+            "proximo_vencimento": "2026-03-12",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-030",
+        "cliente": {
+            "nome": "FLORADAS ARBOVILLE",
+            "endereco_completo": "Estr. Mun. Abade Biagino Chieffi, 2655",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2025-09-16",
+            "proximo_vencimento": "2025-10-16",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "LOC-031",
+        "cliente": {
+            "nome": "Hotel HOME GREEN HOME",
+            "endereco_completo": "R ADOLFO TORRESIM, 800, ALTO CAPIVARI",
+            "zona_roteirizacao": "Vale do Paraíba"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-16",
+            "proximo_vencimento": "2026-02-16",
+            "dia_da_semana_vencimento": "Segunda-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-001",
+        "cliente": {
+            "nome": "ALVORADAS ARBOVILLE",
+            "endereco_completo": "Estr. Mun. Abade Biagino Chieffi, 2795 - Pagador de Andrade",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-15",
+            "proximo_vencimento": "2026-02-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-002",
+        "cliente": {
+            "nome": "COLINAS PARATEHY NORTE e SUL",
+            "endereco_completo": "São José dos Campos",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Trimestral",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2025-12-08",
+            "proximo_vencimento": "2026-03-09",
+            "dia_da_semana_vencimento": "Segunda-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-003",
+        "cliente": {
+            "nome": "ESPLANADA DO SOL",
+            "endereco_completo": "Av. Yêdo Martins, 5 - Conj. Res. Esplanada",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-30",
+            "proximo_vencimento": "2026-03-02",
+            "dia_da_semana_vencimento": "Segunda-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-004",
+        "cliente": {
+            "nome": "ASSOCIACAO MONACO SANTA IZABEL",
+            "endereco_completo": "R. Priscila Maria de Sousa Tau, 20",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-09",
+            "proximo_vencimento": "2026-03-11",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-005",
+        "cliente": {
+            "nome": "BLESSED",
+            "endereco_completo": "R. Jurema Viêira Medrado, 40 - Parque Res. Aquarius",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-02",
+            "proximo_vencimento": "2026-03-04",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-006",
+        "cliente": {
+            "nome": "AQUARIUS RESORT",
+            "endereco_completo": "Rua Heitor Vieira Júnior Jardim Altos Esplanada",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-06",
+            "proximo_vencimento": "2026-03-09",
+            "dia_da_semana_vencimento": "Segunda-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-007",
+        "cliente": {
+            "nome": "CONDOMINIO CIDADE JARDIM RESIDENCE CLUB",
+            "endereco_completo": "Av. Pereira Campos, 141 - Jardim Didinha",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-09",
+            "proximo_vencimento": "2026-03-11",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-008",
+        "cliente": {
+            "nome": "CONDOMINIO DAS AMOREIRAS",
+            "endereco_completo": "R. Hondo, 351 - Jardim Oriente",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-27",
+            "proximo_vencimento": "2026-02-26",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-009",
+        "cliente": {
+            "nome": "STUDIO PILATES",
+            "endereco_completo": "R. Afonso César de Siqueira, 81 - Vila Jaci",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-19",
+            "proximo_vencimento": "2026-03-20",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-010",
+        "cliente": {
+            "nome": "VARANDAS DO INDAIA",
+            "endereco_completo": "Caraguatatuba",
+            "zona_roteirizacao": "Litoral"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Bimestral",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-15",
+            "proximo_vencimento": "2026-03-16",
+            "dia_da_semana_vencimento": "Segunda-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-011",
+        "cliente": {
+            "nome": "VERANO",
+            "endereco_completo": "R. São Diego, 500 - Jardim California",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-11",
+            "proximo_vencimento": "2026-03-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-012",
+        "cliente": {
+            "nome": "CONDOMINIO DREAM RESIDENCIAL",
+            "endereco_completo": "Jacareí",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-27",
+            "proximo_vencimento": "2026-02-26",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-013",
+        "cliente": {
+            "nome": "LE PREMIER",
+            "endereco_completo": "R. Los Ângeles, 89 - Jardim Nicelia",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-09",
+            "proximo_vencimento": "2026-03-11",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-014",
+        "cliente": {
+            "nome": "CONDOMINIO EDIFICIO FENIX",
+            "endereco_completo": "São José dos Campos",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Trimestral",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-08",
+            "proximo_vencimento": "2026-04-08",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-015",
+        "cliente": {
+            "nome": "CONDOMINIO EDIFICIO JATHAY",
+            "endereco_completo": "Rua Bárbara Knippelberg Loureiro, Vila Ema",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-10",
+            "proximo_vencimento": "2026-03-12",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-016",
+        "cliente": {
+            "nome": "CONDOMINIO EDIFICIO MAJESTIC",
+            "endereco_completo": "R. Gilberto Moreira, 129 - Vila Formosa",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-09",
+            "proximo_vencimento": "2026-03-11",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-017",
+        "cliente": {
+            "nome": "CONDOMINIO EDIFICIO SOLAR DO BARAO",
+            "endereco_completo": "R. Cel. Luís Lima, 41 - Centro",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-03",
+            "proximo_vencimento": "2026-03-05",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-018",
+        "cliente": {
+            "nome": "CONDOMINIO EDILICIO VIVENDAS APOLLO",
+            "endereco_completo": "R. Paulo Édson Blair, 65 - Jardim Apolo II",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-18",
+            "proximo_vencimento": "2026-03-20",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-019",
+        "cliente": {
+            "nome": "CONDOMINIO GARDEN FAMILY CLUB",
+            "endereco_completo": "Av. Maria Augusta Fagundes Gomes, 636 - Res. Sao Paulo",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-09",
+            "proximo_vencimento": "2026-03-11",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-020",
+        "cliente": {
+            "nome": "CONDOMINIO GEMINI ROYAL PARK",
+            "endereco_completo": "São José dos Campos",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Trimestral",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-22",
+            "proximo_vencimento": "2026-04-22",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-021",
+        "cliente": {
+            "nome": "CONDOMINIO RESIDENCIAL ALLURE",
+            "endereco_completo": "Taubaté",
+            "zona_roteirizacao": "Vale do Paraíba"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-04",
+            "proximo_vencimento": "2026-03-06",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-022",
+        "cliente": {
+            "nome": "CONDOMINIO RESIDENCIAL ESTACAO DO MAR",
+            "endereco_completo": "Av. Guarda Mirim Juarez, 32 - Indaiá",
+            "zona_roteirizacao": "Litoral"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-15",
+            "proximo_vencimento": "2026-02-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-023",
+        "cliente": {
+            "nome": "CONDOMINIO RESIDENCIAL LORENA",
+            "endereco_completo": "R. Moisés Tristão dos Santos, 65 - Floradas de São José",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-20",
+            "proximo_vencimento": "2026-02-19",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-024",
+        "cliente": {
+            "nome": "CONDOMINIO RESIDENCIAL PALOMA",
+            "endereco_completo": "São José dos Campos",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-07",
+            "proximo_vencimento": "2026-02-06",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-025",
+        "cliente": {
+            "nome": "EPIC VILA EMA",
+            "endereco_completo": "R JOSE FRANCISCO ALVES, 151, VILA EMA",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-28",
+            "proximo_vencimento": "2026-02-27",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-026",
+        "cliente": {
+            "nome": "CONDOMINIO RESIDENCIAL SPAZIO CAMPO DI SAVOYA",
+            "endereco_completo": "Rua Icatu, 390 Parque Industrial",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-19",
+            "proximo_vencimento": "2026-02-18",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-027",
+        "cliente": {
+            "nome": "CONDOMINIO RESIDENCIAL VISTA BELA",
+            "endereco_completo": "R. Pedro Gonçalves, 250 - Jardim Paraiso",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-03",
+            "proximo_vencimento": "2026-03-05",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-028",
+        "cliente": {
+            "nome": "CONDOMINIO SMART RESIDENCE",
+            "endereco_completo": "R. Itajai, 161 - Altos do Esplanada",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-02",
+            "proximo_vencimento": "2026-03-04",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-029",
+        "cliente": {
+            "nome": "TANGARA",
+            "endereco_completo": "Av. Livio Veneziani, 319 - Chácaras São José",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-27",
+            "proximo_vencimento": "2026-02-26",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-030",
+        "cliente": {
+            "nome": "CONDOMNIO EDIFICIO VIVENDAS SAO JOAO",
+            "endereco_completo": "Av. São João, 349 - 163 - Jardim Esplanada",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-23",
+            "proximo_vencimento": "2026-02-23",
+            "dia_da_semana_vencimento": "Segunda-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-031",
+        "cliente": {
+            "nome": "DAI TORII",
+            "endereco_completo": "Rua Tottoni, 576 Jardim Rosário",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-19",
+            "proximo_vencimento": "2026-02-18",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-032",
+        "cliente": {
+            "nome": "EDIFICIO HOLLYWOOD AQUARIUS RESIDENCE CLUB",
+            "endereco_completo": "Rua Jesus Garcia, 151 Jardim Cassiano Ricardo",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-02",
+            "proximo_vencimento": "2026-03-04",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-033",
+        "cliente": {
+            "nome": "EDIFICIO IBIZA",
+            "endereco_completo": "Av. Salmão, 150 - Parque Res. Aquarius",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Trimestral",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-03",
+            "proximo_vencimento": "2026-05-04",
+            "dia_da_semana_vencimento": "Segunda-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-034",
+        "cliente": {
+            "nome": "EDIFICIO PALAZZO IMPERIALE",
+            "endereco_completo": "R. Dr. Vicente de Finis Neto, 65 - Altos do Esplanada",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-22",
+            "proximo_vencimento": "2026-02-20",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-035",
+        "cliente": {
+            "nome": "EDIFICIO PEROLA DE VILLA BRANCA",
+            "endereco_completo": "Av. das Letras, 192 - Vila Branca",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-14",
+            "proximo_vencimento": "2026-02-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-036",
+        "cliente": {
+            "nome": "GREEN LIFE VILLA BRANCA",
+            "endereco_completo": "Av. das Notas, 440 - Vila Branca",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-13",
+            "proximo_vencimento": "2026-02-12",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-037",
+        "cliente": {
+            "nome": "EDIFICIO SOLAR AQUARIUS",
+            "endereco_completo": "São José dos Campos",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-07",
+            "proximo_vencimento": "2026-02-06",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-038",
+        "cliente": {
+            "nome": "EDIFICIO VILLA BELLA",
+            "endereco_completo": "Av. das Letras, 282 - Lot. Villa Branca",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-14",
+            "proximo_vencimento": "2026-02-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-039",
+        "cliente": {
+            "nome": "ENJOY AQUARIUS",
+            "endereco_completo": "Rua Jesus Garcia, 51 - Jardim Alvorada",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-02",
+            "proximo_vencimento": "2026-03-04",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-040",
+        "cliente": {
+            "nome": "EQUILIBRE-SE CENTRO DE TREINAMENTO PERSONALIZADO LTDA",
+            "endereco_completo": "Rua Professor Everardo Miranda Passos, 87 - Vila Betania",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-27",
+            "proximo_vencimento": "2026-02-26",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-041",
+        "cliente": {
+            "nome": "FISIOVIDA - IMPULSO FISIOTERAPIA DE ALTA PERFORMANCE",
+            "endereco_completo": "R. dos Periquitos, 980 - Vila Tatetuba",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-27",
+            "proximo_vencimento": "2026-02-26",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-042",
+        "cliente": {
+            "nome": "FLORA JACAREI",
+            "endereco_completo": "Av. G. C Josué Sant'ana, 598 - Itamarati",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-05",
+            "proximo_vencimento": "2026-03-06",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-043",
+        "cliente": {
+            "nome": "GRAND VIEW",
+            "endereco_completo": "Av. Salmão, 500 - Parque Res. Aquarius",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-20",
+            "proximo_vencimento": "2026-03-23",
+            "dia_da_semana_vencimento": "Segunda-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-044",
+        "cliente": {
+            "nome": "IMPULSO LORENA FISIOTERAPIA LTDA",
+            "endereco_completo": "Lorena",
+            "zona_roteirizacao": "Vale do Paraíba"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-27",
+            "proximo_vencimento": "2026-02-26",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-045",
+        "cliente": {
+            "nome": "IT JARDIM",
+            "endereco_completo": "R ITORORO, 590, VILA CARDOSO",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-20",
+            "proximo_vencimento": "2026-03-23",
+            "dia_da_semana_vencimento": "Segunda-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-046",
+        "cliente": {
+            "nome": "LA VIE CLUB RESIDENCE",
+            "endereco_completo": "R. Vinte e Um de Abril, 777 - Monte Castelo",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-27",
+            "proximo_vencimento": "2026-02-26",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-047",
+        "cliente": {
+            "nome": "LIBERTA RESIDENCIAL",
+            "endereco_completo": "Av. Vinte e Três de Maio, 513 - Vila Maria",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-10",
+            "proximo_vencimento": "2026-03-12",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-048",
+        "cliente": {
+            "nome": "MARANATA PARQUE INDUSTRIAL",
+            "endereco_completo": "São José dos Campos",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-10",
+            "proximo_vencimento": "2026-03-12",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-049",
+        "cliente": {
+            "nome": "MARANATA VILA INDUSTRIAL",
+            "endereco_completo": "São José dos Campos",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-18",
+            "proximo_vencimento": "2026-03-20",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-050",
+        "cliente": {
+            "nome": "PARQUE JAGUARIPE",
+            "endereco_completo": "Jacareí",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-03",
+            "proximo_vencimento": "2026-03-05",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-051",
+        "cliente": {
+            "nome": "PREMIUM BELA VISTA",
+            "endereco_completo": "Av. Dr. Mario Galvão, 252 - Jardim Bela Vista",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-10",
+            "proximo_vencimento": "2026-03-12",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-052",
+        "cliente": {
+            "nome": "RESIDENCIAL ATHMOSPHERE VILA EMA",
+            "endereco_completo": "São José dos Campos",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-05",
+            "proximo_vencimento": "2026-03-06",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-053",
+        "cliente": {
+            "nome": "RESIDENCIAL BELO HORIZONTE",
+            "endereco_completo": "São José dos Campos",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-06",
+            "proximo_vencimento": "2026-02-05",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-054",
+        "cliente": {
+            "nome": "RESIDENCIAL BRISAS DO ESTORIL",
+            "endereco_completo": "São José dos Campos",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-06",
+            "proximo_vencimento": "2026-02-05",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-055",
+        "cliente": {
+            "nome": "RESIDENCIAL DES ARTS",
+            "endereco_completo": "Taubaté",
+            "zona_roteirizacao": "Vale do Paraíba"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-04",
+            "proximo_vencimento": "2026-03-06",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-056",
+        "cliente": {
+            "nome": "RESIDENCIAL JARDIM CRYSTAL PARK",
+            "endereco_completo": "Jacareí",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-06",
+            "proximo_vencimento": "2026-02-05",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-057",
+        "cliente": {
+            "nome": "RESIDENCIAL MONTE ESTORIL",
+            "endereco_completo": "São José dos Campos",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-06",
+            "proximo_vencimento": "2026-02-05",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-058",
+        "cliente": {
+            "nome": "RESIDENCIAL PORTO REGIO",
+            "endereco_completo": "São José dos Campos",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-12",
+            "proximo_vencimento": "2026-02-11",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-059",
+        "cliente": {
+            "nome": "RESIDENCIAL SERRA DO JAMBEIRO",
+            "endereco_completo": "São José dos Campos",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-05",
+            "proximo_vencimento": "2026-03-06",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-060",
+        "cliente": {
+            "nome": "ROYAL PALACE",
+            "endereco_completo": "São José dos Campos",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-20",
+            "proximo_vencimento": "2026-03-23",
+            "dia_da_semana_vencimento": "Segunda-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-061",
+        "cliente": {
+            "nome": "SKY HOUSE CLUB RESIDENCE",
+            "endereco_completo": "São José dos Campos",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Bimestral",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-01-09",
+            "proximo_vencimento": "2026-03-10",
+            "dia_da_semana_vencimento": "Terça-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-062",
+        "cliente": {
+            "nome": "SPAZIO CAMPO DAS VIOLETAS",
+            "endereco_completo": "R. Iraci Gonçalves Ferreira, 50 - San Marino",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-10",
+            "proximo_vencimento": "2026-03-12",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-063",
+        "cliente": {
+            "nome": "SEST TAUBATE/SP",
+            "endereco_completo": "Av. Isauro Moreira, 125 - Itaim",
+            "zona_roteirizacao": "Vale do Paraíba"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-04",
+            "proximo_vencimento": "2026-03-06",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-064",
+        "cliente": {
+            "nome": "TERRAS DO VALE",
+            "endereco_completo": "Avenida das Palmeiras, 100 - Jardim Terras do Vale",
+            "zona_roteirizacao": "Vale do Paraíba"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-04",
+            "proximo_vencimento": "2026-03-06",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-065",
+        "cliente": {
+            "nome": "Piazza San Martino",
+            "endereco_completo": "R. José Bonifácio de Oliveira, 205 - Jardim Del Rey",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-03",
+            "proximo_vencimento": "2026-03-05",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    },
+    {
+        "id_tarefa": "SOL-066",
+        "cliente": {
+            "nome": "JERIBA",
+            "endereco_completo": "Estr. do Limoeiro, 595 - Jardim California",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1.5
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-03",
+            "proximo_vencimento": "2026-03-05",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
+        }
+    }
+]

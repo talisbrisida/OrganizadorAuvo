@@ -1,0 +1,98 @@
+ORIGEM,CLIENTE,FREQUENCIA,TEMPO_HORAS,ENDERECO,ZONA,ULTIMA_VISITA
+Casa do Fitness,Esplanada Resort,Mensal,1.5,"R. Laurent Martins, 479 - apto 11A - Jardim Esplanada II",Zona 1 - SJC,2026-02-04
+Casa do Fitness,Santa Rita,Mensal,1.5,"Tv. Lineu de Moura, S/N - Urbanova",Zona 1 - SJC,2026-02-09
+Casa do Fitness,Portal da Vila,Mensal,1.5,"R. Yukiko Ishida, 201 - Jardim Alvorada",Zona 1 - SJC,2026-01-26
+Casa do Fitness,Condominio Vale Verde,Mensal,1.5,"Rua João Artoni Testae, 3, Jardim Testae",Grande SP,2026-02-12
+Casa do Fitness,Condominio EDIFICIO DALLAS,Mensal,1.5,"R. Armando D'Oliveira Cobra, 35 - Parque Res. Aquarius",Zona 1 - SJC,2026-01-28
+Casa do Fitness,Condominio Ponta Negra,Mensal,1.5,"Av. Cassiano Ricardo, 71 - Parque Res. Aquarius",Zona 1 - SJC,2026-02-05
+Casa do Fitness,Splendor Garden,Mensal,1.5,"R. Emílio Marelo, 100 - Jardim das Industrias",Zona 1 - SJC,2026-01-26
+Casa do Fitness,Movere Studio Pilates,Mensal,1.5,"R. Shigemasa Ota, 645 - Res. Sol Nascente",Zona 1 - SJC,2026-01-14
+Casa do Fitness,Vila Serena,Trimestral,1.5,"Av. Rio Grande do Norte, 400 - Indaiá",Litoral,2025-12-08
+Casa do Fitness,Azaleias,Mensal,1.5,"R. Álvaro Gonçalves Júnior, 330 - Parque Industrial",Zona 1 - SJC,2026-02-05
+Casa do Fitness,Sunville,Mensal,1.5,"Estr. dos Índios, 2645 - Bairro do Limoeiro",Grande SP,2026-02-12
+Casa do Fitness,Jardim Coleginho,Mensal,1.5,"Rod. Nilo Máximo, 1 - Bairro da Colonia",Zona 3 - Jacareí,2026-02-11
+Casa do Fitness,Citta Di Roma,Mensal,1.5,"R. Roma, 673 - Jardim Augusta",Zona 1 - SJC,2026-02-09
+Casa do Fitness,Condominio Canada,Mensal,1.5,"R. Dona Tecla, 816",Grande SP,2026-02-12
+Casa do Fitness,Condominio Casa Alta,Mensal,1.5,"Av. Sen. Joaquim Miguel Martins de Siqueira, 238",Zona 3 - Jacareí,2025-08-18
+Casa do Fitness,Condominio Boulevard Park Aquarius,Mensal,1.5,"Av. Tubarão, 181 - Parque Res. Aquarius",Zona 1 - SJC,2026-02-20
+Casa do Fitness,Condominio Beira Rio,Mensal,1.5,"Alameda das Tipuanas, 33 - Jardim Beira Rio",Zona 3 - Jacareí,2025-08-21
+Casa do Fitness,Condominio Angelus Residence,Mensal,1.5,"R. dos Piquiroes, 160 - Parque Res. Aquarius",Zona 1 - SJC,2026-02-18
+Casa do Fitness,Condominio Palmares,Mensal,1.5,"R. Palmares, 6 - Parque Industrial",Zona 1 - SJC,2026-02-05
+Casa do Fitness,Condominio Piaget,Mensal,1.5,"R. Benedito Pinoti, 950 - Urbanova",Zona 1 - SJC,2026-02-04
+Casa do Fitness,Condominio Nova Guarulhos,Mensal,1.5,"Av. Estilac Leal, 160 - Vila das Palmeiras",Grande SP,2026-02-12
+Casa do Fitness,Condominio Monte Negro,Mensal,1.5,"R. Palmares, 155 - Parque Industrial",Zona 1 - SJC,2026-02-05
+Casa do Fitness,Condominio Villa Di Vita,Mensal,1.5,"Estr. Mun. Itapecirica, 2701 - Jardim Marlene Miranda",Vale do Paraíba,2026-02-04
+Casa do Fitness,IL Terrazzo,Mensal,1.5,"R. Benedito Alvarenga Carvalho, 90 - Parque Res. Aquarius",Zona 1 - SJC,2026-02-11
+Casa do Fitness,Chacara Serimbura,Mensal,1.5,"Avenida Jarbas Vaz de Lima,100",Zona 1 - SJC,2026-02-09
+Casa do Fitness,Residencial Casa da Mata,Mensal,1.5,"Rua Carime Buissa,205 - Vila Pilar",Grande SP,2026-02-12
+Casa do Fitness,Mansão de Verona,Mensal,1.5,"Alameda Subtenente-Aviador Francisco Hierro,360",Grande SP,2026-02-12
+Casa do Fitness,Home & Club Villa Branca,Mensal,1.5,"Av. das Letras, 1099",Zona 3 - Jacareí,2026-02-11
+Casa do Fitness,Jardim America,Mensal,1.5,"Av: Gardalupe n11",Zona 1 - SJC,2026-02-10
+Casa do Fitness,FLORADAS ARBOVILLE,Mensal,1.5,"Estr. Mun. Abade Biagino Chieffi, 2655",Zona 3 - Jacareí,2025-09-16
+Casa do Fitness,Hotel HOME GREEN HOME,Mensal,1.5,"R ADOLFO TORRESIM, 800, ALTO CAPIVARI",Vale do Paraíba,2026-01-16
+Solução Fitness,ALVORADAS ARBOVILLE,Mensal,1.5,"Estr. Mun. Abade Biagino Chieffi, 2795 - Pagador de Andrade",Zona 3 - Jacareí,2026-01-15
+Solução Fitness,COLINAS PARATEHY NORTE e SUL,Trimestral,1.5,"São José dos Campos",Zona 1 - SJC,2025-12-08
+Solução Fitness,ESPLANADA DO SOL,Mensal,1.5,"Av. Yêdo Martins, 5 - Conj. Res. Esplanada",Zona 1 - SJC,2026-01-30
+Solução Fitness,ASSOCIACAO MONACO SANTA IZABEL,Mensal,1.5,"R. Priscila Maria de Sousa Tau, 20",Zona 1 - SJC,2026-02-09
+Solução Fitness,BLESSED,Mensal,1.5,"R. Jurema Viêira Medrado, 40 - Parque Res. Aquarius",Zona 1 - SJC,2026-02-02
+Solução Fitness,AQUARIUS RESORT,Mensal,1.5,"Rua Heitor Vieira Júnior Jardim Altos Esplanada",Zona 1 - SJC,2026-02-06
+Solução Fitness,CONDOMINIO CIDADE JARDIM RESIDENCE CLUB,Mensal,1.5,"Av. Pereira Campos, 141 - Jardim Didinha",Zona 3 - Jacareí,2026-02-09
+Solução Fitness,CONDOMINIO DAS AMOREIRAS,Mensal,1.5,"R. Hondo, 351 - Jardim Oriente",Zona 1 - SJC,2026-01-27
+Solução Fitness,STUDIO PILATES,Mensal,1.5,"R. Afonso César de Siqueira, 81 - Vila Jaci",Zona 1 - SJC,2026-02-19
+Solução Fitness,VARANDAS DO INDAIA,Bimestral,1.5,"Caraguatatuba",Litoral,2026-01-15
+Solução Fitness,VERANO,Mensal,1.5,"R. São Diego, 500 - Jardim California",Zona 3 - Jacareí,2026-02-11
+Solução Fitness,CONDOMINIO DREAM RESIDENCIAL,Mensal,1.5,"Jacareí",Zona 3 - Jacareí,2026-01-27
+Solução Fitness,LE PREMIER,Mensal,1.5,"R. Los Ângeles, 89 - Jardim Nicelia",Zona 3 - Jacareí,2026-02-09
+Solução Fitness,CONDOMINIO EDIFICIO FENIX,Trimestral,1.5,"São José dos Campos",Zona 1 - SJC,2026-01-08
+Solução Fitness,CONDOMINIO EDIFICIO JATHAY,Mensal,1.5,"Rua Bárbara Knippelberg Loureiro, Vila Ema",Zona 1 - SJC,2026-02-10
+Solução Fitness,CONDOMINIO EDIFICIO MAJESTIC,Mensal,1.5,"R. Gilberto Moreira, 129 - Vila Formosa",Zona 3 - Jacareí,2026-02-09
+Solução Fitness,CONDOMINIO EDIFICIO SOLAR DO BARAO,Mensal,1.5,"R. Cel. Luís Lima, 41 - Centro",Zona 3 - Jacareí,2026-02-03
+Solução Fitness,CONDOMINIO EDILICIO VIVENDAS APOLLO,Mensal,1.5,"R. Paulo Édson Blair, 65 - Jardim Apolo II",Zona 1 - SJC,2026-02-18
+Solução Fitness,CONDOMINIO GARDEN FAMILY CLUB,Mensal,1.5,"Av. Maria Augusta Fagundes Gomes, 636 - Res. Sao Paulo",Zona 3 - Jacareí,2026-02-09
+Solução Fitness,CONDOMINIO GEMINI ROYAL PARK,Trimestral,1.5,"São José dos Campos",Zona 1 - SJC,2026-01-22
+Solução Fitness,CONDOMINIO RESIDENCIAL ALLURE,Mensal,1.5,"Taubaté",Vale do Paraíba,2026-02-04
+Solução Fitness,CONDOMINIO RESIDENCIAL ESTACAO DO MAR,Mensal,1.5,"Av. Guarda Mirim Juarez, 32 - Indaiá",Litoral,2026-01-15
+Solução Fitness,CONDOMINIO RESIDENCIAL LORENA,Mensal,1.5,"R. Moisés Tristão dos Santos, 65 - Floradas de São José",Zona 1 - SJC,2026-01-20
+Solução Fitness,CONDOMINIO RESIDENCIAL PALOMA,Mensal,1.5,"São José dos Campos",Zona 1 - SJC,2026-01-07
+Solução Fitness,EPIC VILA EMA,Mensal,1.5,"R JOSE FRANCISCO ALVES, 151, VILA EMA",Zona 1 - SJC,2026-01-28
+Solução Fitness,CONDOMINIO RESIDENCIAL SPAZIO CAMPO DI SAVOYA,Mensal,1.5,"Rua Icatu, 390 Parque Industrial",Zona 1 - SJC,2026-01-19
+Solução Fitness,CONDOMINIO RESIDENCIAL VISTA BELA,Mensal,1.5,"R. Pedro Gonçalves, 250 - Jardim Paraiso",Zona 3 - Jacareí,2026-02-03
+Solução Fitness,CONDOMINIO SMART RESIDENCE,Mensal,1.5,"R. Itajai, 161 - Altos do Esplanada",Zona 1 - SJC,2026-02-02
+Solução Fitness,TANGARA,Mensal,1.5,"Av. Livio Veneziani, 319 - Chácaras São José",Zona 1 - SJC,2026-01-27
+Solução Fitness,CONDOMNIO EDIFICIO VIVENDAS SAO JOAO,Mensal,1.5,"Av. São João, 349 - 163 - Jardim Esplanada",Zona 1 - SJC,2026-01-23
+Solução Fitness,DAI TORII,Mensal,1.5,"Rua Tottoni, 576 Jardim Rosário",Zona 1 - SJC,2026-01-19
+Solução Fitness,EDIFICIO HOLLYWOOD AQUARIUS RESIDENCE CLUB,Mensal,1.5,"Rua Jesus Garcia, 151 Jardim Cassiano Ricardo",Zona 1 - SJC,2026-02-02
+Solução Fitness,EDIFICIO IBIZA,Trimestral,1.5,"Av. Salmão, 150 - Parque Res. Aquarius",Zona 1 - SJC,2026-02-03
+Solução Fitness,EDIFICIO PALAZZO IMPERIALE,Mensal,1.5,"R. Dr. Vicente de Finis Neto, 65 - Altos do Esplanada",Zona 1 - SJC,2026-01-22
+Solução Fitness,EDIFICIO PEROLA DE VILLA BRANCA,Mensal,1.5,"Av. das Letras, 192 - Vila Branca",Zona 3 - Jacareí,2026-01-14
+Solução Fitness,GREEN LIFE VILLA BRANCA,Mensal,1.5,"Av. das Notas, 440 - Vila Branca",Zona 3 - Jacareí,2026-01-13
+Solução Fitness,EDIFICIO SOLAR AQUARIUS,Mensal,1.5,"São José dos Campos",Zona 1 - SJC,2026-01-07
+Solução Fitness,EDIFICIO VILLA BELLA,Mensal,1.5,"Av. das Letras, 282 - Lot. Villa Branca",Zona 3 - Jacareí,2026-01-14
+Solução Fitness,ENJOY AQUARIUS,Mensal,1.5,"Rua Jesus Garcia, 51 - Jardim Alvorada",Zona 1 - SJC,2026-02-02
+Solução Fitness,EQUILIBRE-SE CENTRO DE TREINAMENTO PERSONALIZADO LTDA,Mensal,1.5,"Rua Professor Everardo Miranda Passos, 87 - Vila Betania",Zona 1 - SJC,2026-01-27
+Solução Fitness,FISIOVIDA - IMPULSO FISIOTERAPIA DE ALTA PERFORMANCE,Mensal,1.5,"R. dos Periquitos, 980 - Vila Tatetuba",Zona 1 - SJC,2026-01-27
+Solução Fitness,FLORA JACAREI,Mensal,1.5,"Av. G. C Josué Sant'ana, 598 - Itamarati",Zona 3 - Jacareí,2026-02-05
+Solução Fitness,GRAND VIEW,Mensal,1.5,"Av. Salmão, 500 - Parque Res. Aquarius",Zona 1 - SJC,2026-02-20
+Solução Fitness,IMPULSO LORENA FISIOTERAPIA LTDA,Mensal,1.5,"Lorena",Vale do Paraíba,2026-01-27
+Solução Fitness,IT JARDIM,Mensal,1.5,"R ITORORO, 590, VILA CARDOSO",Zona 1 - SJC,2026-02-20
+Solução Fitness,LA VIE CLUB RESIDENCE,Mensal,1.5,"R. Vinte e Um de Abril, 777 - Monte Castelo",Zona 1 - SJC,2026-01-27
+Solução Fitness,LIBERTA RESIDENCIAL,Mensal,1.5,"Av. Vinte e Três de Maio, 513 - Vila Maria",Zona 1 - SJC,2026-02-10
+Solução Fitness,MARANATA PARQUE INDUSTRIAL,Mensal,1.5,"São José dos Campos",Zona 1 - SJC,2026-02-10
+Solução Fitness,MARANATA VILA INDUSTRIAL,Mensal,1.5,"São José dos Campos",Zona 1 - SJC,2026-02-18
+Solução Fitness,PARQUE JAGUARIPE,Mensal,1.5,"Jacareí",Zona 3 - Jacareí,2026-02-03
+Solução Fitness,PREMIUM BELA VISTA,Mensal,1.5,"Av. Dr. Mario Galvão, 252 - Jardim Bela Vista",Zona 1 - SJC,2026-02-10
+Solução Fitness,RESIDENCIAL ATHMOSPHERE VILA EMA,Mensal,1.5,"São José dos Campos",Zona 1 - SJC,2026-02-05
+Solução Fitness,RESIDENCIAL BELO HORIZONTE,Mensal,1.5,"São José dos Campos",Zona 1 - SJC,2026-01-06
+Solução Fitness,RESIDENCIAL BRISAS DO ESTORIL,Mensal,1.5,"São José dos Campos",Zona 1 - SJC,2026-01-06
+Solução Fitness,RESIDENCIAL DES ARTS,Mensal,1.5,"Taubaté",Vale do Paraíba,2026-02-04
+Solução Fitness,RESIDENCIAL JARDIM CRYSTAL PARK,Mensal,1.5,"Jacareí",Zona 3 - Jacareí,2026-01-06
+Solução Fitness,RESIDENCIAL MONTE ESTORIL,Mensal,1.5,"São José dos Campos",Zona 1 - SJC,2026-01-06
+Solução Fitness,RESIDENCIAL PORTO REGIO,Mensal,1.5,"São José dos Campos",Zona 1 - SJC,2026-01-12
+Solução Fitness,RESIDENCIAL SERRA DO JAMBEIRO,Mensal,1.5,"São José dos Campos",Zona 1 - SJC,2026-02-05
+Solução Fitness,ROYAL PALACE,Mensal,1.5,"São José dos Campos",Zona 1 - SJC,2026-02-20
+Solução Fitness,SKY HOUSE CLUB RESIDENCE,Bimestral,1.5,"São José dos Campos",Zona 1 - SJC,2026-01-09
+Solução Fitness,SPAZIO CAMPO DAS VIOLETAS,Mensal,1.5,"R. Iraci Gonçalves Ferreira, 50 - San Marino",Zona 1 - SJC,2026-02-10
+Solução Fitness,SEST TAUBATE/SP,Mensal,1.5,"Av. Isauro Moreira, 125 - Itaim",Vale do Paraíba,2026-02-04
+Solução Fitness,TERRAS DO VALE,Mensal,1.5,"Avenida das Palmeiras, 100 - Jardim Terras do Vale",Vale do Paraíba,2026-02-04
+Solução Fitness,Piazza San Martino,Mensal,1.5,"R. José Bonifácio de Oliveira, 205 - Jardim Del Rey",Zona 1 - SJC,2026-02-03
+Solução Fitness,JERIBA,Mensal,1.5,"Estr. do Limoeiro, 595 - Jardim California",Zona 3 - Jacareí,2026-02-03

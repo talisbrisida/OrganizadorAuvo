@@ -1,0 +1,12 @@
+# Pastas pesadas de dependências
+backend/venv/
+frontend/node_modules/
+frontend/dist/
+
+# Arquivos temporários do Python e SO
+__pycache__/
+*.pyc
+.DS_Store
+
+# Se no futuro usarmos senhas, elas ficam aqui
+.env

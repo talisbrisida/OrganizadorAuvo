@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "nome": "Wilson",
+        "cargo": "Auxiliar",
+        "nome_auvo": "Wilson - auxiliar",
+        "endereco_base": "Rua Exemplo, 123, São José dos Campos",
+        "zonas_atendimento": ["Zona 1 - SJC", "Zona 3 - Jacareí"],
+        "ativo": true
+    },
+    
+    {
+        "id": 2,
+        "nome": "Jefferson",
+        "cargo": "Técnico",
+        "nome_auvo": "Jefferson - Técnico",
+        "endereco_base": "Rua Santa Cruz, 113, Jacareí - SP, 12305-600, Brasil",
+        "zonas_atendimento": ["Zona 1 - SJC", "Zona 3 - Jacareí"],
+        "capacidade_diaria_horas": 8.0,
+        "ativo": true
+    },
+    {
+        "id": 3,
+        "nome": "Talis",
+        "cargo": "Técnico",
+        "nome_auvo": "Talis - Técnico",
+        "endereco_base": "Rua Franklina Monteiro de Oliveira, 45, São José dos Campos - SP, 12216-150, Brasil",
+        "zonas_atendimento": ["Zona 1 - SJC", "Zona 3 - Jacareí"],
+        "capacidade_diaria_horas": 8.0,
+        "ativo": true
+    },
+    {
+        "id": 4,
+        "nome": "Cleber",
+        "cargo": "Gerencia",
+        "nome_auvo": "Cleber - Gerencia",
+        "endereco_base": "R. Sebastião Carlos da Silva 105 - Jardim Primavera, Jacareí - SP, 12306-615, Brasil",
+        "zonas_atendimento": [],
+        "capacidade_diaria_horas": 8.0,
+        "ativo": true
+    }
+
+]
