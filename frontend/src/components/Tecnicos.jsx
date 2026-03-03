@@ -3,90 +3,91 @@ import axios from 'axios';
 
 const Tecnicos = () => {
     const [tecnicos, setTecnicos] = useState([]);
-    const [novoTecnico, setNovoTecnico] = useState({
-        nome: '',
-        cargo: '',
-        zonas_atendimento: '',
-        capacidade_diaria_horas: 8
-    });
+    const [zonas, setZonas] = useState([]);
+    const [novaZona, setNovaZona] = useState("");
 
-    // Busca os técnicos ao carregar a aba
-    useEffect(() => {
-        fetchTecnicos();
-    }, []);
-
-    const fetchTecnicos = async () => {
-        try {
-            const response = await axios.get('http://127.0.0.1:8000/tecnicos');
-            setTecnicos(response.data);
-        } catch (error) {
-            console.error("Erro ao buscar técnicos:", error);
-        }
+    const carregar = async () => {
+        const [resT, resZ] = await Promise.all([
+            axios.get('http://127.0.0.1:8000/tecnicos'),
+            axios.get('http://127.0.0.1:8000/zonas')
+        ]);
+        setTecnicos(resT.data);
+        setZonas(resZ.data);
     };
 
-    const handleCadastro = async (e) => {
-        e.preventDefault();
-        // Transforma a string de zonas em um array
-        const tecnicoParaEnviar = {
-            ...novoTecnico,
-            zonas_atendimento: novoTecnico.zonas_atendimento.split(',').map(z => z.trim())
-        };
+    useEffect(() => { carregar(); }, []);
 
-        try {
-            await axios.post('http://127.0.0.1:8000/tecnicos', tecnicoParaEnviar);
-            setNovoTecnico({ nome: '', cargo: '', zonas_atendimento: '', capacidade_diaria_horas: 8 });
-            fetchTecnicos(); // Atualiza a lista
-        } catch (error) {
-            alert("Erro ao cadastrar técnico.");
-        }
+    const editarTecnico = async (id, campo, valor) => {
+        await axios.put(`http://127.0.0.1:8000/tecnicos/${id}`, { [campo]: valor });
+        carregar();
+    };
+
+    const addZona = async () => {
+        if (!novaZona) return;
+        await axios.post('http://127.0.0.1:8000/zonas', { zona: novaZona });
+        setNovaZona("");
+        carregar();
+    };
+
+    const delZona = async (nome) => {
+        await axios.delete(`http://127.0.0.1:8000/zonas/${nome}`);
+        carregar();
     };
 
     return (
-        <div style={{ padding: '20px' }}>
-            <h2>Gestão de Técnicos</h2>
-
-            {/* Formulário de Cadastro */}
-            <form onSubmit={handleCadastro} style={{ marginBottom: '30px', display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
-                <input
-                    placeholder="Nome (Exato do Auvo)"
-                    value={novoTecnico.nome}
-                    onChange={e => setNovoTecnico({ ...novoTecnico, nome: e.target.value })}
-                    required
-                />
-                <input
-                    placeholder="Cargo"
-                    value={novoTecnico.cargo}
-                    onChange={e => setNovoTecnico({ ...novoTecnico, cargo: e.target.value })}
-                    required
-                />
-                <input
-                    placeholder="Zonas (separe por vírgula)"
-                    value={novoTecnico.zonas_atendimento}
-                    onChange={e => setNovoTecnico({ ...novoTecnico, zonas_atendimento: e.target.value })}
-                    required
-                />
-                <button type="submit">Cadastrar Técnico</button>
-            </form>
-
-            {/* Tabela de Exibição */}
-            <table border="1" cellPadding="10" style={{ width: '100%', borderCollapse: 'collapse' }}>
-                <thead>
-                    <tr style={{ backgroundColor: '#f4f4f4' }}>
-                        <th>Nome no Auvo</th>
-                        <th>Zonas de Atendimento</th>
-                        <th>Capacidade (Hrs)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {tecnicos.map(t => (
-                        <tr key={t.id}>
-                            <td>{t.nome_auvo}</td>
-                            <td>{t.zonas_atendimento.join(', ')}</td>
-                            <td>{t.capacidade_diaria_horas}h</td>
-                        </tr>
+        <div className="p-6 grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Gestão de Zonas */}
+            <div className="bg-white p-6 rounded-xl shadow-sm border">
+                <h3 className="text-lg font-bold mb-4">Zonas de Atendimento</h3>
+                <div className="flex gap-2 mb-4">
+                    <input
+                        className="flex-1 p-2 border rounded"
+                        placeholder="Nome da Nova Zona (Ex: SJC - SUL)"
+                        value={novaZona}
+                        onChange={e => setNovaZona(e.target.value)}
+                    />
+                    <button onClick={addZona} className="bg-blue-600 text-white px-4 rounded font-bold">+</button>
+                </div>
+                <div className="space-y-2">
+                    {zonas.map(z => (
+                        <div key={z} className="flex justify-between items-center p-2 bg-gray-50 rounded border">
+                            <span className="text-sm font-medium">{z}</span>
+                            <button onClick={() => delZona(z)} className="text-red-500 font-bold px-2">×</button>
+                        </div>
                     ))}
-                </tbody>
-            </table>
+                </div>
+            </div>
+
+            {/* Gestão de Técnicos */}
+            <div className="bg-white p-6 rounded-xl shadow-sm border">
+                <h3 className="text-lg font-bold mb-4">Equipe Técnica</h3>
+                <div className="space-y-4">
+                    {tecnicos.map(tec => (
+                        <div key={tec.id} className="p-4 border rounded-lg hover:border-blue-300 transition">
+                            <div className="grid grid-cols-2 gap-2 mb-2">
+                                <input
+                                    className="p-1 border rounded font-bold text-gray-700"
+                                    value={tec.nome}
+                                    onChange={e => editarTecnico(tec.id, 'nome', e.target.value)}
+                                />
+                                <input
+                                    className="p-1 border rounded text-gray-500 italic"
+                                    value={tec.cargo}
+                                    onChange={e => editarTecnico(tec.id, 'cargo', e.target.value)}
+                                />
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <input
+                                    type="checkbox"
+                                    checked={tec.ativo}
+                                    onChange={e => editarTecnico(tec.id, 'ativo', e.target.checked)}
+                                />
+                                <span className="text-xs text-gray-400">Técnico Ativo</span>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
         </div>
     );
 };

@@ -1,11 +1,10 @@
-import json
-import os
-import pandas as pd
-from datetime import timedelta
-from fastapi import FastAPI
+import json, os, csv
+from fastapi import FastAPI, Body
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
+from datetime import timedelta, datetime
 
-app = FastAPI(title="API Roteirização Logística - Escopo Zero")
+app = FastAPI(title="Organizador Auvo - Gestão de Cadastros")
 
 app.add_middleware(
     CORSMiddleware,
@@ -16,127 +15,9 @@ app.add_middleware(
 )
 
 ARQUIVO_DADOS = "mestre.json"
-ARQUIVO_CSV = "importacao.csv"
 ARQUIVO_TECNICOS = "tecnicos.json"
+ARQUIVO_ZONAS = "zonas.json" # Novo arquivo para gerenciar zonas globalmente
 
-# --- FUNÇÕES DE LÓGICA DE NEGÓCIO ---
-
-def ajustar_fim_de_semana(data):
-    """Se cair no Sábado (5), volta pra Sexta. Se cair no Domingo (6), joga pra Segunda."""
-    if data.weekday() == 5:  # Sábado
-        return data - timedelta(days=1)
-    elif data.weekday() == 6:  # Domingo
-        return data + timedelta(days=1)
-    return data
-
-def calcular_proximo_vencimento(ultima_visita_str, frequencia):
-    """Calcula a próxima data baseada na frequência e pula finais de semana."""
-    try:
-        # Converte a string "YYYY-MM-DD" para o formato de data do Python
-        data_base = pd.to_datetime(ultima_visita_str).date()
-    except Exception:
-        # Se a data vier vazia ou quebrada no CSV, retorna None
-        return None, None
-
-    # Mapeia a frequência para dias (aproximado para regra de negócio rápida)
-    dias_soma = 30
-    if frequencia == "Bimestral":
-        dias_soma = 60
-    elif frequencia == "Trimestral":
-        dias_soma = 90
-
-    data_vencimento = data_base + timedelta(days=dias_soma)
-    data_ajustada = ajustar_fim_de_semana(data_vencimento)
-    
-    # Dicionário para traduzir o dia da semana para português
-    dias_semana_pt = {0: "Segunda-feira", 1: "Terça-feira", 2: "Quarta-feira", 3: "Quinta-feira", 4: "Sexta-feira"}
-    nome_dia = dias_semana_pt.get(data_ajustada.weekday(), "Desconhecido")
-
-    return str(data_ajustada), nome_dia
-
-# --- ROTAS DA API ---
-
-@app.get("/")
-def read_root():
-    return {"status": "ok", "mensagem": "Motor de roteirização online!"}
-
-@app.get("/clientes")
-def listar_clientes():
-    """Retorna os clientes que já estão salvos no JSON Mestre."""
-    if not os.path.exists(ARQUIVO_DADOS):
-        return []
-    with open(ARQUIVO_DADOS, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-@app.post("/importar")
-def importar_csv_para_json():
-    """Lê o arquivo CSV, processa as regras de negócio e salva no mestre.json"""
-    if not os.path.exists(ARQUIVO_CSV):
-        return {"erro": f"Arquivo {ARQUIVO_CSV} não encontrado na pasta."}
-
-    # 1. Lê o CSV usando Pandas
-    df = pd.read_csv(ARQUIVO_CSV)
-    
-    clientes_processados = []
-    
-    # Contadores para gerar IDs únicos (ex: SOL-001, LOC-001)
-    cont_sol = 1
-    cont_loc = 1
-
-    # 2. Varre linha por linha do Excel
-    for index, row in df.iterrows():
-        origem = str(row['ORIGEM'])
-        
-        # Gera o ID baseado na origem
-        if origem == "Solução Fitness":
-            id_tarefa = f"SOL-{cont_sol:03d}"
-            cont_sol += 1
-        else:
-            id_tarefa = f"LOC-{cont_loc:03d}"
-            cont_loc += 1
-
-        # Calcula as datas usando nossa função inteligente
-        ultima_visita = str(row['ULTIMA_VISITA'])
-        frequencia = str(row['FREQUENCIA'])
-        prox_vencimento, dia_semana = calcular_proximo_vencimento(ultima_visita, frequencia)
-
-        # Monta o contrato exato do nosso mestre.json
-        cliente_json = {
-            "id_tarefa": id_tarefa,
-            "cliente": {
-                "nome": str(row['CLIENTE']),
-                "endereco_completo": str(row['ENDERECO']),
-                "zona_roteirizacao": str(row['ZONA'])
-            },
-            "contrato": {
-                "origem": origem,
-                "frequencia_original": frequencia,
-                "tempo_estimado_horas": float(row['TEMPO_HORAS'])
-            },
-            "datas": {
-                "ultimo_atendimento": ultima_visita,
-                "proximo_vencimento": prox_vencimento,
-                "dia_da_semana_vencimento": dia_semana
-            },
-            "agendamento_atual": {
-                "status": "Pendente",
-                "tecnico_alocado": None,
-                "data_alocada": None
-            }
-        }
-        clientes_processados.append(cliente_json)
-
-    # 3. Salva a lista final no mestre.json
-    with open(ARQUIVO_DADOS, "w", encoding="utf-8") as f:
-        json.dump(clientes_processados, f, ensure_ascii=False, indent=4)
-
-    return {
-        "status": "sucesso", 
-        "mensagem": f"{len(clientes_processados)} clientes importados, calculados e salvos com sucesso!"
-    }
-
-
-# --- AUXILIARES ---
 def carregar_json(arquivo):
     if not os.path.exists(arquivo): return []
     with open(arquivo, "r", encoding="utf-8") as f:
@@ -146,44 +27,76 @@ def salvar_json(arquivo, dados):
     with open(arquivo, "w", encoding="utf-8") as f:
         json.dump(dados, f, ensure_ascii=False, indent=4)
 
-# --- ROTAS DE GESTÃO DE TÉCNICOS ---
+# --- GESTÃO DE ZONAS (GLOBAL) ---
+
+@app.get("/zonas")
+def listar_zonas():
+    return carregar_json(ARQUIVO_ZONAS)
+
+@app.post("/zonas")
+def adicionar_zona(zona: str = Body(..., embed=True)):
+    zonas = carregar_json(ARQUIVO_ZONAS)
+    if zona not in zonas:
+        zonas.append(zona)
+        salvar_json(ARQUIVO_ZONAS, zonas)
+    return zonas
+
+@app.delete("/zonas/{nome}")
+def remover_zona(nome: str):
+    zonas = carregar_json(ARQUIVO_ZONAS)
+    if nome in zonas:
+        zonas.remove(nome)
+        salvar_json(ARQUIVO_ZONAS, zonas)
+    return zonas
+
+# --- GESTÃO DE TÉCNICOS (EDIÇÃO DE NOME) ---
 
 @app.get("/tecnicos")
 def listar_tecnicos():
     return carregar_json(ARQUIVO_TECNICOS)
 
-@app.post("/tecnicos")
-def cadastrar_tecnico(tecnico: dict):
+@app.put("/tecnicos/{id}")
+def atualizar_tecnico(id: int, dados: dict):
     tecnicos = carregar_json(ARQUIVO_TECNICOS)
-    tecnico["id"] = len(tecnicos) + 1
-    # Garante o formato exigido pelo modelo do Auvo: "Nome - Cargo"
-    tecnico["nome_auvo"] = f"{tecnico['nome']} - {tecnico['cargo']}"
-    tecnicos.append(tecnico)
+    for t in tecnicos:
+        if t["id"] == id:
+            if "nome" in dados: t["nome"] = dados["nome"]
+            if "cargo" in dados: t["cargo"] = dados["cargo"]
+            if "ativo" in dados: t["ativo"] = dados["ativo"]
+            # Atualiza o nome_auvo automaticamente ao mudar nome ou cargo
+            t["nome_auvo"] = f"{t['nome']} - {t['cargo']}"
+            break
     salvar_json(ARQUIVO_TECNICOS, tecnicos)
-    return tecnico
+    return {"status": "ok"}
 
-# --- MOTOR DE DISTRIBUIÇÃO AUTOMÁTICA ---
+# --- GESTÃO DE CLIENTES (FILTROS POR BAIRRO E CIDADE) ---
 
-@app.post("/distribuir-tarefas")
-def distribuir_tarefas():
+def extrair_bairro_cidade(endereco):
+    """Extrai bairro e cidade de forma mais robusta."""
+    partes = [p.strip() for p in endereco.split('-')]
+    bairro = partes[-1] if len(partes) > 1 else "Centro"
+    cidade = "Jacareí" if "Jacareí" in endereco else "São José dos Campos"
+    return bairro, cidade
+
+@app.get("/clientes")
+def listar_clientes():
     tarefas = carregar_json(ARQUIVO_DADOS)
-    tecnicos = carregar_json(ARQUIVO_TECNICOS)
-    
-    atribuídas = 0
-    for tarefa in tarefas:
-        # Só tenta alocar se estiver pendente
-        if tarefa["agendamento_atual"]["status"] == "Pendente":
-            zona_cliente = tarefa["cliente"]["zona_roteirizacao"]
-            
-            # Busca técnico que atenda a zona do cliente
-            for tecnico in tecnicos:
-                if tecnico["ativo"] and zona_cliente in tecnico["zonas_atendimento"]:
-                    tarefa["agendamento_atual"]["tecnico_alocado"] = tecnico["nome_auvo"]
-                    tarefa["agendamento_atual"]["status"] = "Agendado"
-                    # No futuro, aqui entra a lógica de data_alocada baseada no calendário
-                    tarefa["agendamento_atual"]["data_alocada"] = tarefa["datas"]["proximo_vencimento"]
-                    atribuídas += 1
-                    break 
+    for t in tarefas:
+        b, c = extrair_bairro_cidade(t["cliente"]["endereco_completo"])
+        t["cliente"]["bairro"] = b
+        t["cliente"]["cidade"] = c
+    return tarefas
 
+@app.put("/clientes/{id}")
+def atualizar_cliente(id: str, dados: dict):
+    tarefas = carregar_json(ARQUIVO_DADOS)
+    for t in tarefas:
+        if t["id_tarefa"] == id:
+            if "zona" in dados: t["cliente"]["zona_roteirizacao"] = dados["zona"]
+            if "tecnico" in dados: t["agendamento_atual"]["tecnico_alocado"] = dados["tecnico"]
+            if "data" in dados: t["agendamento_atual"]["data_alocada"] = dados["data"]
+            if "hora" in dados: t["agendamento_atual"]["hora_inicio"] = dados["hora"]
+            t["agendamento_atual"]["status"] = "Agendado"
+            break
     salvar_json(ARQUIVO_DADOS, tarefas)
-    return {"mensagem": f"{atribuídas} tarefas foram distribuídas com sucesso!"}
+    return {"status": "sucesso"}

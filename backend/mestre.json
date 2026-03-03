@@ -3,7 +3,7 @@
         "id_tarefa": "LOC-001",
         "cliente": {
             "nome": "Esplanada Resort",
-            "endereco_completo": "R. Laurent Martins, 479 - apto 11A - Jardim Esplanada II",
+            "endereco_completo": "R. Laurent Martins, 479  - Jardim Esplanada II",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
@@ -19,7 +19,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-06"
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -42,7 +42,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-11"
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -65,7 +65,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-25"
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -86,9 +86,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -111,7 +111,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-27"
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -134,7 +134,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-06"
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -156,8 +156,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-25"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -179,8 +179,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-13"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -225,8 +225,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-06"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -247,9 +247,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -272,7 +272,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-13"
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -295,7 +295,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-11"
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -316,9 +316,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -341,7 +341,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2025-09-17"
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -364,7 +364,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-23"
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -387,7 +387,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2025-09-19"
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -409,8 +409,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-20"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -432,8 +432,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-06"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -455,8 +455,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-06"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -477,9 +477,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -502,7 +502,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-06"
+            "data_alocada": "2026-04-03"
         }
     },
     {
@@ -548,7 +548,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-13"
+            "data_alocada": "2026-04-03"
         }
     },
     {
@@ -571,7 +571,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-11"
+            "data_alocada": "2026-04-03"
         }
     },
     {
@@ -592,9 +592,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-03"
         }
     },
     {
@@ -615,9 +615,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-03"
         }
     },
     {
@@ -640,7 +640,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-13"
+            "data_alocada": "2026-04-03"
         }
     },
     {
@@ -663,7 +663,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-12"
+            "data_alocada": "2026-04-03"
         }
     },
     {
@@ -685,8 +685,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2025-10-16"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-03"
         }
     },
     {
@@ -731,8 +731,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-13"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-03"
         }
     },
     {
@@ -754,8 +754,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-09"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-03"
         }
     },
     {
@@ -778,7 +778,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-02"
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -801,7 +801,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-11"
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -824,7 +824,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-04"
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -847,7 +847,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-09"
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -870,7 +870,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-11"
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -892,8 +892,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-26"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -915,8 +915,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-20"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -946,7 +946,7 @@
         "id_tarefa": "SOL-011",
         "cliente": {
             "nome": "VERANO",
-            "endereco_completo": "R. São Diego, 500 - Jardim California",
+            "endereco_completo": "R. São Diego, 500 - Jardim California, Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
@@ -961,8 +961,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-13"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -984,8 +984,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-26"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -1007,8 +1007,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-11"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -1031,7 +1031,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-04-08"
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1054,7 +1054,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-12"
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1077,7 +1077,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-11"
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1100,7 +1100,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-05"
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1123,7 +1123,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-20"
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1145,8 +1145,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-11"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1168,8 +1168,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-04-22"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1237,8 +1237,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-19"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1260,8 +1260,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-06"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1283,8 +1283,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-27"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1307,7 +1307,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-18"
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1330,7 +1330,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-05"
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1353,7 +1353,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-04"
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1376,7 +1376,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-26"
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1399,7 +1399,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-23"
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1421,8 +1421,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-18"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1444,8 +1444,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-04"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1467,8 +1467,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-05-04"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1490,8 +1490,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-20"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1513,8 +1513,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-13"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1537,7 +1537,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-12"
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1560,7 +1560,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-06"
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1583,7 +1583,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-13"
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1606,7 +1606,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-04"
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1629,7 +1629,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-26"
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1651,8 +1651,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-26"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1674,8 +1674,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-06"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1697,8 +1697,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-23"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1743,8 +1743,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-23"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1766,8 +1766,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-26"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1790,7 +1790,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-12"
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -1813,7 +1813,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-12"
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -1836,7 +1836,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-20"
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -1859,7 +1859,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-05"
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -1882,7 +1882,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-12"
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -1904,8 +1904,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-06"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -1927,8 +1927,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-05"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -1950,8 +1950,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-05"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -1996,8 +1996,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-05"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -2019,8 +2019,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-05"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -2043,7 +2043,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-02-11"
+            "data_alocada": "2026-04-13"
         }
     },
     {
@@ -2066,7 +2066,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-06"
+            "data_alocada": "2026-04-13"
         }
     },
     {
@@ -2089,7 +2089,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-23"
+            "data_alocada": "2026-04-13"
         }
     },
     {
@@ -2112,7 +2112,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-10"
+            "data_alocada": "2026-04-13"
         }
     },
     {
@@ -2135,7 +2135,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-12"
+            "data_alocada": "2026-04-13"
         }
     },
     {
@@ -2203,8 +2203,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-05"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-13"
         }
     },
     {
@@ -2226,8 +2226,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": "2026-03-05"
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-13"
         }
     }
 ]
