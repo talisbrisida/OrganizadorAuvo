@@ -1,20 +1,28 @@
 import React, { useState } from 'react';
 import Tecnicos from './components/Tecnicos';
-// Importe seus outros componentes aqui
+import Clientes from './components/Clientes';
+import Calendario from './components/Calendario';
+import './App.css';
 
 function App() {
   const [abaAtiva, setAbaAtiva] = useState('kanban');
 
   return (
-    <div>
-      <nav style={{ padding: '10px', background: '#222', color: '#fff' }}>
+    <div className='container'>
+      <nav className='nav'>
+        <h3 className='h3'>Logística SF</h3>
         <button onClick={() => setAbaAtiva('clientes')}>Clientes</button>
         <button onClick={() => setAbaAtiva('tecnicos')}>Técnicos</button>
-        <button onClick={() => setAbaAtiva('kanban')}>Kanban/Calendário</button>
+        <button onClick={() => setAbaAtiva('kanban')}>Calendário / Agendamento</button>
       </nav>
 
-      {abaAtiva === 'tecnicos' && <Tecnicos />}
-      {/* Adicione as outras condicionais aqui */}
+      <div style={{ backgroundColor: '#f8f9fa', minHeight: '100vh' }}>
+        {abaAtiva === 'clientes' && <Clientes />}
+        {abaAtiva === 'tecnicos' && <Tecnicos />}
+        {abaAtiva === 'kanban' && <Calendario />}
+      </div>
     </div>
   );
 }
+
+export default App;

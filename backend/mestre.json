@@ -17,9 +17,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-06"
         }
     },
     {
@@ -40,9 +40,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-11"
         }
     },
     {
@@ -63,9 +63,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-25"
         }
     },
     {
@@ -109,9 +109,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-27"
         }
     },
     {
@@ -132,9 +132,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-06"
         }
     },
     {
@@ -155,9 +155,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-25"
         }
     },
     {
@@ -178,9 +178,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-13"
         }
     },
     {
@@ -224,9 +224,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-06"
         }
     },
     {
@@ -270,9 +270,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-13"
         }
     },
     {
@@ -293,9 +293,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-11"
         }
     },
     {
@@ -339,9 +339,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2025-09-17"
         }
     },
     {
@@ -362,9 +362,9 @@
             "dia_da_semana_vencimento": "Segunda-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-23"
         }
     },
     {
@@ -385,9 +385,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2025-09-19"
         }
     },
     {
@@ -408,9 +408,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-20"
         }
     },
     {
@@ -431,9 +431,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-06"
         }
     },
     {
@@ -454,9 +454,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-06"
         }
     },
     {
@@ -500,9 +500,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-06"
         }
     },
     {
@@ -546,9 +546,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-13"
         }
     },
     {
@@ -569,9 +569,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-11"
         }
     },
     {
@@ -638,9 +638,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-13"
         }
     },
     {
@@ -661,9 +661,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-12"
         }
     },
     {
@@ -684,9 +684,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2025-10-16"
         }
     },
     {
@@ -730,9 +730,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-13"
         }
     },
     {
@@ -753,9 +753,9 @@
             "dia_da_semana_vencimento": "Segunda-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-09"
         }
     },
     {
@@ -776,9 +776,9 @@
             "dia_da_semana_vencimento": "Segunda-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-02"
         }
     },
     {
@@ -799,9 +799,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-11"
         }
     },
     {
@@ -822,9 +822,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-04"
         }
     },
     {
@@ -845,9 +845,9 @@
             "dia_da_semana_vencimento": "Segunda-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-09"
         }
     },
     {
@@ -868,9 +868,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-11"
         }
     },
     {
@@ -891,9 +891,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-26"
         }
     },
     {
@@ -914,9 +914,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-20"
         }
     },
     {
@@ -960,9 +960,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-13"
         }
     },
     {
@@ -983,9 +983,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-26"
         }
     },
     {
@@ -1006,9 +1006,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-11"
         }
     },
     {
@@ -1029,9 +1029,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1052,9 +1052,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-12"
         }
     },
     {
@@ -1075,9 +1075,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-11"
         }
     },
     {
@@ -1098,9 +1098,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-05"
         }
     },
     {
@@ -1121,9 +1121,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-20"
         }
     },
     {
@@ -1144,9 +1144,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-11"
         }
     },
     {
@@ -1167,9 +1167,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-22"
         }
     },
     {
@@ -1236,9 +1236,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-19"
         }
     },
     {
@@ -1259,9 +1259,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-06"
         }
     },
     {
@@ -1282,9 +1282,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-27"
         }
     },
     {
@@ -1305,9 +1305,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-18"
         }
     },
     {
@@ -1328,9 +1328,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-05"
         }
     },
     {
@@ -1351,9 +1351,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-04"
         }
     },
     {
@@ -1374,9 +1374,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-26"
         }
     },
     {
@@ -1397,9 +1397,9 @@
             "dia_da_semana_vencimento": "Segunda-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-23"
         }
     },
     {
@@ -1420,9 +1420,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-18"
         }
     },
     {
@@ -1443,9 +1443,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-04"
         }
     },
     {
@@ -1466,9 +1466,9 @@
             "dia_da_semana_vencimento": "Segunda-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-05-04"
         }
     },
     {
@@ -1489,9 +1489,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-20"
         }
     },
     {
@@ -1512,9 +1512,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-13"
         }
     },
     {
@@ -1535,9 +1535,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-12"
         }
     },
     {
@@ -1558,9 +1558,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-06"
         }
     },
     {
@@ -1581,9 +1581,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-13"
         }
     },
     {
@@ -1604,9 +1604,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-04"
         }
     },
     {
@@ -1627,9 +1627,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-26"
         }
     },
     {
@@ -1650,9 +1650,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-26"
         }
     },
     {
@@ -1673,9 +1673,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-06"
         }
     },
     {
@@ -1696,9 +1696,9 @@
             "dia_da_semana_vencimento": "Segunda-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-23"
         }
     },
     {
@@ -1742,9 +1742,9 @@
             "dia_da_semana_vencimento": "Segunda-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-23"
         }
     },
     {
@@ -1765,9 +1765,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-26"
         }
     },
     {
@@ -1788,9 +1788,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-12"
         }
     },
     {
@@ -1811,9 +1811,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-12"
         }
     },
     {
@@ -1834,9 +1834,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-20"
         }
     },
     {
@@ -1857,9 +1857,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-05"
         }
     },
     {
@@ -1880,9 +1880,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-12"
         }
     },
     {
@@ -1903,9 +1903,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-06"
         }
     },
     {
@@ -1926,9 +1926,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-05"
         }
     },
     {
@@ -1949,9 +1949,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-05"
         }
     },
     {
@@ -1995,9 +1995,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-05"
         }
     },
     {
@@ -2018,9 +2018,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-05"
         }
     },
     {
@@ -2041,9 +2041,9 @@
             "dia_da_semana_vencimento": "Quarta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-02-11"
         }
     },
     {
@@ -2064,9 +2064,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-06"
         }
     },
     {
@@ -2087,9 +2087,9 @@
             "dia_da_semana_vencimento": "Segunda-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-23"
         }
     },
     {
@@ -2110,9 +2110,9 @@
             "dia_da_semana_vencimento": "Terça-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-10"
         }
     },
     {
@@ -2133,9 +2133,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-12"
         }
     },
     {
@@ -2202,9 +2202,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-05"
         }
     },
     {
@@ -2225,9 +2225,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Pendente",
-            "tecnico_alocado": null,
-            "data_alocada": null
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-05"
         }
     }
 ]
