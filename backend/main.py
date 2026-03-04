@@ -3,6 +3,8 @@ from fastapi import FastAPI, Body
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from datetime import timedelta, datetime
+from fastapi.responses import FileResponse
+from gerador_auvo import gerar_planilha_auvo
 
 app = FastAPI(title="Organizador Auvo - Gestão de Cadastros")
 
@@ -109,11 +111,28 @@ def atualizar_cliente(id: str, dados: dict):
     tarefas = carregar_json(ARQUIVO_DADOS)
     for t in tarefas:
         if t["id_tarefa"] == id:
+            # Dados que já tinha:
             if "zona" in dados: t["cliente"]["zona_roteirizacao"] = dados["zona"]
             if "tecnico" in dados: t["agendamento_atual"]["tecnico_alocado"] = dados["tecnico"]
             if "data" in dados: t["agendamento_atual"]["data_alocada"] = dados["data"]
             if "hora" in dados: t["agendamento_atual"]["hora_inicio"] = dados["hora"]
+            
+            # NOVOS DADOS OBRIGATÓRIOS DO AUVO:
+            if "prioridade" in dados: t["agendamento_atual"]["prioridade"] = dados["prioridade"]
+            if "tarefa_para" in dados: t["agendamento_atual"]["tarefa_para"] = dados["tarefa_para"]
+            if "roteirizar" in dados: t["agendamento_atual"]["roteirizar"] = dados["roteirizar"]
+            if "descricao" in dados: t["agendamento_atual"]["descricao"] = dados["descricao"]
+            
             t["agendamento_atual"]["status"] = "Agendado"
             break
     salvar_json(ARQUIVO_DADOS, tarefas)
     return {"status": "sucesso"}
+
+# --- EXPORTAÇÃO PARA O AUVO ---
+
+# --- EXPORTAÇÃO PARA O AUVO ---
+@app.get("/exportar/xlsx")
+def exportar_xlsx():
+    """Gera e devolve o ficheiro XLSX formatado para o Auvo."""
+    arquivo = gerar_planilha_auvo(caminho_json=ARQUIVO_DADOS)
+    return FileResponse(path=arquivo, filename="Tarefas_Auvo.xlsx", media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")

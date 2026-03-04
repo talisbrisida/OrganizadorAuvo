@@ -4,7 +4,7 @@
         "cliente": {
             "nome": "Condomínio Esplanada Resort",
             "endereco_completo": "R. Laurent Martins, 479  - Jardim Esplanada II - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 6 - SJC Oeste"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -18,8 +18,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -27,7 +27,7 @@
         "cliente": {
             "nome": "Clube de Campo Santa Rita",
             "endereco_completo": "Tv. Lineu de Moura, S/N - Urbanova - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -41,8 +41,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -50,7 +50,7 @@
         "cliente": {
             "nome": "Condomínio Portal da Vila",
             "endereco_completo": "R. Yukiko Ishida, 201 - Jardim Alvorada - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -64,8 +64,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -73,7 +73,7 @@
         "cliente": {
             "nome": "Cond. Vale Verde",
             "endereco_completo": "Rua João Artoni Testae, 3 - Jardim Testae - Guarulhos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Grande SP"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -87,8 +87,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -96,7 +96,7 @@
         "cliente": {
             "nome": "EDIFICIO DALLAS",
             "endereco_completo": "R. Armando D'Oliveira Cobra, 35 - Parque Res. Aquarius - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -110,8 +110,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -119,7 +119,7 @@
         "cliente": {
             "nome": "Ponta Negra",
             "endereco_completo": "Av. Cassiano Ricardo, 71 - Parque Res. Aquarius - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -133,8 +133,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -142,7 +142,7 @@
         "cliente": {
             "nome": "Splendor Garden",
             "endereco_completo": "R. Emílio Marelo, 100 - Jardim das Industrias - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -156,8 +156,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -165,7 +165,7 @@
         "cliente": {
             "nome": "Movere",
             "endereco_completo": "R. Shigemasa Ota, 645 - Res. Sol Nascente - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -179,8 +179,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -188,7 +188,7 @@
         "cliente": {
             "nome": "CONDOMINIO VILA SERENA",
             "endereco_completo": "Av. Rio Grande do Norte, 400 - Indaiá - Caraguatatuba",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Litoral"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -201,9 +201,9 @@
             "dia_da_semana_vencimento": "Segunda-feira"
         },
         "agendamento_atual": {
-            "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
         }
     },
     {
@@ -211,7 +211,7 @@
         "cliente": {
             "nome": "RESIDENCIAL AZALEIAS",
             "endereco_completo": "R. Álvaro Gonçalves Júnior, 330 - Parque Industrial - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -225,8 +225,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -234,7 +234,7 @@
         "cliente": {
             "nome": "Condominio Residencial Sunville Aruja",
             "endereco_completo": "Estr. dos Índios, 2645 - Bairro do Limoeiro - Arujá",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Grande SP"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -248,8 +248,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-01"
         }
     },
     {
@@ -257,7 +257,7 @@
         "cliente": {
             "nome": "JARDIM COLEGINHO",
             "endereco_completo": "Rod. Nilo Máximo, 1 - Bairro da Colonia - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -272,7 +272,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -280,7 +280,7 @@
         "cliente": {
             "nome": "CITTA DI ROMA",
             "endereco_completo": "R. Roma, 673 - Jardim Augusta - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -294,8 +294,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -303,7 +303,7 @@
         "cliente": {
             "nome": "Condomínio Canadá",
             "endereco_completo": "R. Dona Tecla, 816 - Jardim Flor da Montanha - Guarulhos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Grande SP"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -317,8 +317,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -326,7 +326,7 @@
         "cliente": {
             "nome": "CONDOMINIO CASA ALTA",
             "endereco_completo": "Av. Sen. Joaquim Miguel Martins de Siqueira, 238 - Jardim Pereira do Amparo - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -341,7 +341,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -349,7 +349,7 @@
         "cliente": {
             "nome": "Condominio Boulevard Park",
             "endereco_completo": "Av. Tubarão, 181 - Parque Res. Aquarius - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -363,8 +363,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -372,7 +372,7 @@
         "cliente": {
             "nome": "Beira Rio",
             "endereco_completo": "Alameda das Tipuanas, 33 - Jardim Beira Rio - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -387,7 +387,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -395,7 +395,7 @@
         "cliente": {
             "nome": "Angelus",
             "endereco_completo": "R. dos Piquiroes, 160 - Parque Res. Aquarius - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -409,8 +409,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -418,7 +418,7 @@
         "cliente": {
             "nome": "CONDOMINIO EDIFICIO PALMARES",
             "endereco_completo": "R. Palmares, 6 - Parque Industrial - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -432,8 +432,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -441,7 +441,7 @@
         "cliente": {
             "nome": "Condominio Piaget",
             "endereco_completo": "R. Benedito Pinoti, 950 - Urbanova - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -455,8 +455,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -464,7 +464,7 @@
         "cliente": {
             "nome": "CONDOMINIO CONJUNTO RESIDENCIAL NOVA GUARULHOS",
             "endereco_completo": "Av. Estilac Leal, 160 - Vila das Palmeiras - Guarulhos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Grande SP"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -478,8 +478,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-02"
         }
     },
     {
@@ -487,7 +487,7 @@
         "cliente": {
             "nome": "Condominio Monte Negro",
             "endereco_completo": "R. Palmares, 155 - Parque Industrial - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -501,8 +501,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-03"
         }
     },
     {
@@ -510,7 +510,7 @@
         "cliente": {
             "nome": "Villa di Vita Condominio",
             "endereco_completo": "Estr. Mun. Itapecirica, 2701 - Jardim Marlene Miranda - Taubaté",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Taubaté"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -523,9 +523,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
         }
     },
     {
@@ -533,99 +533,7 @@
         "cliente": {
             "nome": "Residencial IL Terrazzo",
             "endereco_completo": "R. Benedito Alvarenga Carvalho, 90 - Parque Res. Aquarius - São José dos Campos",
-            "zona_roteirizacao": ""
-        },
-        "contrato": {
-            "origem": "Casa do Fitness",
-            "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1
-        },
-        "datas": {
-            "ultimo_atendimento": "2026-02-11",
-            "proximo_vencimento": "2026-03-13",
-            "dia_da_semana_vencimento": "Sexta-feira"
-        },
-        "agendamento_atual": {
-            "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
-        }
-    },
-    {
-        "id_tarefa": "LOC-025",
-        "cliente": {
-            "nome": "Chácara Serimbura",
-            "endereco_completo": "Avenida Jarbas Vaz de Lima, 100 - Jardim Serimbura - São José dos Campos",
-            "zona_roteirizacao": ""
-        },
-        "contrato": {
-            "origem": "Casa do Fitness",
-            "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1
-        },
-        "datas": {
-            "ultimo_atendimento": "2026-02-09",
-            "proximo_vencimento": "2026-03-11",
-            "dia_da_semana_vencimento": "Quarta-feira"
-        },
-        "agendamento_atual": {
-            "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
-        }
-    },
-    {
-        "id_tarefa": "LOC-026",
-        "cliente": {
-            "nome": "RESIDENCIAL CASA DA MATA",
-            "endereco_completo": "Rua Carime Buissa,205 - Vila Pilar - Arujá",
-            "zona_roteirizacao": ""
-        },
-        "contrato": {
-            "origem": "Casa do Fitness",
-            "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1
-        },
-        "datas": {
-            "ultimo_atendimento": "2026-02-12",
-            "proximo_vencimento": "2026-03-13",
-            "dia_da_semana_vencimento": "Sexta-feira"
-        },
-        "agendamento_atual": {
-            "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
-        }
-    },
-    {
-        "id_tarefa": "LOC-027",
-        "cliente": {
-            "nome": "CONDOMINIO MANSAO DE VERONA",
-            "endereco_completo": "Alameda Subtenente-Aviador Francisco Hierro, 360 - Parque Novo Mundo - Arujá",
-            "zona_roteirizacao": ""
-        },
-        "contrato": {
-            "origem": "Casa do Fitness",
-            "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1
-        },
-        "datas": {
-            "ultimo_atendimento": "2026-02-12",
-            "proximo_vencimento": "2026-03-13",
-            "dia_da_semana_vencimento": "Sexta-feira"
-        },
-        "agendamento_atual": {
-            "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
-        }
-    },
-    {
-        "id_tarefa": "LOC-028",
-        "cliente": {
-            "nome": "Home & Club Villa Branca",
-            "endereco_completo": "Av. das Letras, 1099 - vila Branca - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -640,7 +548,99 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "data_alocada": "2026-04-03"
+        }
+    },
+    {
+        "id_tarefa": "LOC-025",
+        "cliente": {
+            "nome": "Chácara Serimbura",
+            "endereco_completo": "Avenida Jarbas Vaz de Lima, 100 - Jardim Serimbura - São José dos Campos",
+            "zona_roteirizacao": "Zona 1 - SJC"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-09",
+            "proximo_vencimento": "2026-03-11",
+            "dia_da_semana_vencimento": "Quarta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-03"
+        }
+    },
+    {
+        "id_tarefa": "LOC-026",
+        "cliente": {
+            "nome": "RESIDENCIAL CASA DA MATA",
+            "endereco_completo": "Rua Carime Buissa,205 - Vila Pilar - Arujá",
+            "zona_roteirizacao": "Grande SP"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-12",
+            "proximo_vencimento": "2026-03-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Agendado",
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-03"
+        }
+    },
+    {
+        "id_tarefa": "LOC-027",
+        "cliente": {
+            "nome": "CONDOMINIO MANSAO DE VERONA",
+            "endereco_completo": "Alameda Subtenente-Aviador Francisco Hierro, 360 - Parque Novo Mundo - Arujá",
+            "zona_roteirizacao": "Grande SP"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-12",
+            "proximo_vencimento": "2026-03-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Agendado",
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-03"
+        }
+    },
+    {
+        "id_tarefa": "LOC-028",
+        "cliente": {
+            "nome": "Home & Club Villa Branca",
+            "endereco_completo": "Av. das Letras, 1099 - vila Branca - Jacareí",
+            "zona_roteirizacao": "Zona 3 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Casa do Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-02-11",
+            "proximo_vencimento": "2026-03-13",
+            "dia_da_semana_vencimento": "Sexta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-03"
         }
     },
     {
@@ -648,7 +648,7 @@
         "cliente": {
             "nome": "RESIDENCIAL JARDIM AMERICA",
             "endereco_completo": "Av: Gardalupe, 11 - Jardim America - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -662,8 +662,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-03"
         }
     },
     {
@@ -671,7 +671,7 @@
         "cliente": {
             "nome": "FLORADAS ARBOVILLE",
             "endereco_completo": "Estr. Mun. Abade Biagino Chieffi, 2655 - Pagador de Andrade - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -685,8 +685,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-03"
         }
     },
     {
@@ -694,7 +694,7 @@
         "cliente": {
             "nome": "Hotel HOME GREEN HOME",
             "endereco_completo": "R ADOLFO TORRESIM, 800 - ALTO CAPIVARI - Campos do Jordão",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Vale do Paraíba"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -707,9 +707,9 @@
             "dia_da_semana_vencimento": "Segunda-feira"
         },
         "agendamento_atual": {
-            "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
         }
     },
     {
@@ -717,7 +717,7 @@
         "cliente": {
             "nome": "ALVORADAS ARBOVILLE INCORPORADORA SPE LTDA",
             "endereco_completo": "Estr. Mun. Abade Biagino Chieffi, 2795 - Pagador de Andrade - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -731,8 +731,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-03"
         }
     },
     {
@@ -740,7 +740,7 @@
         "cliente": {
             "nome": "Colinas do Paratehy Norte e Sul",
             "endereco_completo": " Av. Durval Messias Queiroga - Urbanova - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -754,8 +754,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-03"
         }
     },
     {
@@ -763,7 +763,7 @@
         "cliente": {
             "nome": "Condomínio Esplanada do Sol",
             "endereco_completo": "Av. Yêdo Martins, 5 - Conj. Res. Esplanada - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -777,8 +777,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -786,7 +786,7 @@
         "cliente": {
             "nome": "Cond. MONACO SANTA IZABEL",
             "endereco_completo": "R. Priscila Maria de Sousa Tau, 20 - Urbanova - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -800,8 +800,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -809,7 +809,7 @@
         "cliente": {
             "nome": "Blessed Condomínio",
             "endereco_completo": "R. Jurema Viêira Medrado, 40 - Parque Res. Aquarius - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -823,8 +823,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -832,7 +832,7 @@
         "cliente": {
             "nome": "AQUARIUS RESORT",
             "endereco_completo": "Rua Heitor Vieira Júnior, 191 - Jardim Altos Esplanada - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -846,8 +846,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -855,7 +855,7 @@
         "cliente": {
             "nome": "Cidade Jardim Residence Club",
             "endereco_completo": "Av. Pereira Campos, 141 - Jardim Didinha - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -870,7 +870,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -878,7 +878,7 @@
         "cliente": {
             "nome": "Condomínio das Amoreiras",
             "endereco_completo": "R. Hondo, 351 - Jardim Oriente - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -892,8 +892,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -901,7 +901,7 @@
         "cliente": {
             "nome": "STUDIO PILATES",
             "endereco_completo": "R. Afonso César de Siqueira, 81 - Vila Jaci - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -915,8 +915,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -924,7 +924,7 @@
         "cliente": {
             "nome": "RESIDENCIAL VARANDAS DO INDAIA",
             "endereco_completo": "Av. Geraldo Nogueira da Silva, 869 - Indaiá - Caraguatatuba",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Litoral"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -937,9 +937,9 @@
             "dia_da_semana_vencimento": "Segunda-feira"
         },
         "agendamento_atual": {
-            "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
         }
     },
     {
@@ -947,7 +947,7 @@
         "cliente": {
             "nome": "Verano Home Resort",
             "endereco_completo": "R. São Diego, 500 - Jardim California - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -961,8 +961,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -970,7 +970,7 @@
         "cliente": {
             "nome": "DREAM",
             "endereco_completo": "Rua Professora Olinda de Almeida Mercadante, 1585 - Parque Santo Antonio - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -984,8 +984,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -993,7 +993,7 @@
         "cliente": {
             "nome": "CONDOMINIO RESIDENCIAL LE PREMIER",
             "endereco_completo": "R. Los Ângeles, 89 - Jardim Nicelia - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1007,8 +1007,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-06"
         }
     },
     {
@@ -1016,7 +1016,7 @@
         "cliente": {
             "nome": "FÊNIX",
             "endereco_completo": "São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1030,8 +1030,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1039,7 +1039,7 @@
         "cliente": {
             "nome": "JATHAY",
             "endereco_completo": "Rua Bárbara Knippelberg Loureiro, 91 - Vila Ema - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1053,8 +1053,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1062,7 +1062,7 @@
         "cliente": {
             "nome": "Condomínio Majestic",
             "endereco_completo": "R. Gilberto Moreira, 129 - Vila Formosa - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1077,7 +1077,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1085,7 +1085,7 @@
         "cliente": {
             "nome": "Solar do Barão",
             "endereco_completo": "R. Cel. Luís Lima, 41 - Centro - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1100,7 +1100,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1108,7 +1108,7 @@
         "cliente": {
             "nome": "CONDOMINIO EDIFICIO APOLO",
             "endereco_completo": "R. Paulo Édson Blair, 65 - Jardim Apolo II - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1122,8 +1122,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1131,7 +1131,7 @@
         "cliente": {
             "nome": "Residencial Garden Family Club",
             "endereco_completo": "Av. Maria Augusta Fagundes Gomes, 636 - Res. Sao Paulo - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1145,8 +1145,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1154,7 +1154,7 @@
         "cliente": {
             "nome": "CONDOMINIO GEMINI Royal Park",
             "endereco_completo": "Rua Jesus Garcia, 111 - Jardim Aquarius - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1168,8 +1168,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1177,7 +1177,7 @@
         "cliente": {
             "nome": "Allure",
             "endereco_completo": "R. Reginaldo Antônio Sandi - Esplanada Independência - Taubaté",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Vale do Paraíba"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1190,9 +1190,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
         }
     },
     {
@@ -1200,7 +1200,7 @@
         "cliente": {
             "nome": "Estação Do Mar",
             "endereco_completo": "Av. Guarda Mirim Juarez, 32 - Indaiá - Caraguatatuba",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Litoral"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1213,9 +1213,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
         }
     },
     {
@@ -1223,7 +1223,7 @@
         "cliente": {
             "nome": "CONDOMINIO RESIDENCIAL LORENA",
             "endereco_completo": "R. Moisés Tristão dos Santos, 65 - Floradas de São José - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1237,8 +1237,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1246,7 +1246,7 @@
         "cliente": {
             "nome": "CONDOMINIO RESIDENCIAL PALOMA",
             "endereco_completo": "R. do Aruanã, 67 - Parque Res. Aquarius - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1260,8 +1260,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1269,7 +1269,7 @@
         "cliente": {
             "nome": "EPIC VILA EMA PATRIANI",
             "endereco_completo": "R JOSE FRANCISCO ALVES, 151 - Vila Ema - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1283,8 +1283,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-07"
         }
     },
     {
@@ -1292,7 +1292,7 @@
         "cliente": {
             "nome": "SPAZIO CAMPO DI SAVOYA",
             "endereco_completo": "Rua Icatu, 390 - Parque Industrial - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1306,8 +1306,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1315,7 +1315,7 @@
         "cliente": {
             "nome": "Condomínio Vista Bela",
             "endereco_completo": "R. Pedro Gonçalves, 250 - Jardim Paraiso - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1330,7 +1330,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1338,7 +1338,7 @@
         "cliente": {
             "nome": "Smart Residence",
             "endereco_completo": "R. Itajai, 161 - Altos do Esplanada - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1352,8 +1352,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1361,7 +1361,7 @@
         "cliente": {
             "nome": "TANGARA",
             "endereco_completo": "Av. Livio Veneziani, 319 - Chácaras São José - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1375,8 +1375,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1384,7 +1384,7 @@
         "cliente": {
             "nome": "Condomínio Vivendas São João",
             "endereco_completo": "Av. São João, 349 - Jardim Esplanada - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1398,8 +1398,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1407,7 +1407,7 @@
         "cliente": {
             "nome": "DAI TORII",
             "endereco_completo": "Rua Tottoni, 576 - Jardim Rosário - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1421,8 +1421,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1430,7 +1430,7 @@
         "cliente": {
             "nome": "Hollywood Aquarius Club",
             "endereco_completo": "Rua Jesus Garcia, 151 - Jardim Cassiano Ricardo - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1444,8 +1444,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1453,7 +1453,7 @@
         "cliente": {
             "nome": "IBIZA",
             "endereco_completo": "Av. Salmão, 150 - Parque Res. Aquarius - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1467,8 +1467,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1476,7 +1476,7 @@
         "cliente": {
             "nome": "PALAZZO IMPERIALE",
             "endereco_completo": "R. Dr. Vicente de Finis Neto, 65 - Altos do Esplanada - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1490,8 +1490,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1499,7 +1499,7 @@
         "cliente": {
             "nome": "Perola de Villa Branca",
             "endereco_completo": "Av. das Letras, 192 - Vila Branca - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1513,8 +1513,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-08"
         }
     },
     {
@@ -1522,7 +1522,7 @@
         "cliente": {
             "nome": "Green Life Villa Branca",
             "endereco_completo": "Av. das Notas, 440 - Vila Branca - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1537,7 +1537,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1545,7 +1545,7 @@
         "cliente": {
             "nome": "EDIFICIO SOLAR AQUARIUS",
             "endereco_completo": "R. do Aruanã, 116 - Parque Res. Aquarius - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1559,8 +1559,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1568,7 +1568,7 @@
         "cliente": {
             "nome": "Edificio Villa Bella",
             "endereco_completo": "Av. das Letras, 282 - Lot. Villa Branca - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1583,7 +1583,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1591,7 +1591,7 @@
         "cliente": {
             "nome": "Enjoy Aquarius",
             "endereco_completo": "Rua Jesus Garcia, 51 - Jardim Alvorada - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1605,8 +1605,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1614,7 +1614,7 @@
         "cliente": {
             "nome": "Equilibre-se",
             "endereco_completo": "Rua Professor Everardo Miranda Passos, 87 - Vila Betania - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1628,8 +1628,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1637,7 +1637,7 @@
         "cliente": {
             "nome": "Impulso Fisioterapia",
             "endereco_completo": "R. dos Periquitos, 980 - Vila Tatetuba - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1651,8 +1651,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1660,7 +1660,7 @@
         "cliente": {
             "nome": "FLORA JACAREI",
             "endereco_completo": "Av. G. C Josué Sant'ana, 598 - Itamarati - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1674,8 +1674,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1683,7 +1683,7 @@
         "cliente": {
             "nome": "Edifício Grand View",
             "endereco_completo": "Av. Salmão, 500 - Parque Res. Aquarius - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1697,8 +1697,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1706,7 +1706,7 @@
         "cliente": {
             "nome": "Impulso Fisioterapia Lorena",
             "endereco_completo": "R. Comendador Custódio Viêira, 192 - Centro - Lorena",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Lorena"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1719,9 +1719,9 @@
             "dia_da_semana_vencimento": "Quinta-feira"
         },
         "agendamento_atual": {
-            "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
         }
     },
     {
@@ -1729,7 +1729,7 @@
         "cliente": {
             "nome": "IT JARDIM",
             "endereco_completo": "R. ITORORO, 590 - VILA CARDOSO - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1743,8 +1743,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1752,7 +1752,7 @@
         "cliente": {
             "nome": "La Vie Club Residence",
             "endereco_completo": "R. Vinte e Um de Abril, 777 - Monte Castelo - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1766,8 +1766,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-09"
         }
     },
     {
@@ -1775,7 +1775,7 @@
         "cliente": {
             "nome": "CONDOMINIO LIBERTA",
             "endereco_completo": "Av. Vinte e Três de Maio, 513 - Vila Maria - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1789,8 +1789,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -1798,7 +1798,7 @@
         "cliente": {
             "nome": "Maranata Parque Industrial",
             "endereco_completo": "R. Icatu, 170 - Parque Industrial - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1812,8 +1812,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -1821,7 +1821,7 @@
         "cliente": {
             "nome": "MARANATA VILA INDUSTRIAL",
             "endereco_completo": "R. Icatu, 170 - Parque Industrial - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1835,8 +1835,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -1844,7 +1844,7 @@
         "cliente": {
             "nome": "Parque Jaguaripe",
             "endereco_completo": "Jardim Yolanda - jardim Novo Amanhecer - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1859,7 +1859,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -1867,7 +1867,7 @@
         "cliente": {
             "nome": "PREMIUM BELA VISTA",
             "endereco_completo": "Av. Dr. Mario Galvão, 252 - Jardim Bela Vista - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1881,8 +1881,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -1890,7 +1890,7 @@
         "cliente": {
             "nome": "ATHMOSPHERE VILA EMA",
             "endereco_completo": "Av. Heitor Villa Lobos, 600 - Jardim Sao Dimas - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1904,8 +1904,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -1913,7 +1913,7 @@
         "cliente": {
             "nome": "Edifício Belo Horizonte",
             "endereco_completo": "R. José Ivair de Souza, 51 - Jardim Estoril - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1927,8 +1927,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -1936,7 +1936,7 @@
         "cliente": {
             "nome": "Brisa Do Estoril",
             "endereco_completo": "R. José Ivair de Souza, 71 - Jardim Estoril - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1950,8 +1950,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -1959,7 +1959,7 @@
         "cliente": {
             "nome": "Condomínio Des Arts",
             "endereco_completo": "R. Hélio Amadei, 117-1 - Lavadouro de Areia - Taubaté",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Taubaté"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1972,9 +1972,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
         }
     },
     {
@@ -1982,7 +1982,7 @@
         "cliente": {
             "nome": "CRYSTAL PARK",
             "endereco_completo": "Av. do Cristal, 355 - Parque California - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1996,8 +1996,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -2005,7 +2005,7 @@
         "cliente": {
             "nome": "Residencial Monte Estoril",
             "endereco_completo": "R. José Ivair de Souza, 91 - Jardim Estoril - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -2019,8 +2019,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-10"
         }
     },
     {
@@ -2028,7 +2028,7 @@
         "cliente": {
             "nome": "RESIDENCIAL PORTO REGIO",
             "endereco_completo": "R. João Teixeira Neto, 72 - Parque Res. Aquarius - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -2042,8 +2042,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-13"
         }
     },
     {
@@ -2051,7 +2051,7 @@
         "cliente": {
             "nome": "RESIDENCIAL SERRA DO JAMBEIRO",
             "endereco_completo": "R. José Cobra, 401 - Conj. Res. Trinta e Um de Marco - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -2065,8 +2065,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-13"
         }
     },
     {
@@ -2074,7 +2074,7 @@
         "cliente": {
             "nome": "ROYAL PALACE",
             "endereco_completo": "Av. Tubarão, 220 - Parque Res. Aquarius - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -2088,8 +2088,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-13"
         }
     },
     {
@@ -2097,7 +2097,7 @@
         "cliente": {
             "nome": "SKY HOUSE CLUB",
             "endereco_completo": "Rua Professor Duílio Panziera, 101 - Altos do Esplanada - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -2111,8 +2111,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-13"
         }
     },
     {
@@ -2120,7 +2120,7 @@
         "cliente": {
             "nome": "Spazio Campo das Violetas",
             "endereco_completo": "R. Iraci Gonçalves Ferreira, 50 - San Marino - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -2134,8 +2134,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-13"
         }
     },
     {
@@ -2143,7 +2143,7 @@
         "cliente": {
             "nome": "SEST TAUBATE/SP - UNIDADE B - N 82",
             "endereco_completo": "Av. Isauro Moreira, 125 - Itaim - Taubaté",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 2 - Taubaté"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -2156,9 +2156,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
         }
     },
     {
@@ -2166,7 +2166,7 @@
         "cliente": {
             "nome": "JARDIM TERRAS DO VALE ASSOCIACAO DOS ADQUIRENTES DE LOTES DO LOTEAMENTO RESIDENCIA",
             "endereco_completo": "Avenida das Palmeiras, 100 - Jardim Terras do Vale - Caçapava",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Vale do Paraíba"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -2179,9 +2179,9 @@
             "dia_da_semana_vencimento": "Sexta-feira"
         },
         "agendamento_atual": {
-            "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "status": "Pendente",
+            "tecnico_alocado": null,
+            "data_alocada": null
         }
     },
     {
@@ -2189,7 +2189,7 @@
         "cliente": {
             "nome": "Piazza San Martino",
             "endereco_completo": "R. José Bonifácio de Oliveira, 205 - Jardim Del Rey - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -2203,8 +2203,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-13"
         }
     },
     {
@@ -2212,7 +2212,7 @@
         "cliente": {
             "nome": "JERIBA",
             "endereco_completo": "Estr. do Limoeiro, 595 - Jardim California - Jacareí",
-            "zona_roteirizacao": "Zona 1 - Jacareí"
+            "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -2226,8 +2226,8 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-04-13"
         }
     }
 ]

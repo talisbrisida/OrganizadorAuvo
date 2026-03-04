@@ -1,0 +1,88 @@
+﻿"Tarefa para
+(Colaborador, Equipe ou Membro da equipe) 
+Obrigatório
+Colaborador - A tarefa será atribuida ao colaborador escolhido. 
+
+Equipe – A tarefa será apresentada a todos da equipe e somente um colaborador poderá ser o responsavel 
+
+Membro da equipe - A tarefa será distribuída para os membros da equipe, escolhida pelo sistema através da roteirização. ";"Nome do Colaborador ou da Equipe
+
+
+Se a tarefa for para o colaborador colocar o cargo  (igual do sistema) separado por traço na frente do seu nome. 
+Ex: João - Gestor";"Data da tarefa
+(DD/MM/AAAA)
+Ex: 31/12/2018";"Hora início da tarefa
+(HH:MM)
+Ex: 13:00";"Hora fim da tarefa
+(HH:MM)
+Ex: 14:00
+";"Tipo de tarefa
+
+
+Somente os Tipos que já foram criados na Plataforma.";"Questionário
+
+
+Caso o campo fique vazio, o sistema irá usar o Questionário Padrão do tipo de tarefa informado.";"Prioridade
+(Alta, Média ou Baixa)
+Obrigatório
+Se todas as tarefas estiverem com a mesma Prioridade, o sistema irá distribuir por Endereço.";"Descrição da tarefa
+Obrigatório
+";"Tipo de check in
+(Automático ou Manual)
+
+Se o campo ficar vazio, o sistema irá usar o check in configurado para o usuário.";"Palavras chave
+Separadas por vírgula
+
+Ex.: Palavra 1, Palavra 2, Palavra 3";"Usar pesquisa de satisfacão
+(Sim ou Não)
+
+Se o campo ficar vazio, o sistema irá usar a mesma configuração do Tipo de Tarefa ";"Email do destinatário da pesquisa
+
+
+Se o campo ficar vazio, o sistema irá usar o e-mail configurado para o cliente. ";"Nome do cliente
+Obrigatório para clientes cadastrados
+
+Informe o nome do cliente cadastrado no sistema.
+Obs: Caso você deseje criar uma tarefa para um endereço sem precisar cadastrá-lo no sistema, preencha o campo Endereço ou Latitude e Longitude ao lado.
+";"Endereço do cliente
+Obrigatório para clientes não cadastrados
+
+Obs: Caso o endereço seja informado não será cadastrado um novo cliente no sistema.
+A tarefa será aberta para o local, não ficando vinculada a nenhum cliente.
+";"Latitude do cliente
+Ex: -16,6871539224095
+
+Obs: Caso a Latitude e Longitute sejam informadas não será cadastrado um novo cliente no sistema.
+A tarefa será aberta para o local, não ficando vinculada a nenhum cliente.";"Longitude do cliente
+Ex: -49,2998795304907";"Equipamentos
+Informar o identificador
+
+Caso seja mais de um equipamento separa-los por "";""";"Repetir Tarefa?
+(sim, não)";"Data término da repetição
+(DD/MM/AAAA)
+
+";"Tipo da repetição
+(Todos os dias, semanal, mensal, anual)";"Repetir a cada
+(1 a 30) - dia, semana, mês ou ano";"Repetição semanal
+(dom, seg, ter, qua, qui, sex, sab)
+
+Caso o tipo de repetição seja semanal, é obrigatório escolher, no mínimo, uma dessas opções
+Ex: seg, ter, qua, qui";"Repetição mensal
+(dia do mês, dia da semana)
+
+Caso o tipo de repetição seja mensal, é obrigatório escolher uma dessas opções";"Roteirizar
+(Sim ou Não)
+Obrigatório";"Código Externo
+(Código de identificação personalizável para a tarefa)
+
+É um código editável que permite identificar uma ou várias tarefas, complementar ao código gerado automaticamente pelo sistema.";"Categoria financeira
+Ex: Categoria01
+
+Preencha o nome exato da categoria financeira cadastrada no módulo financeiro";"Enviar OS digital automaticamente por email
+(Sim ou Não)
+
+Se o campo ficar vazio, o sistema irá usar a mesma configuração do Tipo de Tarefa ";"Email da OS digital
+
+Se o campo ficar vazio, o sistema irá usar o e-mail configurado para o cliente.
+"
+Colaborador;Wilson - auxiliar;01/04/2026;;;;;Média;Manutenção Preventiva Mensal;;Zona 6 - SJC Oeste;;;Esplanada Resort;R. Laurent Martins, 479  - Jardim Esplanada II - São José dos Campos;;;;;;;;;;Não;;;;

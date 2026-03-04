@@ -1,50 +1,25 @@
-# CONTEXTO DO PROJETO: Painel de Despacho Logístico (Escopo Zero)
+# CONTEXTO DO PROJETO: Gerador de Importação Auvo (Escopo Focado)
 
 ## 🎯 Objetivo do Projeto
-Criar uma aplicação interna para roteirização e gestão da agenda de técnicos de manutenção (preventiva e corretiva) de equipamentos fitness. A aplicação deve consolidar dados, permitir roteirização automática e manual (Kanban Drag-and-Drop) e gerar como saída um arquivo `.csv` estritamente formatado para importação em massa no sistema Auvo.
+Criar uma aplicação interna focada na organização dinâmica de uma lista de clientes para a criação rápida de pautas de atendimento. O sistema tem como objetivo final gerar um arquivo de planilha estritamente formatado segundo o padrão do aplicativo Auvo, permitindo a importação em massa das tarefas e manutenções (preventivas e corretivas).
 
-## 🛠️ Stack Tecnológica (Monolito Modular / 3-Tier)
-* **Front-end:** React.js (inicializado via Vite), focado em Single Page Application (SPA).
-* **Back-end:** Python utilizando o framework FastAPI.
-* **Persistência de Dados:** Arquivo local `mestre.json` (com estrutura pronta para migração futura para NoSQL/SQLite).
+## 🛠️ Stack Tecnológica (A definir/confirmar)
+* **Front-end:** React.js (Vite) para a interface de organização dinâmica das tarefas.
+* **Back-end:** Python (FastAPI) para processamento da lista e geração do arquivo final.
+* **Persistência de Dados:** Arquivo local `mestre.json` (ou processamento direto em memória/arquivos temporários).
 
 ## ⚖️ Regras de Negócio Inegociáveis (Core Logic)
-1.  **Capacidade Diária:** A jornada de trabalho dos técnicos (Técnico A e Técnico B) é de Segunda a Sexta, das 08h às 17h, com 1 hora de almoço. O limite estrito de alocação é de **8 horas diárias úteis por técnico**.
-2.  **Bloqueios de Calendário:** O sistema nunca deve agendar atendimentos em sábados e domingos. Se o vencimento cair no fim de semana, realocar para o dia útil mais próximo. Feriados nacionais, estaduais (SP) e municipais de Jacareí-SP devem ser bloqueados da mesma forma.
-3.  **Lógica de Afinidade (Zonas):** Os endereços devem ser classificados em Macro-regiões (Ex: Zona 1 - SJC Oeste, Zona 3 - Jacareí). O motor de roteirização deve agrupar clientes da mesma zona no mesmo dia para um mesmo técnico, evitando grandes deslocamentos.
-4.  **Cálculo de Preventiva:** A Data Limite do Próximo Atendimento é sempre: `Data do Último Atendimento + Frequência contratual` (30 dias para mensal, 90 dias para trimestral, etc.).
+1. **Fidelidade ao Modelo Auvo:** A aplicação deve gerar um arquivo com as colunas exatamente idênticas ao modelo fornecido (`Tarefas_Modelo.xls - Tarefas.csv`), respeitando a nomenclatura e a ordem dos cabeçalhos.
+2. **Validação de Campos Obrigatórios:** O sistema não pode exportar a linha de uma tarefa sem que os seguintes campos exigidos pelo Auvo estejam preenchidos:
+   * "Tarefa para (Colaborador, Equipe ou Membro da equipe) Obrigatório"
+   * "Prioridade (Alta, Média ou Baixa) Obrigatório"
+   * "Descrição da tarefa Obrigatório"
+   * "Nome do cliente Obrigatório para clientes cadastrados" (ou, na sua ausência, o "Endereço do cliente Obrigatório para clientes não cadastrados").
+   * "Roteirizar (Sim ou Não) Obrigatório"
+3. **Cálculo de Preventiva (Opcional mantido):** Se aplicável, a Data do Próximo Atendimento continua sendo gerada com base na frequência do contrato.
+4. **Exportação Direta:** O resultado final deve ser um arquivo limpo, pronto para ser jogado na tela de importação do Auvo sem necessidade de edição manual posterior.
 
 ## 💻 Estrutura das Telas (Front-end)
-1.  **Tela de Gestão de Clientes (Tabela):** Listagem de todos os clientes pendentes do mês. Permite edição rápida (inline) do "Tempo Estimado (horas)" e correção manual da "Zona" antes de enviar para roteirização.
-2.  **Tela de Despacho (Kanban):** * Exibe a semana ou o mês montado pela roteirização automática.
-    * Permite Drag-and-Drop de cards de clientes entre dias e técnicos.
-    * Possui um somador dinâmico de horas no cabeçalho de cada dia/técnico que alerta (fica vermelho) se ultrapassar as 8 horas.
-    * Contém o botão final: "Exportar CSV Auvo".
-
-## 📄 Contrato de Dados Base (JSON Mestre)
-O Back-end deve processar e salvar as informações neste formato central:
-```json
-[
-  {
-    "id_tarefa": "SOL-1042",
-    "cliente": {
-      "nome": "CONDOMINIO SMART RESIDENCE",
-      "endereco_completo": "R. Itajai, 161 - SJC",
-      "zona_roteirizacao": "Zona 1"
-    },
-    "contrato": {
-      "origem": "Solução Fitness",
-      "frequencia_original": "Mensal",
-      "tempo_estimado_horas": 1.5
-    },
-    "datas": {
-      "ultimo_atendimento": "2026-02-02",
-      "proximo_vencimento": "2026-03-04"
-    },
-    "agendamento_atual": {
-      "status": "Pendente", 
-      "tecnico_alocado": null,
-      "data_alocada": null
-    }
-  }
-]
+1. **Tela de Gestão e Organização:** Listagem dinâmica dos clientes pendentes.
+2. **Configuração de Lote:** Opções para definir rapidamente quem será o colaborador responsável e a data/hora para um grupo de tarefas.
+3. **Exportação:** Botão dedicado para "Gerar Planilha Auvo", que executa a validação das regras e baixa o arquivo formatado.
