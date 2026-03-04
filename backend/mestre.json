@@ -3,13 +3,13 @@
         "id_tarefa": "LOC-001",
         "cliente": {
             "nome": "Esplanada Resort",
-            "endereco_completo": "R. Laurent Martins, 479  - Jardim Esplanada II",
-            "zona_roteirizacao": "Zona 1 - SJC"
+            "endereco_completo": "R. Laurent Martins, 479  - Jardim Esplanada II - São José dos Campos",
+            "zona_roteirizacao": "Zona 2 - SJC Centro"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-04",
@@ -26,13 +26,13 @@
         "id_tarefa": "LOC-002",
         "cliente": {
             "nome": "Santa Rita",
-            "endereco_completo": "Tv. Lineu de Moura, S/N - Urbanova",
+            "endereco_completo": "Tv. Lineu de Moura, S/N - Urbanova - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-09",
@@ -49,13 +49,13 @@
         "id_tarefa": "LOC-003",
         "cliente": {
             "nome": "Portal da Vila",
-            "endereco_completo": "R. Yukiko Ishida, 201 - Jardim Alvorada",
+            "endereco_completo": "R. Yukiko Ishida, 201 - Jardim Alvorada - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-26",
@@ -72,13 +72,13 @@
         "id_tarefa": "LOC-004",
         "cliente": {
             "nome": "Condominio Vale Verde",
-            "endereco_completo": "Rua João Artoni Testae, 3, Jardim Testae",
+            "endereco_completo": "Rua João Artoni Testae, 3 - Jardim Testae - Guarulhos",
             "zona_roteirizacao": "Grande SP"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-12",
@@ -95,13 +95,13 @@
         "id_tarefa": "LOC-005",
         "cliente": {
             "nome": "Condominio EDIFICIO DALLAS",
-            "endereco_completo": "R. Armando D'Oliveira Cobra, 35 - Parque Res. Aquarius",
+            "endereco_completo": "R. Armando D'Oliveira Cobra, 35 - Parque Res. Aquarius - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-28",
@@ -118,13 +118,13 @@
         "id_tarefa": "LOC-006",
         "cliente": {
             "nome": "Condominio Ponta Negra",
-            "endereco_completo": "Av. Cassiano Ricardo, 71 - Parque Res. Aquarius",
+            "endereco_completo": "Av. Cassiano Ricardo, 71 - Parque Res. Aquarius - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-05",
@@ -141,13 +141,13 @@
         "id_tarefa": "LOC-007",
         "cliente": {
             "nome": "Splendor Garden",
-            "endereco_completo": "R. Emílio Marelo, 100 - Jardim das Industrias",
+            "endereco_completo": "R. Emílio Marelo, 100 - Jardim das Industrias - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-26",
@@ -164,13 +164,13 @@
         "id_tarefa": "LOC-008",
         "cliente": {
             "nome": "Movere Studio Pilates",
-            "endereco_completo": "R. Shigemasa Ota, 645 - Res. Sol Nascente",
+            "endereco_completo": "R. Shigemasa Ota, 645 - Res. Sol Nascente - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-14",
@@ -187,13 +187,13 @@
         "id_tarefa": "LOC-009",
         "cliente": {
             "nome": "Vila Serena",
-            "endereco_completo": "Av. Rio Grande do Norte, 400 - Indaiá",
+            "endereco_completo": "Av. Rio Grande do Norte, 400 - Indaiá - Caraguatatuba",
             "zona_roteirizacao": "Litoral"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Trimestral",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2025-12-08",
@@ -210,13 +210,13 @@
         "id_tarefa": "LOC-010",
         "cliente": {
             "nome": "Azaleias",
-            "endereco_completo": "R. Álvaro Gonçalves Júnior, 330 - Parque Industrial",
+            "endereco_completo": "R. Álvaro Gonçalves Júnior, 330 - Parque Industrial - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-05",
@@ -233,13 +233,13 @@
         "id_tarefa": "LOC-011",
         "cliente": {
             "nome": "Sunville",
-            "endereco_completo": "Estr. dos Índios, 2645 - Bairro do Limoeiro",
+            "endereco_completo": "Estr. dos Índios, 2645 - Bairro do Limoeiro - Arujá",
             "zona_roteirizacao": "Grande SP"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-12",
@@ -256,13 +256,13 @@
         "id_tarefa": "LOC-012",
         "cliente": {
             "nome": "Jardim Coleginho",
-            "endereco_completo": "Rod. Nilo Máximo, 1 - Bairro da Colonia",
+            "endereco_completo": "Rod. Nilo Máximo, 1 - Bairro da Colonia - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-11",
@@ -279,13 +279,13 @@
         "id_tarefa": "LOC-013",
         "cliente": {
             "nome": "Citta Di Roma",
-            "endereco_completo": "R. Roma, 673 - Jardim Augusta",
+            "endereco_completo": "R. Roma, 673 - Jardim Augusta - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-09",
@@ -302,13 +302,13 @@
         "id_tarefa": "LOC-014",
         "cliente": {
             "nome": "Condominio Canada",
-            "endereco_completo": "R. Dona Tecla, 816",
+            "endereco_completo": "R. Dona Tecla, 816 - Jardim Flor da Montanha - Guarulhos",
             "zona_roteirizacao": "Grande SP"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-12",
@@ -325,13 +325,13 @@
         "id_tarefa": "LOC-015",
         "cliente": {
             "nome": "Condominio Casa Alta",
-            "endereco_completo": "Av. Sen. Joaquim Miguel Martins de Siqueira, 238",
+            "endereco_completo": "Av. Sen. Joaquim Miguel Martins de Siqueira, 238 - Jardim Pereira do Amparo - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2025-08-18",
@@ -348,13 +348,13 @@
         "id_tarefa": "LOC-016",
         "cliente": {
             "nome": "Condominio Boulevard Park Aquarius",
-            "endereco_completo": "Av. Tubarão, 181 - Parque Res. Aquarius",
+            "endereco_completo": "Av. Tubarão, 181 - Parque Res. Aquarius - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-20",
@@ -371,13 +371,13 @@
         "id_tarefa": "LOC-017",
         "cliente": {
             "nome": "Condominio Beira Rio",
-            "endereco_completo": "Alameda das Tipuanas, 33 - Jardim Beira Rio",
+            "endereco_completo": "Alameda das Tipuanas, 33 - Jardim Beira Rio - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2025-08-21",
@@ -394,13 +394,13 @@
         "id_tarefa": "LOC-018",
         "cliente": {
             "nome": "Condominio Angelus Residence",
-            "endereco_completo": "R. dos Piquiroes, 160 - Parque Res. Aquarius",
+            "endereco_completo": "R. dos Piquiroes, 160 - Parque Res. Aquarius - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-18",
@@ -417,13 +417,13 @@
         "id_tarefa": "LOC-019",
         "cliente": {
             "nome": "Condominio Palmares",
-            "endereco_completo": "R. Palmares, 6 - Parque Industrial",
+            "endereco_completo": "R. Palmares, 6 - Parque Industrial - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-05",
@@ -440,13 +440,13 @@
         "id_tarefa": "LOC-020",
         "cliente": {
             "nome": "Condominio Piaget",
-            "endereco_completo": "R. Benedito Pinoti, 950 - Urbanova",
+            "endereco_completo": "R. Benedito Pinoti, 950 - Urbanova - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-04",
@@ -463,13 +463,13 @@
         "id_tarefa": "LOC-021",
         "cliente": {
             "nome": "Condominio Nova Guarulhos",
-            "endereco_completo": "Av. Estilac Leal, 160 - Vila das Palmeiras",
+            "endereco_completo": "Av. Estilac Leal, 160 - Vila das Palmeiras - Guarulhos",
             "zona_roteirizacao": "Grande SP"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-12",
@@ -486,13 +486,13 @@
         "id_tarefa": "LOC-022",
         "cliente": {
             "nome": "Condominio Monte Negro",
-            "endereco_completo": "R. Palmares, 155 - Parque Industrial",
+            "endereco_completo": "R. Palmares, 155 - Parque Industrial - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-05",
@@ -509,13 +509,13 @@
         "id_tarefa": "LOC-023",
         "cliente": {
             "nome": "Condominio Villa Di Vita",
-            "endereco_completo": "Estr. Mun. Itapecirica, 2701 - Jardim Marlene Miranda",
-            "zona_roteirizacao": "Vale do Paraíba"
+            "endereco_completo": "Estr. Mun. Itapecirica, 2701 - Jardim Marlene Miranda - Taubaté",
+            "zona_roteirizacao": "Taubaté"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-04",
@@ -532,13 +532,13 @@
         "id_tarefa": "LOC-024",
         "cliente": {
             "nome": "IL Terrazzo",
-            "endereco_completo": "R. Benedito Alvarenga Carvalho, 90 - Parque Res. Aquarius",
+            "endereco_completo": "R. Benedito Alvarenga Carvalho, 90 - Parque Res. Aquarius - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-11",
@@ -555,13 +555,13 @@
         "id_tarefa": "LOC-025",
         "cliente": {
             "nome": "Chacara Serimbura",
-            "endereco_completo": "Avenida Jarbas Vaz de Lima,100",
+            "endereco_completo": "Avenida Jarbas Vaz de Lima, 100 - Jardim Serimbura - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-09",
@@ -578,13 +578,13 @@
         "id_tarefa": "LOC-026",
         "cliente": {
             "nome": "Residencial Casa da Mata",
-            "endereco_completo": "Rua Carime Buissa,205 - Vila Pilar",
+            "endereco_completo": "Rua Carime Buissa,205 - Vila Pilar - Arujá",
             "zona_roteirizacao": "Grande SP"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-12",
@@ -601,13 +601,13 @@
         "id_tarefa": "LOC-027",
         "cliente": {
             "nome": "Mansão de Verona",
-            "endereco_completo": "Alameda Subtenente-Aviador Francisco Hierro,360",
+            "endereco_completo": "Alameda Subtenente-Aviador Francisco Hierro, 360 - Parque Novo Mundo - Arujá",
             "zona_roteirizacao": "Grande SP"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-12",
@@ -624,13 +624,13 @@
         "id_tarefa": "LOC-028",
         "cliente": {
             "nome": "Home & Club Villa Branca",
-            "endereco_completo": "Av. das Letras, 1099",
+            "endereco_completo": "Av. das Letras, 1099 - vila Branca - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-11",
@@ -647,13 +647,13 @@
         "id_tarefa": "LOC-029",
         "cliente": {
             "nome": "Jardim America",
-            "endereco_completo": "Av: Gardalupe n11",
+            "endereco_completo": "Av: Gardalupe, 11 - Jardim America - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-10",
@@ -670,13 +670,13 @@
         "id_tarefa": "LOC-030",
         "cliente": {
             "nome": "FLORADAS ARBOVILLE",
-            "endereco_completo": "Estr. Mun. Abade Biagino Chieffi, 2655",
+            "endereco_completo": "Estr. Mun. Abade Biagino Chieffi, 2655 - Pagador de Andrade - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2025-09-16",
@@ -693,13 +693,13 @@
         "id_tarefa": "LOC-031",
         "cliente": {
             "nome": "Hotel HOME GREEN HOME",
-            "endereco_completo": "R ADOLFO TORRESIM, 800, ALTO CAPIVARI",
+            "endereco_completo": "R ADOLFO TORRESIM, 800 - ALTO CAPIVARI - Campos do Jordão",
             "zona_roteirizacao": "Vale do Paraíba"
         },
         "contrato": {
             "origem": "Casa do Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-16",
@@ -716,13 +716,13 @@
         "id_tarefa": "SOL-001",
         "cliente": {
             "nome": "ALVORADAS ARBOVILLE",
-            "endereco_completo": "Estr. Mun. Abade Biagino Chieffi, 2795 - Pagador de Andrade",
+            "endereco_completo": "Estr. Mun. Abade Biagino Chieffi, 2795 - Pagador de Andrade - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-15",
@@ -739,13 +739,13 @@
         "id_tarefa": "SOL-002",
         "cliente": {
             "nome": "COLINAS PARATEHY NORTE e SUL",
-            "endereco_completo": "São José dos Campos",
+            "endereco_completo": " Av. Durval Messias Queiroga - Urbanova - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Trimestral",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2025-12-08",
@@ -762,13 +762,13 @@
         "id_tarefa": "SOL-003",
         "cliente": {
             "nome": "ESPLANADA DO SOL",
-            "endereco_completo": "Av. Yêdo Martins, 5 - Conj. Res. Esplanada",
+            "endereco_completo": "Av. Yêdo Martins, 5 - Conj. Res. Esplanada - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-30",
@@ -785,13 +785,13 @@
         "id_tarefa": "SOL-004",
         "cliente": {
             "nome": "ASSOCIACAO MONACO SANTA IZABEL",
-            "endereco_completo": "R. Priscila Maria de Sousa Tau, 20",
+            "endereco_completo": "R. Priscila Maria de Sousa Tau, 20 - Urbanova - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-09",
@@ -808,13 +808,13 @@
         "id_tarefa": "SOL-005",
         "cliente": {
             "nome": "BLESSED",
-            "endereco_completo": "R. Jurema Viêira Medrado, 40 - Parque Res. Aquarius",
+            "endereco_completo": "R. Jurema Viêira Medrado, 40 - Parque Res. Aquarius - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-02",
@@ -831,13 +831,13 @@
         "id_tarefa": "SOL-006",
         "cliente": {
             "nome": "AQUARIUS RESORT",
-            "endereco_completo": "Rua Heitor Vieira Júnior Jardim Altos Esplanada",
+            "endereco_completo": "Rua Heitor Vieira Júnior, 191 - Jardim Altos Esplanada - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-06",
@@ -854,13 +854,13 @@
         "id_tarefa": "SOL-007",
         "cliente": {
             "nome": "CONDOMINIO CIDADE JARDIM RESIDENCE CLUB",
-            "endereco_completo": "Av. Pereira Campos, 141 - Jardim Didinha",
+            "endereco_completo": "Av. Pereira Campos, 141 - Jardim Didinha - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-09",
@@ -877,13 +877,13 @@
         "id_tarefa": "SOL-008",
         "cliente": {
             "nome": "CONDOMINIO DAS AMOREIRAS",
-            "endereco_completo": "R. Hondo, 351 - Jardim Oriente",
+            "endereco_completo": "R. Hondo, 351 - Jardim Oriente - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-27",
@@ -900,13 +900,13 @@
         "id_tarefa": "SOL-009",
         "cliente": {
             "nome": "STUDIO PILATES",
-            "endereco_completo": "R. Afonso César de Siqueira, 81 - Vila Jaci",
+            "endereco_completo": "R. Afonso César de Siqueira, 81 - Vila Jaci - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-19",
@@ -923,13 +923,13 @@
         "id_tarefa": "SOL-010",
         "cliente": {
             "nome": "VARANDAS DO INDAIA",
-            "endereco_completo": "Caraguatatuba",
+            "endereco_completo": "Av. Geraldo Nogueira da Silva, 869 - Indaiá - Caraguatatuba",
             "zona_roteirizacao": "Litoral"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Bimestral",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-15",
@@ -946,13 +946,13 @@
         "id_tarefa": "SOL-011",
         "cliente": {
             "nome": "VERANO",
-            "endereco_completo": "R. São Diego, 500 - Jardim California, Jacareí",
+            "endereco_completo": "R. São Diego, 500 - Jardim California - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-11",
@@ -969,13 +969,13 @@
         "id_tarefa": "SOL-012",
         "cliente": {
             "nome": "CONDOMINIO DREAM RESIDENCIAL",
-            "endereco_completo": "Jacareí",
+            "endereco_completo": "Rua Professora Olinda de Almeida Mercadante, 1585 - Parque Santo Antonio - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-27",
@@ -992,13 +992,13 @@
         "id_tarefa": "SOL-013",
         "cliente": {
             "nome": "LE PREMIER",
-            "endereco_completo": "R. Los Ângeles, 89 - Jardim Nicelia",
+            "endereco_completo": "R. Los Ângeles, 89 - Jardim Nicelia - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-09",
@@ -1021,7 +1021,7 @@
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Trimestral",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-08",
@@ -1038,13 +1038,13 @@
         "id_tarefa": "SOL-015",
         "cliente": {
             "nome": "CONDOMINIO EDIFICIO JATHAY",
-            "endereco_completo": "Rua Bárbara Knippelberg Loureiro, Vila Ema",
+            "endereco_completo": "Rua Bárbara Knippelberg Loureiro, 91 - Vila Ema - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-10",
@@ -1061,13 +1061,13 @@
         "id_tarefa": "SOL-016",
         "cliente": {
             "nome": "CONDOMINIO EDIFICIO MAJESTIC",
-            "endereco_completo": "R. Gilberto Moreira, 129 - Vila Formosa",
+            "endereco_completo": "R. Gilberto Moreira, 129 - Vila Formosa - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-09",
@@ -1084,13 +1084,13 @@
         "id_tarefa": "SOL-017",
         "cliente": {
             "nome": "CONDOMINIO EDIFICIO SOLAR DO BARAO",
-            "endereco_completo": "R. Cel. Luís Lima, 41 - Centro",
+            "endereco_completo": "R. Cel. Luís Lima, 41 - Centro - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-03",
@@ -1107,13 +1107,13 @@
         "id_tarefa": "SOL-018",
         "cliente": {
             "nome": "CONDOMINIO EDILICIO VIVENDAS APOLLO",
-            "endereco_completo": "R. Paulo Édson Blair, 65 - Jardim Apolo II",
+            "endereco_completo": "R. Paulo Édson Blair, 65 - Jardim Apolo II - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-18",
@@ -1130,13 +1130,13 @@
         "id_tarefa": "SOL-019",
         "cliente": {
             "nome": "CONDOMINIO GARDEN FAMILY CLUB",
-            "endereco_completo": "Av. Maria Augusta Fagundes Gomes, 636 - Res. Sao Paulo",
+            "endereco_completo": "Av. Maria Augusta Fagundes Gomes, 636 - Res. Sao Paulo - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-09",
@@ -1153,13 +1153,13 @@
         "id_tarefa": "SOL-020",
         "cliente": {
             "nome": "CONDOMINIO GEMINI ROYAL PARK",
-            "endereco_completo": "São José dos Campos",
+            "endereco_completo": "Rua Jesus Garcia, 111 - Jardim Aquarius - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Trimestral",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-22",
@@ -1176,13 +1176,13 @@
         "id_tarefa": "SOL-021",
         "cliente": {
             "nome": "CONDOMINIO RESIDENCIAL ALLURE",
-            "endereco_completo": "Taubaté",
+            "endereco_completo": "R. Reginaldo Antônio Sandi - Esplanada Independência - Taubaté",
             "zona_roteirizacao": "Vale do Paraíba"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-04",
@@ -1199,13 +1199,13 @@
         "id_tarefa": "SOL-022",
         "cliente": {
             "nome": "CONDOMINIO RESIDENCIAL ESTACAO DO MAR",
-            "endereco_completo": "Av. Guarda Mirim Juarez, 32 - Indaiá",
+            "endereco_completo": "Av. Guarda Mirim Juarez, 32 - Indaiá - Caraguatatuba",
             "zona_roteirizacao": "Litoral"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-15",
@@ -1222,13 +1222,13 @@
         "id_tarefa": "SOL-023",
         "cliente": {
             "nome": "CONDOMINIO RESIDENCIAL LORENA",
-            "endereco_completo": "R. Moisés Tristão dos Santos, 65 - Floradas de São José",
+            "endereco_completo": "R. Moisés Tristão dos Santos, 65 - Floradas de São José - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-20",
@@ -1245,13 +1245,13 @@
         "id_tarefa": "SOL-024",
         "cliente": {
             "nome": "CONDOMINIO RESIDENCIAL PALOMA",
-            "endereco_completo": "São José dos Campos",
+            "endereco_completo": "R. do Aruanã, 67 - Parque Res. Aquarius - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-07",
@@ -1268,13 +1268,13 @@
         "id_tarefa": "SOL-025",
         "cliente": {
             "nome": "EPIC VILA EMA",
-            "endereco_completo": "R JOSE FRANCISCO ALVES, 151, VILA EMA",
+            "endereco_completo": "R JOSE FRANCISCO ALVES, 151 - Vila Ema - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-28",
@@ -1291,13 +1291,13 @@
         "id_tarefa": "SOL-026",
         "cliente": {
             "nome": "CONDOMINIO RESIDENCIAL SPAZIO CAMPO DI SAVOYA",
-            "endereco_completo": "Rua Icatu, 390 Parque Industrial",
+            "endereco_completo": "Rua Icatu, 390 - Parque Industrial - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-19",
@@ -1314,13 +1314,13 @@
         "id_tarefa": "SOL-027",
         "cliente": {
             "nome": "CONDOMINIO RESIDENCIAL VISTA BELA",
-            "endereco_completo": "R. Pedro Gonçalves, 250 - Jardim Paraiso",
+            "endereco_completo": "R. Pedro Gonçalves, 250 - Jardim Paraiso - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-03",
@@ -1337,13 +1337,13 @@
         "id_tarefa": "SOL-028",
         "cliente": {
             "nome": "CONDOMINIO SMART RESIDENCE",
-            "endereco_completo": "R. Itajai, 161 - Altos do Esplanada",
+            "endereco_completo": "R. Itajai, 161 - Altos do Esplanada - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-02",
@@ -1360,13 +1360,13 @@
         "id_tarefa": "SOL-029",
         "cliente": {
             "nome": "TANGARA",
-            "endereco_completo": "Av. Livio Veneziani, 319 - Chácaras São José",
+            "endereco_completo": "Av. Livio Veneziani, 319 - Chácaras São José - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-27",
@@ -1383,13 +1383,13 @@
         "id_tarefa": "SOL-030",
         "cliente": {
             "nome": "CONDOMNIO EDIFICIO VIVENDAS SAO JOAO",
-            "endereco_completo": "Av. São João, 349 - 163 - Jardim Esplanada",
+            "endereco_completo": "Av. São João, 349 - Jardim Esplanada - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-23",
@@ -1406,13 +1406,13 @@
         "id_tarefa": "SOL-031",
         "cliente": {
             "nome": "DAI TORII",
-            "endereco_completo": "Rua Tottoni, 576 Jardim Rosário",
+            "endereco_completo": "Rua Tottoni, 576 - Jardim Rosário - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-19",
@@ -1429,13 +1429,13 @@
         "id_tarefa": "SOL-032",
         "cliente": {
             "nome": "EDIFICIO HOLLYWOOD AQUARIUS RESIDENCE CLUB",
-            "endereco_completo": "Rua Jesus Garcia, 151 Jardim Cassiano Ricardo",
+            "endereco_completo": "Rua Jesus Garcia, 151 - Jardim Cassiano Ricardo - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-02",
@@ -1452,13 +1452,13 @@
         "id_tarefa": "SOL-033",
         "cliente": {
             "nome": "EDIFICIO IBIZA",
-            "endereco_completo": "Av. Salmão, 150 - Parque Res. Aquarius",
+            "endereco_completo": "Av. Salmão, 150 - Parque Res. Aquarius - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Trimestral",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-03",
@@ -1475,13 +1475,13 @@
         "id_tarefa": "SOL-034",
         "cliente": {
             "nome": "EDIFICIO PALAZZO IMPERIALE",
-            "endereco_completo": "R. Dr. Vicente de Finis Neto, 65 - Altos do Esplanada",
+            "endereco_completo": "R. Dr. Vicente de Finis Neto, 65 - Altos do Esplanada - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-22",
@@ -1498,13 +1498,13 @@
         "id_tarefa": "SOL-035",
         "cliente": {
             "nome": "EDIFICIO PEROLA DE VILLA BRANCA",
-            "endereco_completo": "Av. das Letras, 192 - Vila Branca",
+            "endereco_completo": "Av. das Letras, 192 - Vila Branca - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-14",
@@ -1521,13 +1521,13 @@
         "id_tarefa": "SOL-036",
         "cliente": {
             "nome": "GREEN LIFE VILLA BRANCA",
-            "endereco_completo": "Av. das Notas, 440 - Vila Branca",
+            "endereco_completo": "Av. das Notas, 440 - Vila Branca - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-13",
@@ -1544,13 +1544,13 @@
         "id_tarefa": "SOL-037",
         "cliente": {
             "nome": "EDIFICIO SOLAR AQUARIUS",
-            "endereco_completo": "São José dos Campos",
+            "endereco_completo": "R. do Aruanã, 116 - Parque Res. Aquarius - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-07",
@@ -1567,13 +1567,13 @@
         "id_tarefa": "SOL-038",
         "cliente": {
             "nome": "EDIFICIO VILLA BELLA",
-            "endereco_completo": "Av. das Letras, 282 - Lot. Villa Branca",
+            "endereco_completo": "Av. das Letras, 282 - Lot. Villa Branca - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-14",
@@ -1590,13 +1590,13 @@
         "id_tarefa": "SOL-039",
         "cliente": {
             "nome": "ENJOY AQUARIUS",
-            "endereco_completo": "Rua Jesus Garcia, 51 - Jardim Alvorada",
+            "endereco_completo": "Rua Jesus Garcia, 51 - Jardim Alvorada - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-02",
@@ -1613,13 +1613,13 @@
         "id_tarefa": "SOL-040",
         "cliente": {
             "nome": "EQUILIBRE-SE CENTRO DE TREINAMENTO PERSONALIZADO LTDA",
-            "endereco_completo": "Rua Professor Everardo Miranda Passos, 87 - Vila Betania",
+            "endereco_completo": "Rua Professor Everardo Miranda Passos, 87 - Vila Betania - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-27",
@@ -1636,13 +1636,13 @@
         "id_tarefa": "SOL-041",
         "cliente": {
             "nome": "FISIOVIDA - IMPULSO FISIOTERAPIA DE ALTA PERFORMANCE",
-            "endereco_completo": "R. dos Periquitos, 980 - Vila Tatetuba",
+            "endereco_completo": "R. dos Periquitos, 980 - Vila Tatetuba - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-27",
@@ -1659,13 +1659,13 @@
         "id_tarefa": "SOL-042",
         "cliente": {
             "nome": "FLORA JACAREI",
-            "endereco_completo": "Av. G. C Josué Sant'ana, 598 - Itamarati",
+            "endereco_completo": "Av. G. C Josué Sant'ana, 598 - Itamarati - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-05",
@@ -1682,13 +1682,13 @@
         "id_tarefa": "SOL-043",
         "cliente": {
             "nome": "GRAND VIEW",
-            "endereco_completo": "Av. Salmão, 500 - Parque Res. Aquarius",
+            "endereco_completo": "Av. Salmão, 500 - Parque Res. Aquarius - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-20",
@@ -1705,13 +1705,13 @@
         "id_tarefa": "SOL-044",
         "cliente": {
             "nome": "IMPULSO LORENA FISIOTERAPIA LTDA",
-            "endereco_completo": "Lorena",
-            "zona_roteirizacao": "Vale do Paraíba"
+            "endereco_completo": "R. Comendador Custódio Viêira, 192 - Centro - Lorena",
+            "zona_roteirizacao": "Lorena"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-27",
@@ -1728,13 +1728,13 @@
         "id_tarefa": "SOL-045",
         "cliente": {
             "nome": "IT JARDIM",
-            "endereco_completo": "R ITORORO, 590, VILA CARDOSO",
+            "endereco_completo": "R. ITORORO, 590 - VILA CARDOSO - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-20",
@@ -1751,13 +1751,13 @@
         "id_tarefa": "SOL-046",
         "cliente": {
             "nome": "LA VIE CLUB RESIDENCE",
-            "endereco_completo": "R. Vinte e Um de Abril, 777 - Monte Castelo",
+            "endereco_completo": "R. Vinte e Um de Abril, 777 - Monte Castelo - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-27",
@@ -1774,13 +1774,13 @@
         "id_tarefa": "SOL-047",
         "cliente": {
             "nome": "LIBERTA RESIDENCIAL",
-            "endereco_completo": "Av. Vinte e Três de Maio, 513 - Vila Maria",
+            "endereco_completo": "Av. Vinte e Três de Maio, 513 - Vila Maria - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-10",
@@ -1797,13 +1797,13 @@
         "id_tarefa": "SOL-048",
         "cliente": {
             "nome": "MARANATA PARQUE INDUSTRIAL",
-            "endereco_completo": "São José dos Campos",
+            "endereco_completo": "R. Icatu, 170 - Parque Industrial - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-10",
@@ -1820,13 +1820,13 @@
         "id_tarefa": "SOL-049",
         "cliente": {
             "nome": "MARANATA VILA INDUSTRIAL",
-            "endereco_completo": "São José dos Campos",
+            "endereco_completo": "R. Icatu, 170 - Parque Industrial - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-18",
@@ -1843,13 +1843,13 @@
         "id_tarefa": "SOL-050",
         "cliente": {
             "nome": "PARQUE JAGUARIPE",
-            "endereco_completo": "Jacareí",
+            "endereco_completo": "Jardim Yolanda - jardim Novo Amanhecer - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-03",
@@ -1866,13 +1866,13 @@
         "id_tarefa": "SOL-051",
         "cliente": {
             "nome": "PREMIUM BELA VISTA",
-            "endereco_completo": "Av. Dr. Mario Galvão, 252 - Jardim Bela Vista",
+            "endereco_completo": "Av. Dr. Mario Galvão, 252 - Jardim Bela Vista - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-10",
@@ -1889,13 +1889,13 @@
         "id_tarefa": "SOL-052",
         "cliente": {
             "nome": "RESIDENCIAL ATHMOSPHERE VILA EMA",
-            "endereco_completo": "São José dos Campos",
+            "endereco_completo": "Av. Heitor Villa Lobos, 600 - Jardim Sao Dimas - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-05",
@@ -1912,13 +1912,13 @@
         "id_tarefa": "SOL-053",
         "cliente": {
             "nome": "RESIDENCIAL BELO HORIZONTE",
-            "endereco_completo": "São José dos Campos",
+            "endereco_completo": "R. José Ivair de Souza, 51 - Jardim Estoril - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-06",
@@ -1935,13 +1935,13 @@
         "id_tarefa": "SOL-054",
         "cliente": {
             "nome": "RESIDENCIAL BRISAS DO ESTORIL",
-            "endereco_completo": "São José dos Campos",
+            "endereco_completo": "R. José Ivair de Souza, 71 - Jardim Estoril - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-06",
@@ -1958,13 +1958,13 @@
         "id_tarefa": "SOL-055",
         "cliente": {
             "nome": "RESIDENCIAL DES ARTS",
-            "endereco_completo": "Taubaté",
-            "zona_roteirizacao": "Vale do Paraíba"
+            "endereco_completo": "R. Hélio Amadei, 117-1 - Lavadouro de Areia - Taubaté",
+            "zona_roteirizacao": "Taubaté"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-04",
@@ -1981,13 +1981,13 @@
         "id_tarefa": "SOL-056",
         "cliente": {
             "nome": "RESIDENCIAL JARDIM CRYSTAL PARK",
-            "endereco_completo": "Jacareí",
+            "endereco_completo": "Av. do Cristal, 355 - Parque California - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-06",
@@ -2004,13 +2004,13 @@
         "id_tarefa": "SOL-057",
         "cliente": {
             "nome": "RESIDENCIAL MONTE ESTORIL",
-            "endereco_completo": "São José dos Campos",
+            "endereco_completo": "R. José Ivair de Souza, 91 - Jardim Estoril - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-06",
@@ -2027,13 +2027,13 @@
         "id_tarefa": "SOL-058",
         "cliente": {
             "nome": "RESIDENCIAL PORTO REGIO",
-            "endereco_completo": "São José dos Campos",
+            "endereco_completo": "R. João Teixeira Neto, 72 - Parque Res. Aquarius - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-12",
@@ -2050,13 +2050,13 @@
         "id_tarefa": "SOL-059",
         "cliente": {
             "nome": "RESIDENCIAL SERRA DO JAMBEIRO",
-            "endereco_completo": "São José dos Campos",
+            "endereco_completo": "R. José Cobra, 401 - Conj. Res. Trinta e Um de Marco - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-05",
@@ -2073,13 +2073,13 @@
         "id_tarefa": "SOL-060",
         "cliente": {
             "nome": "ROYAL PALACE",
-            "endereco_completo": "São José dos Campos",
+            "endereco_completo": "Av. Tubarão, 220 - Parque Res. Aquarius - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-20",
@@ -2096,13 +2096,13 @@
         "id_tarefa": "SOL-061",
         "cliente": {
             "nome": "SKY HOUSE CLUB RESIDENCE",
-            "endereco_completo": "São José dos Campos",
+            "endereco_completo": "Rua Professor Duílio Panziera, 101 - Altos do Esplanada - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Bimestral",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-01-09",
@@ -2119,13 +2119,13 @@
         "id_tarefa": "SOL-062",
         "cliente": {
             "nome": "SPAZIO CAMPO DAS VIOLETAS",
-            "endereco_completo": "R. Iraci Gonçalves Ferreira, 50 - San Marino",
+            "endereco_completo": "R. Iraci Gonçalves Ferreira, 50 - San Marino - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-10",
@@ -2142,13 +2142,13 @@
         "id_tarefa": "SOL-063",
         "cliente": {
             "nome": "SEST TAUBATE/SP",
-            "endereco_completo": "Av. Isauro Moreira, 125 - Itaim",
-            "zona_roteirizacao": "Vale do Paraíba"
+            "endereco_completo": "Av. Isauro Moreira, 125 - Itaim - Taubaté",
+            "zona_roteirizacao": "Zona 2 - Taubaté"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-04",
@@ -2165,13 +2165,13 @@
         "id_tarefa": "SOL-064",
         "cliente": {
             "nome": "TERRAS DO VALE",
-            "endereco_completo": "Avenida das Palmeiras, 100 - Jardim Terras do Vale",
+            "endereco_completo": "Avenida das Palmeiras, 100 - Jardim Terras do Vale - Caçapava",
             "zona_roteirizacao": "Vale do Paraíba"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-04",
@@ -2188,13 +2188,13 @@
         "id_tarefa": "SOL-065",
         "cliente": {
             "nome": "Piazza San Martino",
-            "endereco_completo": "R. José Bonifácio de Oliveira, 205 - Jardim Del Rey",
+            "endereco_completo": "R. José Bonifácio de Oliveira, 205 - Jardim Del Rey - São José dos Campos",
             "zona_roteirizacao": "Zona 1 - SJC"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-03",
@@ -2211,13 +2211,13 @@
         "id_tarefa": "SOL-066",
         "cliente": {
             "nome": "JERIBA",
-            "endereco_completo": "Estr. do Limoeiro, 595 - Jardim California",
+            "endereco_completo": "Estr. do Limoeiro, 595 - Jardim California - Jacareí",
             "zona_roteirizacao": "Zona 3 - Jacareí"
         },
         "contrato": {
             "origem": "Solução Fitness",
             "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1.5
+            "tempo_estimado_horas": 1
         },
         "datas": {
             "ultimo_atendimento": "2026-02-03",

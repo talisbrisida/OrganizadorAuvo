@@ -32,64 +32,75 @@ const Clientes = () => {
     };
 
     return (
-        <div className="p-6">
+        <div className="p-8 max-w-[1600px] mx-auto">
+            <header className="mb-8">
+                <h1 className="text-3xl font-bold text-[#4d1c0c] tracking-tight">Gestão de Clientes</h1>
+                <p className="text-stone-500">Gerencie a roteirização e alocação de técnicos.</p>
+            </header>
+
             {/* Barra de Filtros Inteligentes */}
-            <div className="bg-white p-4 rounded-xl shadow-sm border mb-6 grid grid-cols-1 md:grid-cols-4 gap-4 items-end">
-                <div className="flex flex-col">
-                    <label className="text-[10px] font-bold text-gray-400 uppercase">Nome / Condomínio</label>
-                    <input className="p-2 border rounded text-sm" value={filtros.busca} onChange={e => setFiltros({ ...filtros, busca: e.target.value })} placeholder="Buscar..." />
+            <div className="bg-white p-6 rounded-2xl shadow-lg shadow-stone-200/50 border border-stone-100 mb-8 grid grid-cols-1 md:grid-cols-12 gap-6 items-end">
+                <div className="flex flex-col md:col-span-4">
+                    <label className="text-xs font-bold text-[#4d1c0c]/70 uppercase mb-1 ml-1">Nome / Condomínio</label>
+                    <input className="p-3 border border-stone-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#4d1c0c]/20 focus:border-[#4d1c0c] transition-all" value={filtros.busca} onChange={e => setFiltros({ ...filtros, busca: e.target.value })} placeholder="Buscar cliente..." />
                 </div>
-                <div className="flex flex-col">
-                    <label className="text-[10px] font-bold text-gray-400 uppercase">Bairro</label>
-                    <input className="p-2 border rounded text-sm" value={filtros.bairro} onChange={e => setFiltros({ ...filtros, bairro: e.target.value })} placeholder="Ex: Esplanada" />
+                <div className="flex flex-col md:col-span-3">
+                    <label className="text-xs font-bold text-[#4d1c0c]/70 uppercase mb-1 ml-1">Bairro</label>
+                    <input className="p-3 border border-stone-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#4d1c0c]/20 focus:border-[#4d1c0c] transition-all" value={filtros.bairro} onChange={e => setFiltros({ ...filtros, bairro: e.target.value })} placeholder="Ex: Esplanada" />
                 </div>
-                <div className="flex flex-col">
-                    <label className="text-[10px] font-bold text-gray-400 uppercase">Cidade</label>
-                    <input className="p-2 border rounded text-sm" value={filtros.cidade} onChange={e => setFiltros({ ...filtros, cidade: e.target.value })} placeholder="Ex: Jacareí" />
+                <div className="flex flex-col md:col-span-3">
+                    <label className="text-xs font-bold text-[#4d1c0c]/70 uppercase mb-1 ml-1">Cidade</label>
+                    <input className="p-3 border border-stone-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#4d1c0c]/20 focus:border-[#4d1c0c] transition-all" value={filtros.cidade} onChange={e => setFiltros({ ...filtros, cidade: e.target.value })} placeholder="Ex: Jacareí" />
                 </div>
-                <a href="http://127.0.0.1:8000/exportar-auvo" className="bg-blue-600 text-white text-center py-2 rounded-lg font-bold shadow-md">GERAR CSV</a>
+                <div className="md:col-span-2">
+                    <a href="http://127.0.0.1:8000/exportar-auvo" className="block w-full bg-[#4d1c0c] hover:bg-[#3a1509] text-white text-center py-3 rounded-xl font-bold shadow-lg shadow-[#4d1c0c]/20 transition-all transform hover:-translate-y-0.5 text-sm">
+                        ⬇ EXPORTAR CSV
+                    </a>
+                </div>
             </div>
 
-            <div className="bg-white rounded-xl shadow-sm border overflow-hidden">
+            <div className="bg-white rounded-2xl shadow-xl shadow-stone-200/50 border border-stone-100 overflow-hidden">
                 <table className="w-full text-left text-xs">
-                    <thead className="bg-gray-50 border-b">
-                        <tr className="text-gray-400 uppercase text-[10px] tracking-widest">
-                            <th className="p-4">Cliente / Endereço</th>
-                            <th className="p-4 w-40">Zona</th>
-                            <th className="p-4 w-52">Técnico</th>
-                            <th className="p-4 w-32">Data</th>
+                    <thead className="bg-[#4d1c0c] text-white">
+                        <tr className="uppercase text-[10px] tracking-widest font-semibold">
+                            <th className="p-5">Cliente / Endereço</th>
+                            <th className="p-5 w-80">Zona de Roteirização</th>
+                            <th className="p-5 w-60">Técnico Responsável</th>
+                            <th className="p-5 w-40">Data Agendada</th>
                         </tr>
                     </thead>
-                    <tbody className="divide-y">
+                    <tbody className="divide-y divide-stone-100">
                         {tarefasFiltradas.map(t => (
-                            <tr key={t.id_tarefa} className="hover:bg-blue-50/50 transition">
-                                <td className="p-4">
-                                    <div className="font-bold text-gray-800 text-sm">{t.cliente.nome}</div>
-                                    <div className="text-blue-600 font-bold mb-1 uppercase text-[10px]">{t.cliente.bairro} — {t.cliente.cidade}</div>
-                                    <div className="text-[10px] text-gray-400 italic">{t.cliente.endereco_completo}</div>
+                            <tr key={t.id_tarefa} className="hover:bg-orange-50/30 transition-colors duration-150 group">
+                                <td className="p-5">
+                                    <div className="font-bold text-[#4d1c0c] text-sm mb-1">{t.cliente.nome}</div>
+                                    <div className="inline-block bg-stone-100 text-stone-600 px-2 py-0.5 rounded text-[10px] font-bold uppercase mb-1 border border-stone-200">
+                                        {t.cliente.bairro} — {t.cliente.cidade}
+                                    </div>
+                                    <div className="text-[11px] text-stone-400 truncate max-w-md">{t.cliente.endereco_completo}</div>
                                 </td>
-                                <td className="p-4">
+                                <td className="p-5">
                                     <select
-                                        className="w-full p-2 border rounded bg-white shadow-sm"
+                                        className="w-full p-2.5 border border-stone-200 rounded-lg bg-stone-50 text-stone-700 text-xs focus:ring-2 focus:ring-[#4d1c0c]/20 focus:border-[#4d1c0c] outline-none cursor-pointer hover:bg-white transition-colors"
                                         value={t.cliente.zona_roteirizacao}
                                         onChange={e => atualizar(t.id_tarefa, 'zona', e.target.value)}
                                     >
-                                        <option value="">Zona...</option>
+                                        <option value="">Escolha uma Area</option>
                                         {zonas.map(z => <option key={z} value={z}>{z}</option>)}
                                     </select>
                                 </td>
-                                <td className="p-4">
+                                <td className="p-5">
                                     <select
-                                        className="w-full p-2 border rounded bg-white"
+                                        className="w-full p-2.5 border border-stone-200 rounded-lg bg-stone-50 text-stone-700 text-xs focus:ring-2 focus:ring-[#4d1c0c]/20 focus:border-[#4d1c0c] outline-none cursor-pointer hover:bg-white transition-colors"
                                         value={t.agendamento_atual.tecnico_alocado || ""}
                                         onChange={e => atualizar(t.id_tarefa, 'tecnico', e.target.value)}
                                     >
-                                        <option value="">Selecionar...</option>
+                                        <option value="">Escolha um Técnico</option>
                                         {tecnicos.map(tec => <option key={tec.id} value={tec.nome_auvo}>{tec.nome_auvo}</option>)}
                                     </select>
                                 </td>
-                                <td className="p-4">
-                                    <input type="date" className="w-full p-2 border rounded" value={t.agendamento_atual.data_alocada || ""} onChange={e => atualizar(t.id_tarefa, 'data', e.target.value)} />
+                                <td className="p-5">
+                                    <input type="date" className="w-full p-2.5 border border-stone-200 rounded-lg bg-stone-50 text-stone-700 text-xs focus:ring-2 focus:ring-[#4d1c0c]/20 focus:border-[#4d1c0c] outline-none cursor-pointer hover:bg-white transition-colors" value={t.agendamento_atual.data_alocada || ""} onChange={e => atualizar(t.id_tarefa, 'data', e.target.value)} />
                                 </td>
                             </tr>
                         ))}

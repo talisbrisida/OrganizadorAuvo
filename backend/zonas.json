@@ -1,12 +1,15 @@
 [
-    "Zona 1 - SJC Centro",
-    "Zona 2 - SJC Sul",
-    "Zona 3 - Jacareí",
+    "Zona 1 - Jacareí",
+    "Zona 2 - SJC Centro",
+    "Zona 3 - SJC Sul",  
     "Zona 4 - SJC Leste",
     "Zona 5 - SJC Norte",
     "Zona 6 - SJC Oeste",
     "Grande SP - Capital",
     "Grande SP - ABC",
     "Litoral Norte",
-    "Vale do Paraíba - Taubaté"
+    "Vale do Paraíba - Taubaté",
+    "Vale do Paraíba - Caçapava",
+    "Vale do Paraíba - Lorena",
+    "Vale do Paraíba - Campos do Jordão"
 ]

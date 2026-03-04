@@ -5,10 +5,6 @@
         "cargo": "Auxiliar",
         "nome_auvo": "Wilson - auxiliar",
         "endereco_base": "Rua Exemplo, 123, São José dos Campos",
-        "zonas_atendimento": [
-            "Zona 1 - SJC",
-            "Zona 3 - Jacareí"
-        ],
         "capacidade_diaria_horas": 8.0,
         "ativo": true
     },
@@ -18,11 +14,6 @@
         "cargo": "Técnico",
         "nome_auvo": "Jefferson - Técnico",
         "endereco_base": "Rua Santa Cruz, 113, Jacareí - SP, 12305-600, Brasil",
-        "zonas_atendimento": [
-            "Zona 1 - SJC",
-            "Zona 3 - Jacareí",
-            "Grande SP"
-        ],
         "capacidade_diaria_horas": 8.0,
         "ativo": true
     }

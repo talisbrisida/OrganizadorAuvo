@@ -72,10 +72,27 @@ def atualizar_tecnico(id: int, dados: dict):
 # --- GESTÃO DE CLIENTES (FILTROS POR BAIRRO E CIDADE) ---
 
 def extrair_bairro_cidade(endereco):
-    """Extrai bairro e cidade de forma mais robusta."""
-    partes = [p.strip() for p in endereco.split('-')]
-    bairro = partes[-1] if len(partes) > 1 else "Centro"
-    cidade = "Jacareí" if "Jacareí" in endereco else "São José dos Campos"
+    """Extrai bairro e cidade de forma mais robusta, com base no padrão '... - Bairro - Cidade'."""
+    # Divide o endereço pelo hífen e remove partes vazias ou com apenas espaços
+    partes = [p.strip() for p in endereco.split('-') if p.strip()]
+
+    bairro = "Centro"  # Valor padrão
+    cidade = "Desconhecido"  # Valor padrão
+
+    if len(partes) >= 2:
+        # Assume que o formato é '... - Bairro - Cidade'.
+        # A última parte é a cidade e a penúltima é o bairro.
+        cidade = partes[-1]
+        bairro = partes[-2]
+    elif len(partes) == 1:
+        # Se houver apenas uma parte, é provável que seja a cidade (ex: "São José dos Campos").
+        cidade = partes[0]
+        # O bairro fica como 'Centro' por padrão.
+    else:
+        # Caso o endereço esteja vazio, retorna valores padrão de falha.
+        bairro = "Não identificado"
+        cidade = "Não identificada"
+
     return bairro, cidade
 
 @app.get("/clientes")
