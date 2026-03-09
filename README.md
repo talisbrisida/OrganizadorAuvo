@@ -1,35 +1,97 @@
-# Contexto do Projeto: Sistema Solução Fitness (Integração Auvo)
+# 🏋️‍♂️ Sistema Solução Fitness - Integração Auvo
 
-## 1. Objetivo Principal
-Criar uma plataforma interna para a Solução Fitness que automatiza e centraliza duas operações cruciais relacionadas com o sistema Auvo:
-1. **Gestão e Roteirização de Preventivas:** Organizar a agenda de manutenções mensais em massa e exportar a lista no formato exato exigido pelo importador do Auvo.
-2. **Extrator de Tarefas (Filtro de Relatos):** Ler relatórios de tarefas exportados do Auvo, filtrar automaticamente os relatos dos técnicos à procura de necessidades de manutenção/orçamentos (usando palavras-chave) e exibir os resultados.
+Plataforma interna desenvolvida para a **Solução Fitness** com o objetivo de centralizar, automatizar e otimizar as operações relacionadas ao sistema Auvo. O projeto atua em duas frentes principais: Roteirização de Manutenções Preventivas e Extração Automática de Orçamentos/Problemas.
 
-## 2. Arquitetura do Sistema
-O projeto foi refatorado para uma arquitetura moderna, dividida em duas camadas (Microsserviços):
+---
 
-### Front-end (Interface do Utilizador)
-* **Tecnologias:** React.js (com Vite), Tailwind CSS.
-* **Estrutura:** Componentizada (`/src/components/`).
-* **Módulos Atuais:**
-  * `Clientes.jsx`: Interface principal de roteirização. Inclui a Tabela de Clientes, Barra de Filtros, Edição em Massa (Lote) e Modais de Configuração Auvo.
-  * `Extrator.jsx`: Interface para upload de relatórios Excel/CSV, definição de palavras-chave e visualização das estatísticas e tarefas filtradas.
-  * `Toast.jsx`: Sistema global de notificações não-bloqueantes.
+## 🚀 Funcionalidades
 
-### Back-end (Motor de Lógica)
-* **Tecnologias:** Python com FastAPI, Pandas, Uvicorn.
-* **Banco de Dados:** Ficheiro físico `mestre.json` (atua como base de dados NoSQL leve).
-* **Módulos Atuais (`main.py`):**
-  * **Rotas CRUD:** Leitura e atualização de clientes, zonas e técnicos.
-  * **Motor de Exportação:** Gera um ficheiro `.xlsx` (com o `openpyxl`) estritamente formatado com as 29 colunas padrão do Auvo.
-  * **Motor de Extração:** Recebe ficheiros multipart (`.csv`, `.xls`, `.xlsx`), processa os DataFrames via Pandas através de Regex (palavras-chave) e devolve as ocorrências em formato JSON para o Front-end.
+### 1. Gestão de Rotas (Preventivas)
+* **Lista Dinâmica de Clientes:** Leitura em tempo real através do banco de dados local (`mestre.json`).
+* **Edição em Massa (Lote):** Seleção múltipla para atribuição rápida de Técnicos, Zonas e Datas.
+* **Sistema Anti-Concorrência:** Envio de requisições de atualização em fila (loop) para evitar bloqueios do sistema operacional.
+* **Motor de Exportação Auvo:** Geração de ficheiro `.xlsx` rigorosamente formatado (29 colunas), enviando apenas o nome exato do cliente e forçando o Auvo a vincular os dados ao cadastro existente.
+* **Proteção de Zonas:** Modais de confirmação de segurança para evitar mudanças acidentais nas zonas de roteirização.
 
-## 3. Regras de Negócio Estabelecidas
-* **Importação Auvo (Clientes Avulsos):** O ficheiro exportado para o Auvo deve enviar apenas o `Nome` exato do cliente e deixar o `Endereço` vazio. Isto força o Auvo a vincular a tarefa ao cadastro existente, evitando a criação de "clientes avulsos".
-* **Proteção de Zonas:** A alteração de zonas roteirizadas requer confirmação explícita (Modal), pois afeta a logística de distribuição.
-* **Fila de Lote:** Atualizações em massa no Front-end são enviadas individualmente em fila (loop) para não causar erros de concorrência (Bloqueio 500) na gravação do `mestre.json`.
+### 2. Extrator de Tarefas (Filtro)
+* **Upload de Relatórios:** Suporte a ficheiros extraídos do Auvo nos formatos `.csv`, `.xls` e `.xlsx`.
+* **Filtro Inteligente:** Busca automatizada por palavras-chave (Regex) nos relatos dos técnicos (ex: *quebrado, solicitar peça, orçamento*).
+* **Estatísticas Rápidas:** Apresentação da taxa de ocorrência e volume de problemas encontrados num lote de tarefas.
+* **Acesso Direto:** Links clicáveis para abrir diretamente a "OS Digital" do Auvo no navegador.
 
-## 4. Próximos Passos (Backlog / Ideias Futuras)
-* [ ] **Cálculo de Preventivas:** Automatizar o preenchimento da data baseando-se na frequência de contrato do cliente.
-* [ ] **Filtros de Pendências Rápidas:** Botões na UI para isolar clientes sem técnico ou data atribuída.
-* [ ] **Exportação de PDF no Extrator:** Reimplementar a geração do relatório em PDF do extrator diretamente na nova interface React.
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+O sistema possui uma arquitetura moderna baseada em microsserviços:
+
+**Front-end:**
+* [React.js](https://reactjs.org/) (Framework UI)
+* [Vite](https://vitejs.dev/) (Build Tool)
+* [Tailwind CSS](https://tailwindcss.com/) (Estilização e Componentes Visuais)
+* [Axios](https://axios-http.com/) (Consumo de APIs)
+
+**Back-end:**
+* [Python 3.10+](https://www.python.org/)
+* [FastAPI](https://fastapi.tiangolo.com/) (API REST de alta performance)
+* [Pandas](https://pandas.pydata.org/) (Processamento de DataFrames e ficheiros Excel/CSV)
+* [OpenPyXL](https://openpyxl.readthedocs.io/) (Geração e manipulação de planilhas Excel)
+* [Uvicorn](https://www.uvicorn.org/) (Servidor ASGI)
+
+---
+
+## ⚙️ Como Instalar (Primeiro Uso)
+
+Certifique-se de que tem o **Node.js** e o **Python** instalados no seu computador.
+
+### 1. Instalar dependências do Back-end
+Abra um terminal na pasta `backend` e execute:
+```bash
+# Criar o ambiente virtual (opcional, mas recomendado)
+python -m venv venv
+
+# Ativar o ambiente virtual (Windows)
+venv\Scripts\activate
+
+# Instalar as bibliotecas necessárias
+pip install fastapi uvicorn pandas openpyxl python-multipart
+```
+
+### 2. Instalar dependências do Front-end
+Abra um terminal na pasta `frontend` e execute:
+```bash
+npm install
+```
+
+---
+
+## ⚡ Como Executar o Sistema
+
+Para facilitar o dia a dia, o projeto conta com um automatizador de inicialização para Windows.
+
+Basta ir até à pasta raiz do projeto (`/SolucaoFitness`) e dar um **duplo clique** no ficheiro:
+👉 **`iniciar_sistema.bat`**
+
+O script irá automaticamente:
+1. Abrir e iniciar o servidor Back-end (FastAPI) na porta 8000.
+2. Abrir e iniciar o servidor Front-end (Vite) na porta 5173.
+3. Abrir o seu navegador de internet padrão diretamente no sistema.
+
+---
+
+## 📂 Estrutura do Projeto (Resumo)
+
+````
+📦 SolucaoFitness
+ ┣ 📜 iniciar_sistema.bat      # Script de auto-inicialização (Windows)
+ ┣ 📜 CONTEXTO_PROJETO.md      # Regras de negócio e escopo detalhado
+ ┣ 📂 backend
+ ┃ ┣ 📜 main.py                # Rotas da API, CRUD e processamento de ficheiros
+ ┃ ┗ 📜 mestre.json            # Banco de dados de clientes e agendamentos
+ ┗ 📂 frontend
+   ┗ 📂 src
+     ┣ 📂 components           # Componentes modulares (Extrator, Clientes, Toast)
+     ┃ ┗ 📂 clientes           # Subcomponentes da Roteirização (Modais, Tabelas, Filtros)
+     ┣ 📂 hooks                # Regras de negócio do React (useClientes.js)
+     ┗ 📜 App.jsx              # Gestor de rotas/abas superior
+```
