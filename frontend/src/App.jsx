@@ -1,39 +1,50 @@
 import React, { useState } from 'react';
 import Clientes from './components/Clientes';
+import Extrator from './components/Extrator';
 import Tecnicos from './components/Tecnicos';
 
 function App() {
   const [abaAtiva, setAbaAtiva] = useState('clientes');
 
   return (
-    <div className="flex min-h-screen bg-stone-100 font-sans text-stone-800">
-      {/* Menu Lateral */}
-      <aside className="w-80  bg-[#4d1c0c] text-white flex flex-col shadow-2xl z-10">
-        <div className="p-8 text-2xl font-black border-b border-white/10 text-orange-50 tracking-tighter flex items-center gap-2">
-          <span className="text-3xl">🚀</span> Talis.Dev
-        </div>
-        <nav className="flex-1 mt-8 px-4 space-y-2">
-          <button
-            onClick={() => setAbaAtiva('clientes')}
-            className={`w-full text-left px-6 py-4 rounded-xl transition-all duration-300 flex items-center gap-3 ${abaAtiva === 'clientes' ? 'bg-white/10 font-bold text-white shadow-inner translate-x-1' : 'text-white/60 hover:bg-white/5 hover:text-white'}`}
-          >
-            📋 Gestão de Clientes
-          </button>
-          <button
-            onClick={() => setAbaAtiva('tecnicos')}
-            className={`w-full text-left px-6 py-4 rounded-xl transition-all duration-300 flex items-center gap-3 ${abaAtiva === 'tecnicos' ? 'bg-white/10 font-bold text-white shadow-inner translate-x-1' : 'text-white/60 hover:bg-white/5 hover:text-white'}`}
-          >
-            🔧 Gestão de Técnicos
-          </button>
-        </nav>
-        <div className="p-6 text-[10px] text-white/30 text-center uppercase tracking-widest font-semibold">
-          Escopo Zero v2.0
-        </div>
-      </aside>
+    <div className="min-h-screen bg-stone-50/50 font-sans">
+      {/* MENU SUPERIOR (NAVBAR) */}
+      <nav className="bg-[#0c4d4d] border-b border-stone-200  "> {/* NavBAr */}
+        <div className=" mx-auto px-10"> {/*  Container */}
+          <div className="flex items-center content-between h-20 gap-16 justify-between">
 
-      {/* Conteúdo Principal */}
-      <main className="flex-1 overflow-y-auto">
+            <div className="text-4xl  text-[#4d1c0c] mr-4 tracking-tighter">
+              Talis<span className="text-blue-600 text-2xl">.DEV</span>
+            </div>
+
+            <div className="flex gap-10">
+              <button
+                onClick={() => setAbaAtiva('clientes')}
+                className={`px-4 py-2 rounded-lg text-sm font-bold transition-colors ${abaAtiva === 'clientes' ? 'bg-[#4d1c0c] text-white' : 'text-white hover:text-white hover:bg-blue-600'}`}
+              >
+                Gestão de Rotas (Preventivas)
+              </button>
+              <button
+                onClick={() => setAbaAtiva('extrator')}
+                className={`px-4 py-2 rounded-lg text-sm font-bold transition-colors ${abaAtiva === 'extrator' ? 'bg-[#4d1c0c] text-white' : 'text-white hover:text-white hover:bg-blue-600'}`}
+              >
+                Extrator de Tarefas (Filtro)
+              </button>
+              <button
+                onClick={() => setAbaAtiva('tecnicos')}
+                className={`px-4 py-2 rounded-lg text-sm font-bold transition-colors ${abaAtiva === 'tecnicos' ? 'bg-[#4d1c0c] text-white' : 'text-white hover:text-white hover:bg-blue-600'}`}
+              >
+                Gestão de Técnicos e Zonas
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      {/* ÁREA PRINCIPAL (Renderiza o componente escolhido) */}
+      <main>
         {abaAtiva === 'clientes' && <Clientes />}
+        {abaAtiva === 'extrator' && <Extrator />}
         {abaAtiva === 'tecnicos' && <Tecnicos />}
       </main>
     </div>

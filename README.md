@@ -1,48 +1,35 @@
-# 🚀 Painel de Despacho Logístico (Auvo)
+# Contexto do Projeto: Sistema Solução Fitness (Integração Auvo)
 
-Este projeto é um sistema interno desenvolvido para coordenar e automatizar a roteirização de manutenções preventivas e corretivas de equipamentos fitness. Ele substitui a alocação manual por um motor inteligente e exporta os dados padronizados para o sistema Auvo.
+## 1. Objetivo Principal
+Criar uma plataforma interna para a Solução Fitness que automatiza e centraliza duas operações cruciais relacionadas com o sistema Auvo:
+1. **Gestão e Roteirização de Preventivas:** Organizar a agenda de manutenções mensais em massa e exportar a lista no formato exato exigido pelo importador do Auvo.
+2. **Extrator de Tarefas (Filtro de Relatos):** Ler relatórios de tarefas exportados do Auvo, filtrar automaticamente os relatos dos técnicos à procura de necessidades de manutenção/orçamentos (usando palavras-chave) e exibir os resultados.
 
-## 🏗️ Arquitetura do Projeto
-O projeto foi desenhado em um modelo de 3 camadas (Desacoplado):
-- **Back-end (API):** Desenvolvido em Python com **FastAPI**. Responsável por ler planilhas, calcular datas pulando finais de semana e aplicar regras de zonas.
-- **Front-end (UI):** Desenvolvido em **React** (Vite). Uma Single Page Application com Kanban interativo (Drag-and-Drop) para o ajuste fino da agenda.
-- **Banco de Dados:** Arquivo local `mestre.json` para persistência ágil.
+## 2. Arquitetura do Sistema
+O projeto foi refatorado para uma arquitetura moderna, dividida em duas camadas (Microsserviços):
 
-## 📂 Estrutura de Pastas
-```
-📦 Descomplica 26.1
- ┣ 📂 backend                 # Motor lógico e API (Python)
- ┃ ┣ 📂 venv                  # Ambiente virtual (Oculto no Git)
- ┃ ┣ 📜 importacao.csv        # Planilha limpa com os 70+ clientes
- ┃ ┣ 📜 main.py               # Código principal do servidor FastAPI
- ┃ ┗ 📜 mestre.json           # Nosso Banco de Dados (Gerado automaticamente)
- ┣ 📂 frontend                # Interface Visual (React/Vite)
- ┃ ┣ 📂 node_modules          # Dependências do Node (Oculto no Git)
- ┃ ┣ 📂 public
- ┃ ┣ 📂 src                   # Onde vamos programar as telas
- ┃ ┗ 📜 package.json
- ┣ 📜 .gitignore              # Arquivo de segurança do Git
- ┣ 📜 CONTEXTO_PROJETO.md     # Regras e arquitetura para a IA
- ┗ 📜 README.md               # Apresentação do projeto
-````
-## ⚙️ Como rodar o Back-end localmente
-1. Entre na pasta: `cd backend`
-2. Ative o ambiente virtual: `source venv/Scripts/activate` (No Git Bash)
-3. Inicie o servidor: `uvicorn main:app --reload`
-4. Acesse a documentação da API em: `http://127.0.0.1:8000/docs## ⚙️ Como rodar o projeto localmente
+### Front-end (Interface do Utilizador)
+* **Tecnologias:** React.js (com Vite), Tailwind CSS.
+* **Estrutura:** Componentizada (`/src/components/`).
+* **Módulos Atuais:**
+  * `Clientes.jsx`: Interface principal de roteirização. Inclui a Tabela de Clientes, Barra de Filtros, Edição em Massa (Lote) e Modais de Configuração Auvo.
+  * `Extrator.jsx`: Interface para upload de relatórios Excel/CSV, definição de palavras-chave e visualização das estatísticas e tarefas filtradas.
+  * `Toast.jsx`: Sistema global de notificações não-bloqueantes.
 
-### 1. Back-end (API)
-1. Entre na pasta: `cd backend`
-2. Ative o ambiente virtual: `source venv/Scripts/activate` (No Git Bash) ou `.\venv\Scripts\activate` (No Windows CMD)
-3. Instale as dependências: `pip install -r requirements.txt`
-4. Inicie o servidor: `uvicorn main:app --reload`
-5. Acesse a documentação da API em: `http://127.0.0.1:8000/docs`
+### Back-end (Motor de Lógica)
+* **Tecnologias:** Python com FastAPI, Pandas, Uvicorn.
+* **Banco de Dados:** Ficheiro físico `mestre.json` (atua como base de dados NoSQL leve).
+* **Módulos Atuais (`main.py`):**
+  * **Rotas CRUD:** Leitura e atualização de clientes, zonas e técnicos.
+  * **Motor de Exportação:** Gera um ficheiro `.xlsx` (com o `openpyxl`) estritamente formatado com as 29 colunas padrão do Auvo.
+  * **Motor de Extração:** Recebe ficheiros multipart (`.csv`, `.xls`, `.xlsx`), processa os DataFrames via Pandas através de Regex (palavras-chave) e devolve as ocorrências em formato JSON para o Front-end.
 
-### 2. Front-end (UI)
-1. Abra um novo terminal e entre na pasta: `cd frontend`
-2. Instale as dependências: `npm install`
-3. Inicie a aplicação: `npm run dev`
-4. Acesse no navegador: `http://localhost:5173` (ou a porta indicada no terminal)
-`
+## 3. Regras de Negócio Estabelecidas
+* **Importação Auvo (Clientes Avulsos):** O ficheiro exportado para o Auvo deve enviar apenas o `Nome` exato do cliente e deixar o `Endereço` vazio. Isto força o Auvo a vincular a tarefa ao cadastro existente, evitando a criação de "clientes avulsos".
+* **Proteção de Zonas:** A alteração de zonas roteirizadas requer confirmação explícita (Modal), pois afeta a logística de distribuição.
+* **Fila de Lote:** Atualizações em massa no Front-end são enviadas individualmente em fila (loop) para não causar erros de concorrência (Bloqueio 500) na gravação do `mestre.json`.
 
-> **Nota:** As regras de negócio estritas e o escopo do projeto estão documentados no arquivo `CONTEXTO_PROJETO.md`.
+## 4. Próximos Passos (Backlog / Ideias Futuras)
+* [ ] **Cálculo de Preventivas:** Automatizar o preenchimento da data baseando-se na frequência de contrato do cliente.
+* [ ] **Filtros de Pendências Rápidas:** Botões na UI para isolar clientes sem técnico ou data atribuída.
+* [ ] **Exportação de PDF no Extrator:** Reimplementar a geração do relatório em PDF do extrator diretamente na nova interface React.

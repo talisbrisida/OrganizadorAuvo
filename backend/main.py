@@ -5,6 +5,9 @@ from fastapi.responses import FileResponse
 from datetime import timedelta, datetime
 from fastapi.responses import FileResponse
 from gerador_auvo import gerar_planilha_auvo
+from fastapi import FastAPI, UploadFile, File, Form
+import pandas as pd
+import io
 
 app = FastAPI(title="Organizador Auvo - Gestão de Cadastros")
 
@@ -136,3 +139,64 @@ def exportar_xlsx():
     """Gera e devolve o ficheiro XLSX formatado para o Auvo."""
     arquivo = gerar_planilha_auvo(caminho_json=ARQUIVO_DADOS)
     return FileResponse(path=arquivo, filename="Tarefas_Auvo.xlsx", media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+
+# ==========================================
+# ROTA DO EXTRATOR DE TAREFAS (INTEGRAÇÃO)
+# ==========================================
+@app.post("/extrator/processar")
+async def processar_extrator(
+    file: UploadFile = File(...),
+    palavras_chave: str = Form("solicitar peça, quebrado, quebrada, quebrados, orçamento, danificada, danificado, danificados, danificadas, trocar cabo, soldar, trocar, instalar")
+):
+    """Recebe um ficheiro do Auvo, filtra pelos relatos e devolve os dados."""
+    contents = await file.read()
+    filename = file.filename.lower()
+
+    try:
+        if filename.endswith('.csv'):
+            df = pd.read_csv(io.BytesIO(contents), skiprows=5)
+        elif filename.endswith(('.xls', '.xlsx')):
+            df = pd.read_excel(io.BytesIO(contents), skiprows=5, engine='openpyxl')
+        else:
+            return {"erro": "Formato de arquivo não suportado. Use .csv, .xls ou .xlsx"}
+    except Exception as e:
+        return {"erro": f"Erro ao ler o arquivo: {str(e)}"}
+
+    # Prepara as palavras-chave
+    keywords_list = [k.strip() for k in palavras_chave.split(',')]
+    regex_busca = '|'.join(keywords_list)
+
+    coluna_descricao = 'Relato'
+    if coluna_descricao not in df.columns:
+        return {"erro": f"A coluna '{coluna_descricao}' não foi encontrada no arquivo."}
+
+    # Filtra as linhas
+    necessidades = df[df[coluna_descricao].astype(str).str.contains(regex_busca, case=False, na=False)].copy()
+
+    # Seleciona apenas as colunas desejadas (verificando se elas existem)
+    colunas_desejadas = ['Data', 'Cliente', 'Endereco', 'OS Digital', 'Relato']
+    colunas_existentes = [col for col in colunas_desejadas if col in necessidades.columns]
+    
+    resultado_final = necessidades[colunas_existentes].fillna("") # Remove NaN
+
+    # Estatísticas
+    total = len(df)
+    filtrados = len(resultado_final)
+    stats = {
+        'total': total,
+        'filtrados': filtrados,
+        'percentual': round((filtrados/total)*100, 1) if total > 0 else 0,
+        'por_palavra': {}
+    }
+
+    for palavra in keywords_list:
+        if not resultado_final.empty:
+            count = int(resultado_final[coluna_descricao].str.contains(palavra, case=False, na=False).sum())
+            if count > 0:
+                stats['por_palavra'][palavra] = count
+
+    return {
+        "estatisticas": stats,
+        "dados": resultado_final.to_dict(orient="records"),
+        "palavras_utilizadas": keywords_list
+    }
