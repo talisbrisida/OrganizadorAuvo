@@ -1,0 +1,48 @@
+📌 O Que foi feito?
+A transformação do seu protótipo inicial numa Plataforma Corporativa Integrada. Unificámos a Gestão de Rotas de Preventivas e o Extrator de Tarefas do Auvo (que antes era um projeto separado) num único sistema robusto, rápido e com um design de Painel de Controlo (Admin Panel) profissional.
+
+🛠️ Como foi feito?
+Através de uma refatoração de nível sénior, dividida nas seguintes frentes:
+
+Limpeza e Modularização (Front-end): Quebrámos um ficheiro gigante de 400 linhas em pequenos blocos de Lego (BarraFiltros, TabelaClientes, Modais) e extraímos a inteligência para um "cérebro" independente (o Custom Hook useClientes.js).
+
+Integração de Sistemas (Back-end): Descartámos o antigo servidor Flask do extrator e ensinámos o novo motor em FastAPI (main.py) a receber ficheiros Excel/CSV, processar os relatos com Pandas/Regex e devolver apenas os dados puros.
+
+Engenharia de Interface (UI/UX): Abandonámos a navegação vertical infinita e implementámos um "Data Grid" elástico (flex-1, overflow-hidden), com cabeçalhos fixos, uma Navbar limpa, um Footer institucional e uma barra de rolagem (scrollbar) totalmente personalizada com as cores da empresa.
+
+Automação de Fluxo de Trabalho: Criámos um script executável (.bat) que liga os dois servidores e abre o navegador num único duplo clique.
+
+Documentação: Reescrevemos o CONTEXTO_PROJETO.md e o README.md para servirem como manuais definitivos do sistema.
+
+⏱️ Quando foi feito?
+Ao longo das nossas sessões de refatoração contínua desta etapa de desenvolvimento, culminando na consolidação e entrega oficial da Versão 1.2.0 do sistema.
+
+📍 Onde foi feito?
+Na arquitetura de microsserviços local da plataforma Solução Fitness, atuando:
+
+No Front-end: Pasta /frontend/src (React.js + Vite + Tailwind CSS).
+
+No Back-end: Ficheiro /backend/main.py (Python + FastAPI).
+
+Na Raiz do Projeto: Ficheiros de documentação e automação do Windows.
+
+🚀 Próximos Passos (Backlog)
+Quando decidir retomar o desenvolvimento, a fundação está pronta para receber as seguintes "funcionalidades inteligentes":
+
+Filtros Rápidos de Pendências:
+
+O que é: Botões de um clique na barra superior.
+
+Objetivo: Isolar instantaneamente os clientes que estão "Sem Técnico" ou "Sem Data" alocada na tabela, facilitando a conferência diária.
+
+Cálculo Automático de Preventivas:
+
+O que é: Um motor de sugestão de datas.
+
+Objetivo: Analisar a frequência de contrato do cliente e preencher/sugerir a próxima data de manutenção sem precisar de inserção manual linha a linha.
+
+Exportação de PDF no Extrator:
+
+O que é: Trazer de volta a funcionalidade original do projeto legado.
+
+Objetivo: Permitir que, após extrair os problemas do Auvo, o utilizador possa gerar um relatório .pdf limpo e formatado para enviar aos gestores ou clientes.

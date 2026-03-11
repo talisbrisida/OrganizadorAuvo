@@ -11,11 +11,13 @@ const Clientes = () => {
     // Puxamos tudo do nosso Hook
     const {
         tecnicos, zonas, filtros, setFiltros, selecionados,
+        filtroRapido, setFiltroRapido,
         modalLoteAberto, setModalLoteAberto, loteConfig, setLoteConfig,
         modalAuvoAberto, setModalAuvoAberto, tarefaEmEdicao, setTarefaEmEdicao,
         isCarregando, confirmacaoZona, toast, setToast, tarefasFiltradas,
         atualizar, handleMudarZona, confirmarMudancaZona, cancelarMudancaZona,
-        toggleSelecionado, toggleTodos, aplicarLote, abrirModalAuvo, salvarOpcoesAuvo
+        toggleSelecionado, toggleTodos, aplicarLote, abrirModalAuvo, salvarOpcoesAuvo, concluirVisita,
+        clienteParaConcluir, setClienteParaConcluir, concluirVisitasMassa, modalConcluirLoteAberto, setModalConcluirLoteAberto
     } = useClientes();
 
     return (
@@ -35,7 +37,14 @@ const Clientes = () => {
 
 
 
-            <BarraFiltros filtros={filtros} setFiltros={setFiltros} zonas={zonas} />
+            <BarraFiltros
+                filtros={filtros}
+                setFiltros={setFiltros}
+                zonas={zonas}
+                filtroRapido={filtroRapido}
+                setFiltroRapido={setFiltroRapido}
+                concluirVisita={concluirVisita}
+            />
 
             {selecionados.length > 0 && (
                 <div className="bg-[#0c4d4d]/10 border-2 border-[#0c4d4d] p-3 rounded-xl mb-4 shrink-0 flex flex-wrap items-center justify-between gap-4 shadow-sm animate-fade-in">
@@ -43,9 +52,15 @@ const Clientes = () => {
                         <span className="bg-[#0c4d4d] text-white font-bold px-3 py-1 rounded-full text-sm">{selecionados.length}</span>
                         <span className="text-[#0c4d4d] font-bold uppercase text-sm tracking-wider">Clientes Selecionados</span>
                     </div>
-                    <button onClick={() => setModalLoteAberto(true)} className="bg-[#0c4d4d] hover:bg-[#083333] text-white px-6 py-2 rounded-lg font-bold text-sm transition-colors shadow-md">
-                        ⚙️ Editar Lote (Massas)
-                    </button>
+                    {/* NOVO CONJUNTO DE BOTÕES */}
+                    <div className="flex gap-3">
+                        <button onClick={() => setModalLoteAberto(true)} className="bg-[#0c4d4d] hover:bg-[#083333] text-white px-5 py-2 rounded-lg font-bold text-sm transition-colors shadow-md">
+                            ⚙️ Editar Lote
+                        </button>
+                        <button onClick={() => setModalConcluirLoteAberto(true)} className="bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2 rounded-lg font-bold text-sm transition-colors shadow-md flex items-center gap-2">
+                            ✅ Concluir Visitas
+                        </button>
+                    </div>
                 </div>
             )}
 
@@ -55,6 +70,9 @@ const Clientes = () => {
                 toggleTodos={toggleTodos} toggleSelecionado={toggleSelecionado}
                 zonas={zonas} handleMudarZona={handleMudarZona}
                 tecnicos={tecnicos} atualizar={atualizar} abrirModalAuvo={abrirModalAuvo}
+                concluirVisita={concluirVisita}
+                clienteParaConcluir={clienteParaConcluir} setClienteParaConcluir={setClienteParaConcluir}
+                set
             />
 
             {/* MODAIS (Visíveis apenas quando acionados) */}
@@ -78,6 +96,72 @@ const Clientes = () => {
                     cancelarMudancaZona={cancelarMudancaZona}
                     confirmarMudancaZona={confirmarMudancaZona}
                 />
+            )}
+            {/* NOVO MODAL DE CONCLUSÃO DE VISITA */}
+            {clienteParaConcluir && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm animate-fade-in">
+                    <div className="bg-white rounded-2xl shadow-2xl p-6 w-[450px] border border-stone-100">
+                        <div className="flex items-center gap-3 mb-4">
+                            <div className="bg-emerald-100 text-emerald-600 p-2 rounded-full text-xl">✅</div>
+                            <h3 className="text-xl font-bold text-[#0c4d4d]">Concluir Visita?</h3>
+                        </div>
+
+                        <p className="text-stone-600 mb-6 text-sm leading-relaxed">
+                            Deseja confirmar a visita de <strong className="text-[#0c4d4d]">{clienteParaConcluir.nome_cliente}</strong> do dia <strong className="bg-emerald-50 text-emerald-700 px-1 rounded">{clienteParaConcluir.data?.split('-').reverse().join('/') || clienteParaConcluir.data}</strong> no histórico?
+                            <br /><br />
+                            <span className="text-xs text-stone-400">Esta ação arquivará a data e libertará a agenda do cliente para a próxima rota.</span>
+                        </p>
+
+                        <div className="flex justify-end gap-3 pt-4 border-t border-stone-100">
+                            <button
+                                onClick={() => setClienteParaConcluir(null)}
+                                className="px-5 py-2.5 bg-stone-100 hover:bg-stone-200 text-stone-600 font-bold rounded-xl transition-colors text-sm"
+                            >
+                                Cancelar
+                            </button>
+                            <button
+                                onClick={concluirVisita}
+                                className="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl transition-colors shadow-lg shadow-emerald-600/30 text-sm flex items-center gap-2"
+                            >
+                                Confirmar Conclusão
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
+            {/* NOVO MODAL: CONCLUSÃO EM MASSA */}
+            {modalConcluirLoteAberto && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm animate-fade-in">
+                    <div className="bg-white rounded-2xl shadow-2xl p-6 w-[450px] border border-stone-100">
+                        <div className="flex items-center gap-3 mb-4">
+                            <div className="bg-emerald-100 text-emerald-600 p-2 rounded-full text-xl">📦</div>
+                            <h3 className="text-xl font-bold text-[#0c4d4d]">Concluir Lote?</h3>
+                        </div>
+                        
+                        <p className="text-stone-600 mb-6 text-sm leading-relaxed">
+                            Tem a certeza que deseja arquivar as visitas de <strong className="text-[#0c4d4d]">{selecionados.length} clientes selecionados</strong> no histórico?
+                            <br /><br />
+                            <span className="text-xs text-stone-400 bg-stone-50 p-2 rounded block border border-stone-100">
+                                ⚠️ <strong>Nota:</strong> Apenas os clientes que possuem uma Data preenchida serão arquivados. A agenda destes clientes será liberta para o próximo mês.
+                            </span>
+                        </p>
+                        
+                        <div className="flex justify-end gap-3 pt-4 border-t border-stone-100">
+                            <button 
+                                onClick={() => setModalConcluirLoteAberto(false)} 
+                                className="px-5 py-2.5 bg-stone-100 hover:bg-stone-200 text-stone-600 font-bold rounded-xl transition-colors text-sm"
+                            >
+                                Cancelar
+                            </button>
+                            <button 
+                                onClick={concluirVisitasMassa} 
+                                className="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl transition-colors shadow-lg shadow-emerald-600/30 text-sm flex items-center gap-2"
+                            >
+                                Confirmar {selecionados.length} Visitas
+                            </button>
+                        </div>
+                    </div>
+                </div>
             )}
         </div>
     );

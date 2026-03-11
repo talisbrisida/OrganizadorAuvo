@@ -3,11 +3,19 @@ from fastapi import FastAPI, Body
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from datetime import timedelta, datetime
+from datetime import datetime
 from fastapi.responses import FileResponse
 from gerador_auvo import gerar_planilha_auvo
 from fastapi import FastAPI, UploadFile, File, Form
+from fastapi.responses import StreamingResponse
+from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
+from typing import List
+from pydantic import BaseModel
 import pandas as pd
 import io
+
+class LoteConcluir(BaseModel):
+    ids_tarefas: List[str]
 
 app = FastAPI(title="Organizador Auvo - Gestão de Cadastros")
 
@@ -131,7 +139,68 @@ def atualizar_cliente(id: str, dados: dict):
     salvar_json(ARQUIVO_DADOS, tarefas)
     return {"status": "sucesso"}
 
-# --- EXPORTAÇÃO PARA O AUVO ---
+#
+# --- CONCLUSÃO DE VISITA (HISTÓRICO) ---
+# Esta rota serve para marcar uma tarefa como finalizada no sistema.
+# Ela move a data que estava agendada para a "gaveta" de histórico_visitas do cliente,
+# permitindo manter um registro de todas as manutenções já realizadas,
+# e limpa os campos de agendamento para que o cliente fique livre para a próxima escala.
+
+
+@app.post("/clientes/{id_tarefa}/concluir")
+def concluir_visita(id_tarefa: str):
+    # 1. Abre o banco de dados diretamente
+    try:
+        with open('mestre.json', 'r', encoding='utf-8') as f:
+            db = json.load(f)
+    except Exception:
+        raise HTTPException(status_code=500, detail="Erro ao ler o mestre.json")
+
+    # 2. Procura o cliente
+    for cliente in db:
+        if cliente.get("id_tarefa") == id_tarefa:
+            # Prevenção extra para evitar erros se o agendamento estiver vazio
+            agendamento = cliente.get("agendamento_atual") or {}
+            data_atual = agendamento.get("data_alocada")
+
+            if not data_atual:
+                raise HTTPException(status_code=400, detail="Sem data para concluir.")
+
+            # Garante que o histórico existe
+            if "historico_visitas" not in cliente:
+                cliente["historico_visitas"] = []
+
+            # Formata a data de YYYY-MM-DD para DD/MM/YYYY
+            data_formatada = data_atual
+            try:
+                if "-" in data_atual:
+                    dt_obj = datetime.strptime(data_atual, "%Y-%m-%d")
+                    data_formatada = dt_obj.strftime("%d/%m/%Y")
+            except:
+                pass 
+
+            # Guarda no histórico se não for repetido
+            if data_formatada not in cliente["historico_visitas"]:
+                cliente["historico_visitas"].append(data_formatada)
+
+            # Limpa a data e o técnico para o próximo mês
+            if "agendamento_atual" not in cliente:
+                cliente["agendamento_atual"] = {}
+                
+            cliente["agendamento_atual"]["data_alocada"] = ""
+            cliente["agendamento_atual"]["tecnico_alocado"] = ""
+
+            # 3. Salva no banco de dados diretamente
+            try:
+                with open('mestre.json', 'w', encoding='utf-8') as f:
+                    json.dump(db, f, ensure_ascii=False, indent=4)
+            except Exception:
+                raise HTTPException(status_code=500, detail="Erro ao salvar no mestre.json")
+
+            # Devolve o cliente atualizado (com a tela limpa) para o Front-end
+            return {"mensagem": "Visita concluída com sucesso!", "cliente": cliente}
+
+    raise HTTPException(status_code=404, detail="Cliente não encontrado.")
 
 # --- EXPORTAÇÃO PARA O AUVO ---
 @app.get("/exportar/xlsx")
@@ -200,3 +269,161 @@ async def processar_extrator(
         "dados": resultado_final.to_dict(orient="records"),
         "palavras_utilizadas": keywords_list
     }
+
+    #Exportar Rota 
+@app.get("/exportar-historico")
+def exportar_historico():
+    try:
+        with open('mestre.json', 'r', encoding='utf-8') as f:
+            db = json.load(f)
+    except Exception:
+        raise HTTPException(status_code=500, detail="Erro ao ler o banco de dados.")
+
+    dados = []
+    meses_nomes = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"]
+
+    for c in db:
+        cliente_info = c.get("cliente", {})
+        
+        # Cria a base da linha para o Excel
+        linha = {
+            "Contrato": cliente_info.get("nome", ""),
+            "Endereço": f"{cliente_info.get('bairro', '')} - {cliente_info.get('endereco', '')}",
+            "Cidade": cliente_info.get("cidade", ""),
+            "Zona": cliente_info.get("zona_roteirizacao", "Sem Zona")
+        }
+        
+        # Cria as colunas de todos os meses vazias
+        for m in meses_nomes:
+            linha[m] = ""
+            
+        # Distribui as datas do histórico pelos meses corretos
+        historico = c.get("historico_visitas", [])
+        for data_str in historico:
+            try:
+                # Exemplo de data_str: "14/01/2026"
+                partes = data_str.split("/")
+                if len(partes) == 3:
+                    mes_numero = int(partes[1])
+                    nome_mes_correspondente = meses_nomes[mes_numero - 1]
+                    
+                    # Se houver mais de uma visita no mesmo mês, junta com vírgula
+                    if linha[nome_mes_correspondente]:
+                        linha[nome_mes_correspondente] += f", {data_str}"
+                    else:
+                        linha[nome_mes_correspondente] = data_str
+            except:
+                continue # Se a data for inválida, ignora
+                
+        dados.append(linha)
+
+    # Converte para DataFrame do Pandas
+# Converte para DataFrame do Pandas
+    df = pd.DataFrame(dados)
+    
+    # Prepara o ficheiro Excel em memória com formatação premium
+    stream = io.BytesIO()
+    with pd.ExcelWriter(stream, engine='openpyxl') as writer:
+        df.to_excel(writer, index=False, sheet_name='Controle de Visitas')
+        
+        # Pega a aba ativa para formatar
+        workbook = writer.book
+        worksheet = writer.sheets['Controle de Visitas']
+        
+        # Definir as nossas cores e estilos
+        cor_fundo_cabecalho = PatternFill(start_color="0C4D4D", end_color="0C4D4D", fill_type="solid") # Verde da Solução Fitness
+        fonte_cabecalho = Font(color="FFFFFF", bold=True)
+        borda_fina = Border(
+            left=Side(style='thin', color='E0E0E0'), right=Side(style='thin', color='E0E0E0'),
+            top=Side(style='thin', color='E0E0E0'), bottom=Side(style='thin', color='E0E0E0')
+        )
+        alinhar_centro = Alignment(horizontal="center", vertical="center")
+        alinhar_esquerda = Alignment(horizontal="left", vertical="center")
+
+        # 1. Pintar o Cabeçalho
+        for col_num, celula in enumerate(worksheet[1], 1):
+            celula.fill = cor_fundo_cabecalho
+            celula.font = fonte_cabecalho
+            celula.alignment = alinhar_centro
+            celula.border = borda_fina
+
+        # 2. Ajustar o tamanho das colunas e o alinhamento das linhas
+        for col in worksheet.columns:
+            tamanho_maximo = 0
+            letra_coluna = col[0].column_letter # Ex: 'A', 'B', 'C'
+            
+            for celula in col:
+                # Descobre qual é o maior texto daquela coluna para ajustar a largura
+                try:
+                    if len(str(celula.value)) > tamanho_maximo:
+                        tamanho_maximo = len(str(celula.value))
+                except:
+                    pass
+                
+                # Formata as linhas normais (abaixo do cabeçalho)
+                if celula.row > 1:
+                    celula.border = borda_fina
+                    # Se for coluna de mês (da coluna E em diante), centraliza. Se for Nome/Endereço, alinha à esquerda.
+                    if celula.column > 4:
+                        celula.alignment = alinhar_centro
+                    else:
+                        celula.alignment = alinhar_esquerda
+
+            # Aplica a largura com uma margem de respiro (mas não deixa passar de 45 para não ficar gigante)
+            largura_ideal = min(tamanho_maximo + 3, 45)
+            worksheet.column_dimensions[letra_coluna].width = largura_ideal
+        
+    stream.seek(0)
+    
+    headers = {
+        'Content-Disposition': 'attachment; filename="Relatorio_Visitas_SolucaoFitness.xlsx"'
+    }
+    
+    return StreamingResponse(stream, media_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", headers=headers)
+
+@app.post("/clientes/concluir-lote")
+def concluir_visitas_lote(req: LoteConcluir):
+    try:
+        with open('mestre.json', 'r', encoding='utf-8') as f:
+            db = json.load(f)
+    except Exception:
+        raise HTTPException(status_code=500, detail="Erro ao ler o mestre.json")
+
+    clientes_atualizados = 0
+
+    for cliente in db:
+        if cliente.get("id_tarefa") in req.ids_tarefas:
+            agendamento = cliente.get("agendamento_atual") or {}
+            data_atual = agendamento.get("data_alocada")
+
+            # Só conclui se tiver uma data agendada
+            if data_atual:
+                if "historico_visitas" not in cliente:
+                    cliente["historico_visitas"] = []
+
+                data_formatada = data_atual
+                try:
+                    if "-" in data_atual:
+                        dt_obj = datetime.strptime(data_atual, "%Y-%m-%d")
+                        data_formatada = dt_obj.strftime("%d/%m/%Y")
+                except:
+                    pass 
+
+                if data_formatada not in cliente["historico_visitas"]:
+                    cliente["historico_visitas"].append(data_formatada)
+
+                # Limpa a agenda do cliente
+                if "agendamento_atual" not in cliente:
+                    cliente["agendamento_atual"] = {}
+                cliente["agendamento_atual"]["data_alocada"] = ""
+                cliente["agendamento_atual"]["tecnico_alocado"] = ""
+                
+                clientes_atualizados += 1
+
+    try:
+        with open('mestre.json', 'w', encoding='utf-8') as f:
+            json.dump(db, f, ensure_ascii=False, indent=4)
+    except Exception:
+        raise HTTPException(status_code=500, detail="Erro ao salvar no mestre.json")
+
+    return {"mensagem": f"{clientes_atualizados} visitas arquivadas com sucesso!"}

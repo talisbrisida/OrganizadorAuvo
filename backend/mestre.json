@@ -4,7 +4,7 @@
         "cliente": {
             "nome": "Condomínio Esplanada Resort",
             "endereco_completo": "R. Laurent Martins, 479  - Jardim Esplanada II - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 6 - SJC Oeste"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -18,16 +18,30 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
-        }
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-30",
+            "prioridade": "Média",
+            "tarefa_para": "Colaborador",
+            "roteirizar": "Sim",
+            "descricao": "Manutenção Preventiva - LOC-001"
+        },
+        "historico_visitas": [
+            "13/05/2025",
+            "23/06/2025",
+            "11/07/2025",
+            "24/08/2025",
+            "17/09/2025",
+            "14/10/2025",
+            "12/01/2026",
+            "04/02/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-002",
         "cliente": {
             "nome": "Clube de Campo Santa Rita",
             "endereco_completo": "Tv. Lineu de Moura, S/N - Urbanova - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 6 - SJC Oeste"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -41,39 +55,26 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
-        }
-    },
-    {
-        "id_tarefa": "LOC-003",
-        "cliente": {
-            "nome": "Condomínio Portal da Vila",
-            "endereco_completo": "R. Yukiko Ishida, 201 - Jardim Alvorada - São José dos Campos",
-            "zona_roteirizacao": ""
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-09"
         },
-        "contrato": {
-            "origem": "Casa do Fitness",
-            "frequencia_original": "Mensal",
-            "tempo_estimado_horas": 1
-        },
-        "datas": {
-            "ultimo_atendimento": "2026-01-26",
-            "proximo_vencimento": "2026-02-25",
-            "dia_da_semana_vencimento": "Quarta-feira"
-        },
-        "agendamento_atual": {
-            "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
-        }
+        "historico_visitas": [
+            "13/05/2025",
+            "23/06/2025",
+            "11/07/2025",
+            "14/08/2025",
+            "16/09/2025",
+            "14/10/2025",
+            "14/01/2026",
+            "09/02/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-004",
         "cliente": {
             "nome": "Cond. Vale Verde",
             "endereco_completo": "Rua João Artoni Testae, 3 - Jardim Testae - Guarulhos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Grande SP - Capital"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -87,9 +88,19 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
-        }
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-03-19"
+        },
+        "historico_visitas": [
+            "20/05/2025",
+            "17/06/2025",
+            "17/07/2025",
+            "27/08/2025",
+            "19/09/2025",
+            "15/10/2025",
+            "21/01/2026",
+            "12/02/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-005",
@@ -112,7 +123,18 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "13/05/2025",
+            "20/06/2025",
+            "10/07/2025",
+            "18/08/2025",
+            "09/09/2025",
+            "13/10/2025",
+            "28/01/2026",
+            "19/02/2026",
+            "09/03/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-006",
@@ -135,7 +157,18 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "13/05/2025",
+            "18/06/2025",
+            "10/07/2025",
+            "18/08/2025",
+            "09/09/2025",
+            "13/10/2025",
+            "14/01/2026",
+            "05/02/2026",
+            "09/03/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-007",
@@ -158,14 +191,24 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "30/05/2025",
+            "12/06/2025",
+            "10/07/2025",
+            "20/08/2025",
+            "11/09/2025",
+            "24/10/2025",
+            "26/01/2026",
+            "25/02/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-008",
         "cliente": {
             "nome": "Movere",
             "endereco_completo": "R. Shigemasa Ota, 645 - Res. Sol Nascente - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 3 - SJC Sul"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -181,7 +224,18 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "25/05/2025",
+            "12/06/2025",
+            "10/07/2025",
+            "20/08/2025",
+            "11/09/2025",
+            "13/10/2025",
+            "14/01/2026",
+            "11/02/2026",
+            "09/03/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-009",
@@ -204,7 +258,12 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "23/06/2025",
+            "18/09/2025",
+            "17/03/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-010",
@@ -227,7 +286,18 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "25/05/2025",
+            "12/06/2025",
+            "08/07/2025",
+            "20/08/2025",
+            "18/09/2025",
+            "13/10/2025",
+            "19/01/2026",
+            "05/02/2026",
+            "06/03/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-011",
@@ -250,7 +320,17 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "20/05/2025",
+            "17/06/2025",
+            "08/07/2025",
+            "14/08/2025",
+            "19/09/2025",
+            "15/10/2025",
+            "21/01/2026",
+            "12/02/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-012",
@@ -273,7 +353,17 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "21/05/2025",
+            "23/06/2025",
+            "21/07/2025",
+            "21/08/2025",
+            "09/09/2025",
+            "15/10/2025",
+            "26/01/2026",
+            "11/02/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-013",
@@ -296,7 +386,17 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "20/05/2025",
+            "27/06/2025",
+            "23/07/2025",
+            "20/08/2025",
+            "16/09/2025",
+            "15/10/2025",
+            "15/01/2026",
+            "09/02/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-014",
@@ -319,7 +419,17 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "20/05/2025",
+            "17/06/2025",
+            "17/07/2025",
+            "27/08/2025",
+            "19/09/2025",
+            "15/10/2025",
+            "21/01/2026",
+            "12/02/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-015",
@@ -365,7 +475,17 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "13/05/2025",
+            "18/06/2025",
+            "10/07/2025",
+            "19/08/2025",
+            "09/09/2025",
+            "15/10/2025",
+            "28/01/2026",
+            "20/02/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-017",
@@ -411,7 +531,18 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "13/05/2025",
+            "18/06/2025",
+            "10/07/2025",
+            "19/08/2025",
+            "09/09/2025",
+            "15/10/2025",
+            "22/01/2026",
+            "18/02/2026",
+            "06/03/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-019",
@@ -434,7 +565,18 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "23/05/2025",
+            "12/06/2025",
+            "08/07/2025",
+            "20/08/2025",
+            "11/09/2025",
+            "15/10/2025",
+            "19/01/2026",
+            "05/02/2026",
+            "06/03/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-020",
@@ -457,7 +599,18 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "14/05/2025",
+            "20/06/2025",
+            "10/07/2025",
+            "24/08/2025",
+            "16/09/2025",
+            "15/10/2025",
+            "14/01/2026",
+            "04/02/2026",
+            "06/03/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-021",
@@ -480,7 +633,17 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "20/05/2025",
+            "17/06/2025",
+            "17/07/2025",
+            "27/08/2025",
+            "19/09/2025",
+            "15/10/2025",
+            "21/01/2026",
+            "12/02/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-022",
@@ -503,14 +666,25 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "23/05/2025",
+            "12/06/2025",
+            "08/07/2025",
+            "20/08/2025",
+            "11/09/2025",
+            "15/10/2025",
+            "19/01/2026",
+            "05/02/2026",
+            "09/03/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-023",
         "cliente": {
             "nome": "Villa di Vita Condominio",
             "endereco_completo": "Estr. Mun. Itapecirica, 2701 - Jardim Marlene Miranda - Taubaté",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Vale do Paraíba - Taubaté"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -524,9 +698,19 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
+            "tecnico_alocado": "Jefferson - Técnico",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "27/05/2025",
+            "30/06/2025",
+            "22/07/2025",
+            "26/08/2025",
+            "19/09/2025",
+            "15/10/2025",
+            "13/01/2026",
+            "04/02/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-024",
@@ -549,7 +733,18 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "13/05/2025",
+            "20/06/2025",
+            "10/07/2025",
+            "19/08/2025",
+            "09/09/2025",
+            "15/10/2025",
+            "22/01/2026",
+            "11/02/2026",
+            "06/03/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-025",
@@ -572,7 +767,17 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "09/05/2025",
+            "10/06/2025",
+            "04/07/2025",
+            "13/08/2025",
+            "10/09/2025",
+            "15/10/2025",
+            "14/01/2026",
+            "09/02/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-026",
@@ -595,7 +800,17 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "17/06/2025",
+            "17/07/2025",
+            "14/08/2025",
+            "19/09/2025",
+            "15/10/2025",
+            "21/01/2026",
+            "12/02/2026",
+            "03/03/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-027",
@@ -618,7 +833,17 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "20/05/2025",
+            "17/06/2025",
+            "17/07/2025",
+            "27/08/2025",
+            "19/09/2025",
+            "15/10/2025",
+            "21/01/2026",
+            "12/02/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-028",
@@ -641,7 +866,17 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "29/05/2025",
+            "30/06/2025",
+            "22/07/2025",
+            "18/08/2025",
+            "17/09/2025",
+            "06/10/2025",
+            "13/01/2026",
+            "11/02/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-029",
@@ -664,7 +899,15 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "28/08/2025",
+            "29/09/2025",
+            "25/10/2025",
+            "14/01/2026",
+            "10/02/2026",
+            "09/03/2026"
+        ]
     },
     {
         "id_tarefa": "LOC-030",
@@ -687,7 +930,8 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": []
     },
     {
         "id_tarefa": "LOC-031",
@@ -710,7 +954,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "16/01/2026",
+            "18/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-001",
@@ -733,7 +981,12 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "15/01/2026",
+            "12/02/2026",
+            "05/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-002",
@@ -756,7 +1009,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "08/12/2025",
+            "03/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-003",
@@ -779,7 +1036,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "30/01/2026",
+            "18/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-004",
@@ -802,14 +1063,18 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "14/01/2026",
+            "09/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-005",
         "cliente": {
             "nome": "Blessed Condomínio",
             "endereco_completo": "R. Jurema Viêira Medrado, 40 - Parque Res. Aquarius - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 6 - SJC Oeste"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -823,9 +1088,13 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
-        }
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-03-10"
+        },
+        "historico_visitas": [
+            "14/01/2026",
+            "02/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-006",
@@ -848,7 +1117,12 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "13/01/2026",
+            "06/02/2026",
+            "09/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-007",
@@ -871,7 +1145,11 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "12/01/2026",
+            "09/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-008",
@@ -894,7 +1172,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "27/01/2026",
+            "18/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-009",
@@ -917,7 +1199,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "19/01/2026",
+            "19/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-010",
@@ -940,7 +1226,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "15/01/2026",
+            "19/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-011",
@@ -963,7 +1253,11 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "13/01/2026",
+            "11/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-012",
@@ -986,7 +1280,11 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "27/01/2026",
+            "25/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-013",
@@ -1009,7 +1307,11 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "13/01/2026",
+            "09/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-014",
@@ -1032,7 +1334,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "08/01/2026",
+            "03/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-015",
@@ -1055,7 +1361,12 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "23/01/2026",
+            "10/02/2026",
+            "05/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-016",
@@ -1078,7 +1389,11 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "22/01/2026",
+            "09/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-017",
@@ -1101,7 +1416,11 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "12/01/2026",
+            "03/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-018",
@@ -1124,7 +1443,12 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "23/01/2026",
+            "18/02/2026",
+            "05/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-019",
@@ -1147,7 +1471,11 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "12/01/2026",
+            "09/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-020",
@@ -1170,7 +1498,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "22/01/2026",
+            "23/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-021",
@@ -1193,7 +1525,10 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "04/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-022",
@@ -1216,7 +1551,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "15/01/2026",
+            "19/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-023",
@@ -1239,7 +1578,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "20/01/2026",
+            "18/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-024",
@@ -1262,7 +1605,12 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "07/01/2026",
+            "02/02/2026",
+            "04/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-025",
@@ -1285,7 +1633,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "28/01/2026",
+            "24/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-026",
@@ -1308,7 +1660,12 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "19/01/2026",
+            "10/02/2026",
+            "09/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-027",
@@ -1331,7 +1688,11 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "12/01/2026",
+            "03/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-028",
@@ -1354,7 +1715,12 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "06/01/2026",
+            "02/02/2026",
+            "03/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-029",
@@ -1377,7 +1743,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "27/01/2026",
+            "20/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-030",
@@ -1400,7 +1770,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "23/01/2026",
+            "10/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-031",
@@ -1423,7 +1797,12 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "19/01/2026",
+            "18/02/2026",
+            "09/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-032",
@@ -1446,7 +1825,10 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "02/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-033",
@@ -1469,7 +1851,10 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "03/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-034",
@@ -1492,7 +1877,12 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "22/01/2026",
+            "03/02/2026",
+            "06/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-035",
@@ -1515,7 +1905,11 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "14/01/2026",
+            "09/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-036",
@@ -1538,14 +1932,18 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "13/01/2026",
+            "03/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-037",
         "cliente": {
             "nome": "EDIFICIO SOLAR AQUARIUS",
             "endereco_completo": "R. do Aruanã, 116 - Parque Res. Aquarius - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 6 - SJC Oeste"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1559,9 +1957,18 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
-            "data_alocada": ""
-        }
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": "2026-04-06",
+            "prioridade": "Média",
+            "tarefa_para": "Colaborador",
+            "roteirizar": "Não",
+            "descricao": "Manutenção Preventiva - SOL-037"
+        },
+        "historico_visitas": [
+            "07/01/2026",
+            "02/02/2026",
+            "04/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-038",
@@ -1584,7 +1991,11 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "14/01/2026",
+            "09/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-039",
@@ -1607,7 +2018,10 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "02/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-040",
@@ -1630,7 +2044,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "27/01/2026",
+            "25/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-041",
@@ -1653,7 +2071,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "27/01/2026",
+            "11/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-042",
@@ -1676,7 +2098,11 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "12/01/2026",
+            "05/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-043",
@@ -1699,7 +2125,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "30/01/2026",
+            "20/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-044",
@@ -1722,7 +2152,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "27/01/2026",
+            "26/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-045",
@@ -1745,7 +2179,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "23/02/2026",
+            "20/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-046",
@@ -1768,7 +2206,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "27/01/2026",
+            "20/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-047",
@@ -1791,7 +2233,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "13/01/2026",
+            "10/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-048",
@@ -1814,7 +2260,12 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "19/01/2026",
+            "10/02/2026",
+            "09/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-049",
@@ -1837,7 +2288,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "15/01/2026",
+            "18/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-050",
@@ -1860,7 +2315,11 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "12/01/2026",
+            "03/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-051",
@@ -1883,7 +2342,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "13/01/2026",
+            "10/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-052",
@@ -1906,7 +2369,12 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "07/01/2026",
+            "05/02/2026",
+            "05/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-053",
@@ -1929,14 +2397,19 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "06/01/2026",
+            "03/02/2026",
+            "04/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-054",
         "cliente": {
             "nome": "Brisa Do Estoril",
             "endereco_completo": "R. José Ivair de Souza, 71 - Jardim Estoril - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 3 - SJC Sul"
         },
         "contrato": {
             "origem": "Solução Fitness",
@@ -1952,7 +2425,12 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "06/01/2026",
+            "03/02/2026",
+            "04/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-055",
@@ -1975,7 +2453,10 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "04/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-056",
@@ -1996,9 +2477,13 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "Wilson - auxiliar",
-            "data_alocada": ""
-        }
+            "tecnico_alocado": "Jefferson - Técnico",
+            "data_alocada": "2026-03-10"
+        },
+        "historico_visitas": [
+            "06/01/2026",
+            "06/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-057",
@@ -2021,7 +2506,12 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "06/01/2026",
+            "03/02/2026",
+            "04/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-058",
@@ -2044,7 +2534,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "12/01/2026",
+            "04/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-059",
@@ -2067,7 +2561,12 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "09/01/2026",
+            "05/02/2026",
+            "09/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-060",
@@ -2090,7 +2589,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "30/01/2026",
+            "20/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-061",
@@ -2113,7 +2616,12 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "09/01/2026",
+            "02/02/2026",
+            "02/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-062",
@@ -2136,7 +2644,12 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "14/01/2026",
+            "10/02/2026",
+            "09/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-063",
@@ -2159,12 +2672,15 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "04/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-064",
         "cliente": {
-            "nome": "JARDIM TERRAS DO VALE ASSOCIACAO DOS ADQUIRENTES DE LOTES DO LOTEAMENTO RESIDENCIA",
+            "nome": "jardim terras do vale",
             "endereco_completo": "Avenida das Palmeiras, 100 - Jardim Terras do Vale - Caçapava",
             "zona_roteirizacao": ""
         },
@@ -2182,7 +2698,11 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "16/01/2026",
+            "04/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-065",
@@ -2205,7 +2725,12 @@
             "status": "Agendado",
             "tecnico_alocado": "",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "06/01/2026",
+            "03/02/2026",
+            "04/03/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-066",
@@ -2228,7 +2753,11 @@
             "status": "Agendado",
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
-        }
+        },
+        "historico_visitas": [
+            "07/01/2026",
+            "03/02/2026"
+        ]
     },
     {
         "id_tarefa": "SOL-067",

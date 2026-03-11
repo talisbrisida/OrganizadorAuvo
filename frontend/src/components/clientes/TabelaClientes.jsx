@@ -2,7 +2,7 @@ import React from 'react';
 
 const TabelaClientes = ({
     tarefasFiltradas, selecionados, toggleTodos, toggleSelecionado,
-    zonas, handleMudarZona, tecnicos, atualizar, abrirModalAuvo
+    zonas, handleMudarZona, tecnicos, atualizar, abrirModalAuvo, setClienteParaConcluir
 }) => {
     return (
         <div className="bg-neutral-100 rounded-2xl shadow-xl shadow-stone-200/50 border border-stone-100 overflow-hidden flex flex-col">
@@ -26,7 +26,7 @@ const TabelaClientes = ({
                             <th className="p-5 w-56 bg-[#4d1c0c]">Zona (Protegida)</th>
                             <th className="p-5 w-56 bg-[#4d1c0c]">Técnico</th>
                             <th className="p-5 w-40 bg-[#4d1c0c]">Data</th>
-                            <th className="p-5 w-20 text-center bg-[#4d1c0c]">Auvo</th>
+                            <th className="p-5 w-20 text-center bg-[#4d1c0c]">Ações</th>
                         </tr>
                     </thead>
 
@@ -75,14 +75,28 @@ const TabelaClientes = ({
                                         onChange={e => atualizar(t.id_tarefa, 'data', e.target.value)}
                                     />
                                 </td>
-                                <td className="p-5 text-center">
-                                    <button
-                                        onClick={() => abrirModalAuvo(t)}
-                                        className="p-2 bg-stone-100 hover:bg-[#4d1c0c] text-stone-600 hover:text-white rounded transition-colors border border-stone-200"
-                                        title="Opções Auvo"
-                                    >
-                                        ⚙️
-                                    </button>
+                                <td className="p-4 text-center">
+                                    <div className="flex items-center justify-center gap-2">
+                                        <button
+                                            onClick={() => setClienteParaConcluir({
+                                                id_tarefa: t.id_tarefa,
+                                                nome_cliente: t.cliente.nome,
+                                                data: t.agendamento_atual.data_alocada
+                                            })}
+                                            className={`p-2 rounded transition-colors border ${t.agendamento_atual.data_alocada ? 'bg-emerald-50 text-emerald-600 border-emerald-200 hover:bg-emerald-600 hover:text-white' : 'bg-stone-50 text-stone-300 border-stone-100 cursor-not-allowed'}`}
+                                            title={t.agendamento_atual.data_alocada ? "Concluir Visita (Mover para Histórico)" : "Defina uma data para concluir"}
+                                            disabled={!t.agendamento_atual.data_alocada}
+                                        >
+                                            ✅
+                                        </button>
+                                        <button
+                                            onClick={() => abrirModalAuvo(t)}
+                                            className="p-2 bg-stone-100 hover:bg-[#0c4d4d] text-stone-600 hover:text-white rounded transition-colors border border-stone-200"
+                                            title="Opções Auvo"
+                                        >
+                                            ⚙️
+                                        </button>
+                                    </div>
                                 </td>
                             </tr>
                         ))}
@@ -95,7 +109,7 @@ const TabelaClientes = ({
                     </div>
                 )}
             </div>
-        </div>
+        </div >
     );
 };
 

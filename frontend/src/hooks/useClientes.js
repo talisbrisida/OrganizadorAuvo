@@ -7,7 +7,10 @@ export function useClientes() {
     const [zonas, setZonas] = useState([]);
 
     const [filtros, setFiltros] = useState({ bairro: '', cidade: '', busca: '', zona: '' });
+    const [filtroRapido, setFiltroRapido] = useState('');
     const [selecionados, setSelecionados] = useState([]);
+
+    const [clienteParaConcluir, setClienteParaConcluir] = useState(null); // NOVO
 
     const [modalLoteAberto, setModalLoteAberto] = useState(false);
     const [loteConfig, setLoteConfig] = useState({
@@ -15,7 +18,7 @@ export function useClientes() {
         atualizarTecnico: false, tecnico: '',
         atualizarData: false, data: ''
     });
-
+    const [modalConcluirLoteAberto, setModalConcluirLoteAberto] = useState(false);
     const [modalAuvoAberto, setModalAuvoAberto] = useState(false);
     const [tarefaEmEdicao, setTarefaEmEdicao] = useState(null);
     const [isCarregando, setIsCarregando] = useState(false);
@@ -42,6 +45,7 @@ export function useClientes() {
     useEffect(() => { carregar(); }, []);
 
     const tarefasFiltradas = tarefas.filter(t => {
+        // Filtros de texto normais
         const nome = t.cliente?.nome || "";
         const bairro = t.cliente?.bairro || "";
         const cidade = t.cliente?.cidade || "";
@@ -49,7 +53,18 @@ export function useClientes() {
         const matchBairro = bairro.toLowerCase().includes(filtros.bairro.toLowerCase());
         const matchCidade = cidade.toLowerCase().includes(filtros.cidade.toLowerCase());
         const matchZona = filtros.zona ? t.cliente.zona_roteirizacao === filtros.zona : true;
-        return matchBusca && matchBairro && matchCidade && matchZona;
+
+        // Filtro Rápido (Pendências)
+        let matchRapido = true;
+        if (filtroRapido === 'sem_tecnico') {
+            matchRapido = !t.agendamento_atual?.tecnico_alocado;
+        } else if (filtroRapido === 'sem_data') {
+            matchRapido = !t.agendamento_atual?.data_alocada;
+        } else if (filtroRapido === 'sem_zona') {
+            matchRapido = !t.cliente?.zona_roteirizacao;
+        }
+
+        return matchBusca && matchBairro && matchCidade && matchZona && matchRapido;
     });
 
     const atualizar = async (id, campo, valor) => {
@@ -59,6 +74,62 @@ export function useClientes() {
             mostrarToast("Atualizado com sucesso!");
         } catch (erro) {
             mostrarToast("Erro ao atualizar o cliente.", "erro");
+        }
+    };
+
+    // Nova função para Concluir Visita (agora controlada pelo Modal)
+    const concluirVisita = async () => {
+        if (!clienteParaConcluir) return;
+        const { id_tarefa, nome_cliente } = clienteParaConcluir;
+
+        try {
+            const response = await axios.post(`http://127.0.0.1:8000/clientes/${id_tarefa}/concluir`);
+
+            // Atualiza a tabela e fecha o modal
+            setTarefas(tarefas.map(t => t.id_tarefa === id_tarefa ? response.data.cliente : t));
+            setToast({ mensagem: `Visita de ${nome_cliente} arquivada no histórico!`, tipo: 'sucesso' });
+            setClienteParaConcluir(null); // Esconde o modal
+        } catch (error) {
+            console.error("Erro ao concluir:", error);
+
+            // Blindagem: Garante que a mensagem é sempre um texto (string)
+            let msgErro = "Erro ao concluir a visita.";
+            if (error.response?.data?.detail) {
+                msgErro = typeof error.response.data.detail === 'string'
+                    ? error.response.data.detail
+                    : "Erro de validação no servidor.";
+            }
+
+            setToast({ mensagem: msgErro, tipo: 'erro' });
+            setClienteParaConcluir(null);
+        }
+    };
+
+    // Nova função para Concluir Vários Clientes de uma vez
+    const concluirVisitasMassa = async () => {
+        try {
+            const response = await axios.post('http://127.0.0.1:8000/clientes/concluir-lote', {
+                ids_tarefas: selecionados
+            });
+
+            // Limpa a data e técnico dos clientes concluídos na tela imediatamente
+            setTarefas(tarefas.map(t => {
+                if (selecionados.includes(t.id_tarefa) && t.agendamento_atual?.data_alocada) {
+                    return {
+                        ...t,
+                        agendamento_atual: { ...t.agendamento_atual, data_alocada: "", tecnico_alocado: "" }
+                    };
+                }
+                return t;
+            }));
+
+            setToast({ mensagem: response.data.mensagem, tipo: 'sucesso' });
+            setSelecionados([]); // Desmarca todos os clientes
+            setModalConcluirLoteAberto(false); // Fecha o modal
+        } catch (error) {
+            console.error("Erro ao concluir em lote:", error);
+            setToast({ mensagem: "Erro ao arquivar visitas em lote.", tipo: 'erro' });
+            setModalConcluirLoteAberto(false);
         }
     };
 
@@ -135,10 +206,12 @@ export function useClientes() {
     // Exporta tudo o que a interface vai precisar
     return {
         tecnicos, zonas, filtros, setFiltros, selecionados,
+        filtroRapido, setFiltroRapido, tarefas, setTarefas,
         modalLoteAberto, setModalLoteAberto, loteConfig, setLoteConfig,
         modalAuvoAberto, setModalAuvoAberto, tarefaEmEdicao, setTarefaEmEdicao,
         isCarregando, confirmacaoZona, toast, setToast, tarefasFiltradas,
         atualizar, handleMudarZona, confirmarMudancaZona, cancelarMudancaZona,
-        toggleSelecionado, toggleTodos, aplicarLote, abrirModalAuvo, salvarOpcoesAuvo
+        toggleSelecionado, toggleTodos, aplicarLote, abrirModalAuvo, salvarOpcoesAuvo, concluirVisita, clienteParaConcluir, setClienteParaConcluir,
+        concluirVisitasMassa, modalConcluirLoteAberto, setModalConcluirLoteAberto
     };
 }
