@@ -2,7 +2,7 @@ import React from 'react';
 
 const BarraFiltros = ({ filtros, setFiltros, zonas }) => {
     return (
-        <div className="bg-white p-6 rounded-2xl shadow-lg shadow-stone-200/50 border border-stone-100 mb-6 grid grid-cols-1 md:grid-cols-12 gap-4 items-end">
+        <div className="bg-neutral-100 p-6 rounded-2xl shadow-lg shadow-stone-200/50 border border-stone-100 mb-6 grid grid-cols-1 md:grid-cols-12 gap-4 items-end">
             <div className="flex flex-col md:col-span-3">
                 <label className="text-[10px] font-bold text-[#4d1c0c]/70 uppercase tracking-wider mb-1 ml-1">Nome / Condomínio</label>
                 <input className="p-3 border border-stone-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#4d1c0c]/20 focus:border-[#4d1c0c] bg-stone-50" value={filtros.busca} onChange={e => setFiltros({ ...filtros, busca: e.target.value })} placeholder="Buscar..." />

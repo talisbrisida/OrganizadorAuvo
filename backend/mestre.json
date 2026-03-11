@@ -2229,5 +2229,28 @@
             "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
         }
+    },
+    {
+        "id_tarefa": "SOL-067",
+        "cliente": {
+            "nome": "CONDOMINIO RESIDENCIAL DAS FLORES 1",
+            "endereco_completo": "AV SALINAS, 3544 - BOSQUE DOS EUCALIPTO - SAO JOSE DOS CAMPOS",
+            "zona_roteirizacao": "Zona 1 - Jacareí"
+        },
+        "contrato": {
+            "origem": "Solução Fitness",
+            "frequencia_original": "Mensal",
+            "tempo_estimado_horas": 1
+        },
+        "datas": {
+            "ultimo_atendimento": "2026-03-02",
+            "proximo_vencimento": "2026-03-05",
+            "dia_da_semana_vencimento": "Quinta-feira"
+        },
+        "agendamento_atual": {
+            "status": "Agendado",
+            "tecnico_alocado": "Wilson - auxiliar",
+            "data_alocada": ""
+        }
     }
 ]
