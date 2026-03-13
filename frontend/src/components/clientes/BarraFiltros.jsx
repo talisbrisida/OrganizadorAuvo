@@ -62,12 +62,26 @@ const BarraFiltros = ({ filtros, setFiltros, zonas, filtroRapido, setFiltroRapid
                 >
                     📍 Sem Zona
                 </button>
-
+                {/* NOVOS BOTÕES DE ATENDIMENTO */}
+                    <button 
+                        onClick={() => setFiltroRapido('pendentes_mes')}
+                        className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all border ${filtroRapido === 'pendentes_mes' ? 'bg-blue-100 text-blue-700 border-blue-200 shadow-sm' : 'bg-white text-stone-500 border-stone-200 hover:bg-stone-50'}`}
+                        title="Esconde os clientes já arquivados no histórico deste mês"
+                    >
+                        ⏳ Falta Atender (Mês)
+                    </button>
+                    <button 
+                        onClick={() => setFiltroRapido('concluidos_mes')}
+                        className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all border ${filtroRapido === 'concluidos_mes' ? 'bg-emerald-100 text-emerald-700 border-emerald-200 shadow-sm' : 'bg-white text-stone-500 border-stone-200 hover:bg-stone-50'}`}
+                        title="Mostra apenas clientes que já têm visita no histórico deste mês"
+                    >
+                        ✅ Já Atendidos (Mês)
+                    </button>
                 {filtroRapido !== '' && (
                     <button onClick={() => setFiltroRapido('')} className="ml-2 px-3 py-1.5 text-[11px] font-bold text-stone-400 hover:text-stone-600 underline uppercase tracking-wider transition-colors">
                         Limpar Filtro
                     </button>
-                )}
+                )}                
             </div>
         </div>
     );

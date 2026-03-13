@@ -6,6 +6,7 @@ import TabelaClientes from './clientes/TabelaClientes';
 import ModalEdicaoMassa from './clientes/ModalEdicaoMassa';
 import ModalAuvo from './clientes/modalAuvo';
 import ModalConfirmacaoZona from './clientes/ModalConfirmacaoZona';
+import ModalGenerico from './ModalGenerico';
 
 const Clientes = () => {
     // Puxamos tudo do nosso Hook
@@ -97,72 +98,43 @@ const Clientes = () => {
                     confirmarMudancaZona={confirmarMudancaZona}
                 />
             )}
-            {/* NOVO MODAL DE CONCLUSÃO DE VISITA */}
-            {clienteParaConcluir && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm animate-fade-in">
-                    <div className="bg-white rounded-2xl shadow-2xl p-6 w-[450px] border border-stone-100">
-                        <div className="flex items-center gap-3 mb-4">
-                            <div className="bg-emerald-100 text-emerald-600 p-2 rounded-full text-xl">✅</div>
-                            <h3 className="text-xl font-bold text-[#0c4d4d]">Concluir Visita?</h3>
-                        </div>
+            {/* 1. MODAL DE CONCLUSÃO INDIVIDUAL */}
+            <ModalGenerico
+                isOpen={!!clienteParaConcluir}
+                onClose={() => setClienteParaConcluir(null)}
+                onConfirm={concluirVisita}
+                titulo="Concluir Visita?"
+                icone="✅"
+                textoConfirmar="Confirmar Conclusão"
+                corBotao="bg-emerald-600 hover:bg-emerald-700 shadow-emerald-600/30"
+                corIcone="bg-emerald-100 text-emerald-600"
+            >
+                <p>
+                    Deseja confirmar a visita de <strong className="text-[#0c4d4d]">{clienteParaConcluir?.nome_cliente}</strong> do dia <strong className="bg-emerald-50 text-emerald-700 px-1 rounded">{clienteParaConcluir?.data?.split('-').reverse().join('/') || clienteParaConcluir?.data}</strong> no histórico?
+                </p>
+                <br />
+                <span className="text-xs text-stone-400">Esta ação arquivará a data e libertará a agenda do cliente para a próxima rota.</span>
+            </ModalGenerico>
 
-                        <p className="text-stone-600 mb-6 text-sm leading-relaxed">
-                            Deseja confirmar a visita de <strong className="text-[#0c4d4d]">{clienteParaConcluir.nome_cliente}</strong> do dia <strong className="bg-emerald-50 text-emerald-700 px-1 rounded">{clienteParaConcluir.data?.split('-').reverse().join('/') || clienteParaConcluir.data}</strong> no histórico?
-                            <br /><br />
-                            <span className="text-xs text-stone-400">Esta ação arquivará a data e libertará a agenda do cliente para a próxima rota.</span>
-                        </p>
-
-                        <div className="flex justify-end gap-3 pt-4 border-t border-stone-100">
-                            <button
-                                onClick={() => setClienteParaConcluir(null)}
-                                className="px-5 py-2.5 bg-stone-100 hover:bg-stone-200 text-stone-600 font-bold rounded-xl transition-colors text-sm"
-                            >
-                                Cancelar
-                            </button>
-                            <button
-                                onClick={concluirVisita}
-                                className="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl transition-colors shadow-lg shadow-emerald-600/30 text-sm flex items-center gap-2"
-                            >
-                                Confirmar Conclusão
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            )}
-            {/* NOVO MODAL: CONCLUSÃO EM MASSA */}
-            {modalConcluirLoteAberto && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm animate-fade-in">
-                    <div className="bg-white rounded-2xl shadow-2xl p-6 w-[450px] border border-stone-100">
-                        <div className="flex items-center gap-3 mb-4">
-                            <div className="bg-emerald-100 text-emerald-600 p-2 rounded-full text-xl">📦</div>
-                            <h3 className="text-xl font-bold text-[#0c4d4d]">Concluir Lote?</h3>
-                        </div>
-                        
-                        <p className="text-stone-600 mb-6 text-sm leading-relaxed">
-                            Tem a certeza que deseja arquivar as visitas de <strong className="text-[#0c4d4d]">{selecionados.length} clientes selecionados</strong> no histórico?
-                            <br /><br />
-                            <span className="text-xs text-stone-400 bg-stone-50 p-2 rounded block border border-stone-100">
-                                ⚠️ <strong>Nota:</strong> Apenas os clientes que possuem uma Data preenchida serão arquivados. A agenda destes clientes será liberta para o próximo mês.
-                            </span>
-                        </p>
-                        
-                        <div className="flex justify-end gap-3 pt-4 border-t border-stone-100">
-                            <button 
-                                onClick={() => setModalConcluirLoteAberto(false)} 
-                                className="px-5 py-2.5 bg-stone-100 hover:bg-stone-200 text-stone-600 font-bold rounded-xl transition-colors text-sm"
-                            >
-                                Cancelar
-                            </button>
-                            <button 
-                                onClick={concluirVisitasMassa} 
-                                className="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl transition-colors shadow-lg shadow-emerald-600/30 text-sm flex items-center gap-2"
-                            >
-                                Confirmar {selecionados.length} Visitas
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            )}
+            {/* 2. MODAL DE CONCLUSÃO EM MASSA */}
+            <ModalGenerico
+                isOpen={modalConcluirLoteAberto}
+                onClose={() => setModalConcluirLoteAberto(false)}
+                onConfirm={concluirVisitasMassa}
+                titulo="Concluir Lote?"
+                icone="📦"
+                textoConfirmar={`Confirmar ${selecionados.length} Visitas`}
+                corBotao="bg-emerald-600 hover:bg-emerald-700 shadow-emerald-600/30"
+                corIcone="bg-emerald-100 text-emerald-600"
+            >
+                <p>
+                    Tem a certeza que deseja arquivar as visitas de <strong className="text-[#0c4d4d]">{selecionados.length} clientes selecionados</strong> no histórico?
+                </p>
+                <br />
+                <span className="text-xs text-stone-400 bg-stone-50 p-2 rounded block border border-stone-100">
+                    ⚠️ <strong>Nota:</strong> Apenas os clientes que possuem uma Data preenchida serão arquivados. A agenda destes clientes será liberta para o próximo mês.
+                </span>
+            </ModalGenerico>
         </div>
     );
 };

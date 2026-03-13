@@ -121,7 +121,7 @@
         },
         "agendamento_atual": {
             "status": "Agendado",
-            "tecnico_alocado": "",
+            "tecnico_alocado": "Wilson - auxiliar",
             "data_alocada": ""
         },
         "historico_visitas": [
@@ -157,7 +157,7 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "",
-            "data_alocada": ""
+            "data_alocada": "2026-03-10"
         },
         "historico_visitas": [
             "13/05/2025",
@@ -458,7 +458,7 @@
     {
         "id_tarefa": "LOC-016",
         "cliente": {
-            "nome": "Condominio Boulevard Park",
+            "nome": "CDF Condominio Boulevard Park",
             "endereco_completo": "Av. Tubarão, 181 - Parque Res. Aquarius - São José dos Campos",
             "zona_roteirizacao": ""
         },
@@ -2193,7 +2193,7 @@
     {
         "id_tarefa": "SOL-046",
         "cliente": {
-            "nome": "La Vie Club Residence",
+            "nome": "LA VIE CLUB RESIDENCE",
             "endereco_completo": "R. Vinte e Um de Abril, 777 - Monte Castelo - São José dos Campos",
             "zona_roteirizacao": ""
         },
@@ -2685,7 +2685,7 @@
     {
         "id_tarefa": "SOL-064",
         "cliente": {
-            "nome": "jardim terras do vale",
+            "nome": "Jardim Terras do Vale",
             "endereco_completo": "Avenida das Palmeiras, 100 - Jardim Terras do Vale - Caçapava",
             "zona_roteirizacao": ""
         },
@@ -2767,7 +2767,7 @@
     {
         "id_tarefa": "SOL-067",
         "cliente": {
-            "nome": "CONDOMINIO RESIDENCIAL DAS FLORES 1",
+            "nome": "RESIDENCIAL DAS FLORES 1",
             "endereco_completo": "AV SALINAS, 3544 - BOSQUE DOS EUCALIPTO - SAO JOSE DOS CAMPOS",
             "zona_roteirizacao": "Zona 1 - Jacareí"
         },

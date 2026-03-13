@@ -62,6 +62,29 @@ export function useClientes() {
             matchRapido = !t.agendamento_atual?.data_alocada;
         } else if (filtroRapido === 'sem_zona') {
             matchRapido = !t.cliente?.zona_roteirizacao;
+        } else if (filtroRapido === 'pendentes_mes' || filtroRapido === 'concluidos_mes') {
+            const hoje = new Date();
+            const mesAtual = hoje.getMonth() + 1;
+            const anoAtual = hoje.getFullYear();
+
+            const historico = t.historico_visitas || [];
+
+            // Verifica se tem alguma data deste mês no histórico
+            const jaAtendidoNesteMes = historico.some(dataStr => {
+                const partes = dataStr.split('/');
+                if (partes.length === 3) {
+                    const mesVisita = parseInt(partes[1], 10);
+                    const anoVisita = parseInt(partes[2], 10);
+                    return mesVisita === mesAtual && anoVisita === anoAtual;
+                }
+                return false;
+            });
+
+            if (filtroRapido === 'pendentes_mes') {
+                matchRapido = !jaAtendidoNesteMes; // Falso se já foi atendido (esconde da lista)
+            } else if (filtroRapido === 'concluidos_mes') {
+                matchRapido = jaAtendidoNesteMes; // Verdadeiro se já foi atendido (mostra na lista)
+            }
         }
 
         return matchBusca && matchBairro && matchCidade && matchZona && matchRapido;

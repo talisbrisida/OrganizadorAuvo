@@ -7,15 +7,14 @@ function App() {
   const [abaAtiva, setAbaAtiva] = useState('clientes');
 
   return (
-    // MUDANÇA PRINCIPAL: h-screen e overflow-hidden para travar a tela
-    <div className="h-screen flex flex-col bg-[#0c4d4d3f] font-sans overflow-hidden">
+    // MUDANÇA 1: Adicionamos print:h-auto, print:overflow-visible e print:bg-white
+    <div className="h-screen print:h-auto flex flex-col bg-[#0c4d4d3f] print:bg-white font-sans overflow-hidden print:overflow-visible">
 
-      {/* MENU SUPERIOR (NAVBAR) - shrink-0 impede que ela seja esmagada */}
-      <nav className="bg-[#0c4d4d] border-b border-stone-200 shrink-0">
+      {/* MUDANÇA 2: Adicionamos print:hidden para o menu não sair na folha */}
+      <nav className="bg-[#0c4d4d] border-b border-stone-200 shrink-0 print:hidden">
         <div className="mx-auto px-8">
           <div className="flex items-center h-16 gap-16 justify-between">
 
-            {/* Ajustei o contraste para branco para destacar no fundo escuro */}
             <div className="text-3xl font-black text-white mr-4 tracking-tighter">
               Talis<span className="text-[#4d1c0c] text-2xl">.DEV</span>
             </div>
@@ -44,18 +43,18 @@ function App() {
         </div>
       </nav>
 
-      {/* ÁREA PRINCIPAL: flex-1 ocupa todo o resto e min-h-0 habilita o scroll interno perfeito */}
-      <main className="flex-1 flex flex-col min-h-0 overflow-hidden">
+      {/* MUDANÇA 3: Libertamos a área principal com print:overflow-visible e print:block */}
+      <main className="flex-1 flex flex-col min-h-0 overflow-hidden print:overflow-visible print:block">
         {abaAtiva === 'clientes' && <Clientes />}
         {abaAtiva === 'extrator' && <Extrator />}
         {abaAtiva === 'tecnicos' && <Tecnicos />}
       </main>
 
-      {/* FOOTER OFICIAL - reduzi o padding (py-4) para dar mais espaço à tabela */}
-      <footer className="bg-[#0c4d4d] border-t border-stone-200 py-3 shrink-0">
+      {/* MUDANÇA 4: Escondemos o rodapé na impressão com print:hidden */}
+      <footer className="bg-[#0c4d4d] border-t border-stone-200 py-3 shrink-0 print:hidden">
         <div className="mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-semibold text-stone-400">
           <div>
-            Desenvolvido por <a href="https://github.com/talisbrisida/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-orange-500 transition-colors  tracking-wide font-black">Talis<span className="text-orange-500 hover:text-white">.DEV</span></a> &copy; {new Date().getFullYear()}
+            Desenvolvido por <a href="https://github.com/talisbrisida/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-orange-500 transition-colors tracking-wide font-black">Talis<span className="text-orange-500 hover:text-white">.DEV</span></a> &copy; {new Date().getFullYear()}
           </div>
           <div className="flex items-center gap-6">
             <span className="bg-stone-100 px-3 py-1 rounded-full text-stone-500 border border-stone-200">
