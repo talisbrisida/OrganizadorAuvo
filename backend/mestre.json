@@ -107,7 +107,7 @@
         "cliente": {
             "nome": "EDIFICIO DALLAS",
             "endereco_completo": "R. Armando D'Oliveira Cobra, 35 - Parque Res. Aquarius - São José dos Campos",
-            "zona_roteirizacao": ""
+            "zona_roteirizacao": "Zona 6 - SJC Oeste"
         },
         "contrato": {
             "origem": "Casa do Fitness",
@@ -133,7 +133,8 @@
             "13/10/2025",
             "28/01/2026",
             "19/02/2026",
-            "09/03/2026"
+            "09/03/2026",
+            "10/03/2026"
         ]
     },
     {
@@ -699,7 +700,11 @@
         "agendamento_atual": {
             "status": "Agendado",
             "tecnico_alocado": "Jefferson - Técnico",
-            "data_alocada": ""
+            "data_alocada": "2026-05-06",
+            "prioridade": "Média",
+            "tarefa_para": "Colaborador",
+            "roteirizar": "Não",
+            "descricao": "Manutenção Preventiva - LOC-023"
         },
         "historico_visitas": [
             "27/05/2025",
